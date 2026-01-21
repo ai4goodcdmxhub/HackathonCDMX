@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 const sponsorsByTier = {
   tier1: [
     { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" },
-    { name: "TDN", logo: "/sponsors/tdn.png" }
+    { name: "TDN", logo: "/sponsors/tdn.png" },
+    { name: "Semantyk", logo: "/sponsors/smtk.png" }
   ],
   tier2: [
     { name: "Nodi", logo: "/sponsors/nodi.png" }
