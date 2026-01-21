@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 // Definir los sponsors por niveles
 const sponsorsByTier = {
   tier1: [
-    { name: "EPAM", logo: "/sponsors/epam.png" },
-    { name: "ECCI", logo: "/sponsors/ecci.png" },
     { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" },
     { name: "TDN", logo: "/sponsors/tdn.png" }
   ],
