@@ -3,31 +3,18 @@ import { useEffect, useState } from "react";
 // Definir los sponsors por niveles
 const sponsorsByTier = {
   tier1: [
-    { name: "EPAM", logo: "/sponsors/epam.png" },
-    { name: "ECCI", logo: "/sponsors/ecci.png" },
+    { name: "CDMXHub", logo: "/sponsors/CDMXHub.png" },
+    { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" }
   ],
   tier2: [
-    { name: "Nodi", logo: "/sponsors/nodi.png" },
-    { name: "Seika AI", logo: "/sponsors/seika.png" },
-    { name: "ComWare", logo: "/sponsors/comware.png" },
-    { name: "Monolegal", logo: "/sponsors/monolegal.png" },
-    { name: "Idea Latente", logo: "/sponsors/idealatente.jpeg" }
+    { name: "Nodi", logo: "/sponsors/nodi.png" }
   ],
   tier3: [
-    { name: "Lovable", logo: "/sponsors/lovable.png" },
-    { name: "Xertify", logo: "/sponsors/xertify.png" },
-    { name: "Double V Partners", logo: "/sponsors/dvp.png" },
-    { name: "Saptiva AI", logo: "/sponsors/saptiva.png" }
+    { name: "Lovable", logo: "/sponsors/lovable.png" }
   ],
   tier4: [
     { name: "Kinoia", logo: "/sponsors/kinoia.png" },
-    { name: "Castañeda Joyas", logo: "/sponsors/cjoyas.png" },
-    { name: "Óptica Dr. Sebastián", logo: "/sponsors/optica.png" },
-    { name: "EMKU Bar", logo: "/sponsors/emkubar.jpg" },
-    { name: "La Punta del Iceberg", logo: "/sponsors/lpdi.png" },
-    { name: "Aura Studio", logo: "/sponsors/aura.png" },
-    { name: "AWS Women", logo: "/sponsors/aws1.png" },
-    { name: "AWS", logo: "/sponsors/aws2.png" }
+
   ]
 };
 
@@ -51,7 +38,7 @@ const SponsorsCarousel = () => {
             {/* Se agregó gap-8 y flex-wrap para que se acomoden lado a lado */}
             <div className="flex justify-center items-center gap-8 flex-wrap">
               {sponsorsByTier.tier1.map((sponsor, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-card rounded-lg p-8 flex items-center justify-center border border-terminal-border hover:border-primary/50 transition-all duration-300"
                   style={{ width: '400px', height: '200px' }}
