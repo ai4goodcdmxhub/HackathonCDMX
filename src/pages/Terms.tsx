@@ -13,7 +13,7 @@ const Terms = () => {
               Términos y Condiciones
               <span className="text-primary">/&gt;</span>
             </h1>
-            <p className="text-muted-foreground mt-4">24h - Hackathon Colombia 2025</p>
+            <p className="text-muted-foreground mt-4">24h - Hackathon México 2025</p>
           </div>
 
           <div className="space-y-8 text-muted-foreground">
@@ -40,7 +40,7 @@ const Terms = () => {
                 3. Desarrollo del Evento
               </h2>
               <p className="mb-4">
-                El evento se desarrollará de manera presencial en Bogotá, y la ubicación exacta será compartida únicamente con los participantes seleccionados.
+                El evento se desarrollará de manera presencial en Ciudad de México, y la ubicación exacta será compartida únicamente con los participantes seleccionados.
               </p>
               <p className="mb-4">
                 Será una jornada continua de 24 horas, desde las 10:00 a.m. del 6 de diciembre de 2025 hasta la 1:00 p.m. del 7 de diciembre de 2025. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
@@ -97,7 +97,7 @@ const Terms = () => {
                 Cualquier participante que viole este Código de Conducta puede ser sancionado o expulsado del hackathon a discreción de los organizadores. Las sanciones pueden ir desde una advertencia hasta la expulsión inmediata y prohibición de participar en futuros eventos.
               </p>
             </section>
-            
+
             <section>
               <h2 className="text-2xl font-bold text-primary font-mono mb-4">
                 6. Preguntas Frecuentes (FAQ)

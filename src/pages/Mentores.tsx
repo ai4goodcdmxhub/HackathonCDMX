@@ -67,7 +67,7 @@ const Mentores = () => {
       image: "/mentors/fabian.png",
       title: "CEO & Co-founder",
       company: "Monolegal",
-      description: "CEO de Monolegal, primer app para abogados en Colombia (2013) aplicando IA desde 2017. Empresa pionera de Industria 4.0, reconocida por Innpulsa, Fundación Bavaria. Certificada por Wayra España y acelerada en Aticco Lab Barcelona.",
+      description: "CEO de Monolegal, primer app para abogados en México (2013) aplicando IA desde 2017. Empresa pionera de Industria 4.0, reconocida por Innpulsa, Fundación Bavaria. Certificada por Wayra España y acelerada en Aticco Lab Barcelona.",
       linkedin: "https://www.linkedin.com/in/fabianhernandezespinel/",
     },
     {
@@ -83,7 +83,7 @@ const Mentores = () => {
       image: "/mentors/julio.png",
       title: "Co-founder",
       company: "Bistart Consultoría",
-      description: "Cofundador de Bistart Consultoría. Experto en Desarrollo Organizacional y planificación estratégica con más de 20 años en empresas de entretenimiento. Fuerte vocación por estructuración de procesos e innovación en el ecosistema musical de Colombia y LatAm.",
+      description: "Cofundador de Bistart Consultoría. Experto en Desarrollo Organizacional y planificación estratégica con más de 20 años en empresas de entretenimiento. Fuerte vocación por estructuración de procesos e innovación en el ecosistema musical de México y LatAm.",
       linkedin: "https://www.linkedin.com/in/julio-cesar-rojas-b/",
     },
     {
@@ -99,10 +99,10 @@ const Mentores = () => {
   return (
     <div className="min-h-screen bg-background font-mono">
       <Header />
-      
+
       <section className="py-24 bg-background relative pt-32">
         <div className="absolute inset-0 bg-gradient-glow opacity-20" />
-        
+
         <div className="container relative z-10 px-4">
           <div className="max-w-7xl mx-auto">
             {/* Section header */}
@@ -173,7 +173,7 @@ const Mentores = () => {
                 {selectedMentor?.name}
               </DialogTitle>
             </DialogHeader>
-            
+
             <div className="space-y-4">
               {/* Title and Company */}
               <div className="text-center pb-4 border-b border-terminal-border">

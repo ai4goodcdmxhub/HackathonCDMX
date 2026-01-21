@@ -22,7 +22,7 @@ const About = () => {
   return (
     <section className="py-24 bg-background relative">
       <div className="absolute inset-0 bg-gradient-glow opacity-30" />
-      
+
       <div className="container relative z-10 px-4">
         <div className="max-w-4xl mx-auto">
           {/* Organizer badge */}
@@ -30,7 +30,7 @@ const About = () => {
             <div className="inline-block bg-card border border-primary/30 rounded-full px-6 py-2 animate-glow-pulse">
               <p className="font-mono text-sm">
                 <span className="text-muted-foreground">Organizado por</span>{" "}
-                <span className="text-primary font-bold">Young AI Leaders Bogotá</span>
+                <span className="text-primary font-bold">Young AI Leaders Ciudad de México</span>
               </p>
             </div>
           </div>
@@ -49,10 +49,10 @@ const About = () => {
               Un hackathon intenso donde la innovación, ejecución técnica e impacto se encuentran.
             </p>
             <p className="text-xl text-primary font-mono font-bold max-w-2xl mx-auto">
-              Haciendo de Bogotá el centro de la innovación con IA
+              Haciendo de Ciudad de México el centro de la innovación con IA
             </p>
           </div>
-          
+
           {/* Features grid */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {features.map((feature, index) => (
@@ -73,7 +73,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          
+
           {/* Key message */}
           <div className="bg-gradient-terminal border-2 border-primary/30 rounded-lg p-8 text-center animate-glow-pulse">
             <p className="text-2xl md:text-3xl font-bold font-mono text-foreground mb-4">

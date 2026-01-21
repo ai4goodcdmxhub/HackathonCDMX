@@ -19,7 +19,7 @@ const Hero = () => {
       const { count } = await supabase
         .from('registrations')
         .select('*', { count: 'exact', head: true });
-      
+
       setRegisteredCount(count ?? 0);
     };
 
@@ -27,7 +27,7 @@ const Hero = () => {
 
     // Countdown logic
     const calculateTimeLeft = () => {
-      const eventDate = new Date('2025-12-06T10:00:00-05:00'); // Bogota time (UTC-5)
+      const eventDate = new Date('2025-12-06T10:00:00-06:00'); // Mexico City time (UTC-6)
       const now = new Date();
       const difference = eventDate.getTime() - now.getTime();
 
@@ -41,10 +41,10 @@ const Hero = () => {
           seconds: Math.floor((difference / 1000) % 60),
         };
       }
-      
+
       return newTimeLeft;
     };
-    
+
     setTimeLeft(calculateTimeLeft());
 
     const timer = setInterval(() => {
@@ -58,29 +58,29 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-terminal">
       {/* Grid background effect */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-      
+
       {/* Glow effect */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-[120px]" />
-      
+
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-5xl mx-auto text-center space-y-8">
           {/* Terminal-style header */}
           <div className="inline-block font-mono text-primary text-sm mb-4 animate-fade-in-up">
-            <span className="animate-blink">▶</span> ./hackathon_colombia.sh
+            <span className="animate-blink">▶</span> ./hackathon_mexico.sh
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold font-mono tracking-tight animate-fade-in-up">
             <span className="text-foreground">24 <span className="text-primary">h</span>oras de</span>
             <br />
             <span className="text-primary drop-shadow-glow">&lt;CÓDIGO/&gt;</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-muted-foreground font-mono max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Construye productos que cambien las reglas del juego.
             <br />
             <span className="text-primary">Conéctate con visionarios que liderarán el futuro</span>
           </p>
-          
+
           {/* Countdown */}
           <div className="flex flex-wrap justify-center gap-4 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             <div className="text-center">
@@ -103,7 +103,7 @@ const Hero = () => {
               <p className="text-xs text-muted-foreground">SEG</p>
             </div>
           </div>
-          
+
           {/* Event details */}
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
@@ -116,7 +116,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Users className="w-5 h-5 text-primary" />
-              <span>Bogotá, Colombia</span>
+              <span>Ciudad de México, México</span>
             </div>
           </div>
           {/* CTA Button */}
@@ -142,7 +142,7 @@ const Hero = () => {
               </a>
             </Button>
           </div>
-          
+
           {/* Scroll indicator */}
           <div className="pt-12 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
             <div className="inline-block animate-bounce">

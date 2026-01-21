@@ -36,7 +36,7 @@ const aliadoSchema = z.object({
     .trim()
     .min(10, { message: "Ingresa un número válido con indicativo de país (mínimo 10 dígitos)" })
     .max(20, { message: "Número demasiado largo" })
-    .regex(/^[0-9+\s()-]+$/, { message: "Formato de número inválido. Incluye el indicativo del país (ej: +57)" }),
+    .regex(/^[0-9+\s()-]+$/, { message: "Formato de número inválido. Incluye el indicativo del país (ej: +52)" }),
   comoSumar: z.string()
     .trim()
     .min(20, { message: "Describe cómo quieres sumar con al menos 20 caracteres" })
@@ -93,7 +93,7 @@ const Aliados = () => {
   return (
     <div className="min-h-screen bg-background font-mono">
       <Header />
-      
+
       <section className="py-24 bg-background relative pt-32">
         <div className="absolute inset-0 bg-gradient-glow opacity-20" />
 
@@ -110,7 +110,7 @@ const Aliados = () => {
                 <span className="text-primary">/&gt;</span>
               </h2>
               <p className="text-lg text-muted-foreground font-mono max-w-2xl mx-auto">
-                Únete a nosotros y sé parte del hackathon más innovador de Colombia
+                Únete a nosotros y sé parte del hackathon más innovador de México
               </p>
             </div>
 
@@ -193,13 +193,13 @@ const Aliados = () => {
                         </FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="+57 300 123 4567"
+                            placeholder="+52 55 1234 5678"
                             className="font-mono bg-muted border-terminal-border focus:border-primary"
                             {...field}
                           />
                         </FormControl>
                         <FormDescription className="font-mono text-xs text-muted-foreground">
-                          Incluye el indicativo de tu país (ej: +57 para Colombia)
+                          Incluye el indicativo de tu país (ej: +52 para México)
                         </FormDescription>
                         <FormMessage className="font-mono text-xs" />
                       </FormItem>
