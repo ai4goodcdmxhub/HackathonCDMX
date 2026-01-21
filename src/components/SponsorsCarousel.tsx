@@ -9,16 +9,9 @@ const sponsorsByTier = {
     { name: "ODI", logo: "/sponsors/ODI.png" },
     { name: "ADIP", logo: "/sponsors/ADIP.png" }
   ],
-  tier2: [
-    { name: "Nodi", logo: "/sponsors/nodi.png" }
-  ],
-  tier3: [
-    { name: "Lovable", logo: "/sponsors/lovable.png" }
-  ],
-  tier4: [
-    { name: "Kinoia", logo: "/sponsors/kinoia.png" },
-
-  ]
+  tier2: [],
+  tier3: [],
+  tier4: []
 };
 
 const SponsorsCarousel = () => {
