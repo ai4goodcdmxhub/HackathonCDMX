@@ -6,7 +6,7 @@ const Prizes = () => {
       {/* Background effects */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[100px]" />
-      
+
       <div className="container px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section header */}
@@ -40,13 +40,10 @@ const Prizes = () => {
               {/* Text */}
               <div className="space-y-4">
                 <h3 className="text-3xl md:text-4xl font-bold font-mono text-foreground">
-                  +2.500 USD
+                  Pendiente por definir premios
                 </h3>
-                <p className="text-xl text-primary font-mono">
-                  En premios y efectivo
-                </p>
-                <p className="text-muted-foreground font-mono max-w-xl mx-auto">
-                  A repartir entre los tres primeros lugares
+                <p className="text-muted-foreground font-mono max-w-xl mx-auto mt-4">
+                  Pronto anunciaremos los premios que tenemos preparados para ti
                 </p>
               </div>
 
