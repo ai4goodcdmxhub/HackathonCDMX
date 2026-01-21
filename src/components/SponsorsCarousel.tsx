@@ -5,7 +5,8 @@ const sponsorsByTier = {
   tier1: [
     { name: "EPAM", logo: "/sponsors/epam.png" },
     { name: "ECCI", logo: "/sponsors/ecci.png" },
-    { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" }
+    { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" },
+    { name: "TDN", logo: "/sponsors/tdn.png" }
   ],
   tier2: [
     { name: "Nodi", logo: "/sponsors/nodi.png" }
