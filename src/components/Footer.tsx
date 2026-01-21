@@ -59,7 +59,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
-                  <a href="https://www.linkedin.com/company/bogota-hub-young-ai-leaders-community/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://www.linkedin.com/company/young-ai-leaders-mexico-city-hub/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                     <LinkedinIcon className="w-4 h-4 text-primary" />
                     <span>Síguenos en LinkedIn</span>
                   </a>
