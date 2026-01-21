@@ -53,6 +53,12 @@ const Footer = () => {
                   <span>+52 55 1231-5690</span>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
+                  <Mail className="w-4 h-4 text-primary" />
+                  <a href="mailto:mexicocityhub@youngaileaders.info" className="hover:text-primary transition-colors">
+                    mexicocityhub@youngaileaders.info
+                  </a>
+                </div>
+                <div className="flex items-center gap-2 text-muted-foreground">
                   <a href="https://www.linkedin.com/company/bogota-hub-young-ai-leaders-community/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                     <LinkedinIcon className="w-4 h-4 text-primary" />
                     <span>Síguenos en LinkedIn</span>

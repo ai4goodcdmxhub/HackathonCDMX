@@ -33,13 +33,13 @@ const Sponsors = () => {
                 <p className="text-xl text-primary font-mono">
                   Escríbenos a{" "}
                   <a
-                    href="mailto:Contacto@youngaileadershub.org"
+                    href="mailto:mexicocityhub@youngaileaders.info"
                     className="underline hover:text-primary/80"
                   >
-                    Contacto@youngaileadershub.org
+                    mexicocityhub@youngaileaders.info
                   </a>
                 </p>
-                
+
                 {/* Nuevo botón */}
                 <div className="pt-6">
                   <Button

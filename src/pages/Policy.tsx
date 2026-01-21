@@ -81,7 +81,7 @@ const Terms = () => {
                 7. Tratamiento y protección de datos personales
               </h2>
               <p>
-                La Fundación Young AI Leaders México actuará como responsable del tratamiento de los datos personales recolectados durante el proceso de inscripción, participación y evaluación del evento. La información será tratada conforme a normativas aplicables sobre protección de datos personales en México. Los datos se utilizarán exclusivamente para fines de gestión del evento, comunicación institucional, estadísticas y seguimiento de impacto. Los participantes podrán ejercer sus derechos de acceso, rectificación, actualización y supresión mediante solicitud al correo: cdmx@youngaileadershub.org.
+                La Fundación Young AI Leaders México actuará como responsable del tratamiento de los datos personales recolectados durante el proceso de inscripción, participación y evaluación del evento. La información será tratada conforme a normativas aplicables sobre protección de datos personales en México. Los datos se utilizarán exclusivamente para fines de gestión del evento, comunicación institucional, estadísticas y seguimiento de impacto. Los participantes podrán ejercer sus derechos de acceso, rectificación, actualización y supresión mediante solicitud al correo: mexicocityhub@youngaileaders.info.
               </p>
             </section>
 
@@ -147,7 +147,7 @@ const Terms = () => {
                 La participación en la Hackathon AI for Good Ciudad de México 2025 implica la aceptación íntegra de estos Términos y Condiciones. Cualquier situación no prevista será resuelta por el comité organizador conforme a los principios de transparencia y equidad.
               </p>
               <p className="text-sm">
-                Contacto oficial: <a href="mailto:cdmx@youngaileadershub.org" className="text-primary hover:underline">cdmx@youngaileadershub.org</a>
+                Contacto oficial: <a href="mailto:mexicocityhub@youngaileaders.info" className="text-primary hover:underline">mexicocityhub@youngaileaders.info</a>
               </p>
               <p className="text-sm mt-2">
                 © Fundación Young AI Leaders México - Todos los derechos reservados.
