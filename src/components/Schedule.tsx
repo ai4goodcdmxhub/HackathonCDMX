@@ -16,31 +16,31 @@ const Schedule = () => {
     },
     {
       time: "9:25 a.m.",
-      title: "Charla Nodi",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
     {
       time: "9:40 a.m.",
-      title: "24h-Talk: Gonzalo Aizpún - CTO Laika",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
     {
       time: "10:10 a.m.",
-      title: "24h-Talk: Alexander Torrenegra - CTO Torre.ai",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
     {
       time: "10:40 a.m.",
-      title: "Charla El núcleo de la IA: Camila Hernández - Senior Systems Engineer EPAM Systems",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
     {
       time: "11:10 a.m.",
-      title: "24h-Talk: Yindra Carolina Torres - User Group AWS Tolima y Cundinamarca",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
@@ -111,7 +111,7 @@ const Schedule = () => {
     },
     {
       time: "1:20 p.m.",
-      title: "24h-Talk: ¿Cómo hacer un buen pitch?: Cristina Chacón",
+      title: "Pendiente por definir charla",
       icon: Lightbulb,
       description: "",
     },
@@ -176,8 +176,8 @@ const Schedule = () => {
                 <div
                   key={index}
                   className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${item.highlight
-                      ? 'border-primary/50 bg-primary/5 hover:border-primary'
-                      : 'border-terminal-border hover:border-primary/30'
+                    ? 'border-primary/50 bg-primary/5 hover:border-primary'
+                    : 'border-terminal-border hover:border-primary/30'
                     }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
@@ -223,8 +223,8 @@ const Schedule = () => {
                 <div
                   key={index}
                   className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${item.highlight
-                      ? 'border-primary/50 bg-primary/5 hover:border-primary'
-                      : 'border-terminal-border hover:border-primary/30'
+                    ? 'border-primary/50 bg-primary/5 hover:border-primary'
+                    : 'border-terminal-border hover:border-primary/30'
                     }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
