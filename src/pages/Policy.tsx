@@ -15,7 +15,7 @@ const Terms = () => {
             </h1>
             <p className="text-muted-foreground mt-4">Hackathon AI for Good Ciudad de México 2025</p>
             <p className="text-sm text-muted-foreground mt-2">Organiza: Fundación Young AI Leaders México</p>
-            <p className="text-sm text-muted-foreground">6 y 7 de diciembre de 2025 | Ciudad de México, México</p>
+            <p className="text-sm text-muted-foreground">Marzo 2026 | Ciudad de México, México</p>
           </div>
 
           <div className="space-y-8 text-muted-foreground">
@@ -51,7 +51,7 @@ const Terms = () => {
                 4. Desarrollo del evento y reglas técnicas
               </h2>
               <p className="mb-4">
-                El evento se realizará de manera presencial en Ciudad de México. Tendrá una duración total de 24 horas continuas, iniciando a las 10:00 a.m. del 6 de diciembre de 2025 y finalizando a la 1:00 p.m. del 7 de diciembre de 2025. Se proporcionará alimentación básica y zonas de descanso. Cada participante será responsable de llevar su computador portátil, cargadores, adaptadores y elementos personales necesarios.
+                El evento se realizará de manera presencial en Ciudad de México. Tendrá una duración total de 24 horas continuas, iniciando a las 10:00 a.m. de un sábado de Marzo de 2026 y finalizando a la 1:00 p.m. del domingo siguiente. Se proporcionará alimentación básica y zonas de descanso. Cada participante será responsable de llevar su computador portátil, cargadores, adaptadores y elementos personales necesarios.
               </p>
               <p>
                 Todos los proyectos deberán desarrollarse íntegramente durante la hackathon. No se permitirá el uso de código o proyectos previos. El uso de herramientas de IA generativa será permitido siempre que el resultado final sea de autoría del equipo.

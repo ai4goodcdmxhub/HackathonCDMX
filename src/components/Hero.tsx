@@ -27,7 +27,7 @@ const Hero = () => {
 
     // Countdown logic
     const calculateTimeLeft = () => {
-      const eventDate = new Date('2025-12-06T10:00:00-06:00'); // Mexico City time (UTC-6)
+      const eventDate = new Date('2026-03-07T10:00:00-06:00'); // Mexico City time (UTC-6)
       const now = new Date();
       const difference = eventDate.getTime() - now.getTime();
 
@@ -108,7 +108,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>6-7 Diciembre</span>
+              <span>Marzo 2026</span>
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Clock className="w-5 h-5 text-primary" />

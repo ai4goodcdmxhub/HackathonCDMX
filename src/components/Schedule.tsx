@@ -140,7 +140,7 @@ const Schedule = () => {
   return (
     <section className="py-24 bg-background relative">
       <div className="absolute inset-0 bg-gradient-glow opacity-20" />
-      
+
       <div className="container relative z-10 px-4">
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
@@ -166,7 +166,7 @@ const Schedule = () => {
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <Calendar className="w-6 h-6 text-primary" />
                   <h3 className="text-2xl font-bold font-mono text-foreground">
-                    Sábado 6 de Diciembre
+                    Sábado de Marzo
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 1 - ¡Comienza la aventura!</p>
@@ -175,24 +175,21 @@ const Schedule = () => {
               {scheduleDay1.map((item, index) => (
                 <div
                   key={index}
-                  className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${
-                    item.highlight
+                  className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${item.highlight
                       ? 'border-primary/50 bg-primary/5 hover:border-primary'
                       : 'border-terminal-border hover:border-primary/30'
-                  }`}
+                    }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex gap-4">
-                    <div className={`w-12 h-12 rounded flex items-center justify-center flex-shrink-0 ${
-                      item.highlight ? 'bg-primary/20' : 'bg-primary/10'
-                    } group-hover:bg-primary/20 transition-colors`}>
+                    <div className={`w-12 h-12 rounded flex items-center justify-center flex-shrink-0 ${item.highlight ? 'bg-primary/20' : 'bg-primary/10'
+                      } group-hover:bg-primary/20 transition-colors`}>
                       <item.icon className={`w-6 h-6 ${item.highlight ? 'text-primary' : 'text-primary'}`} />
                     </div>
                     <div className="flex-1">
                       <div className="flex items-start justify-between gap-2 mb-2">
-                        <p className={`text-sm font-mono ${
-                          item.highlight ? 'text-primary font-bold' : 'text-muted-foreground'
-                        }`}>
+                        <p className={`text-sm font-mono ${item.highlight ? 'text-primary font-bold' : 'text-muted-foreground'
+                          }`}>
                           {item.time}
                         </p>
                       </div>
@@ -216,7 +213,7 @@ const Schedule = () => {
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <Calendar className="w-6 h-6 text-primary" />
                   <h3 className="text-2xl font-bold font-mono text-foreground">
-                    Domingo 7 de Diciembre
+                    Domingo de Marzo
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 2 - ¡El gran final!</p>
@@ -225,24 +222,21 @@ const Schedule = () => {
               {scheduleDay2.map((item, index) => (
                 <div
                   key={index}
-                  className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${
-                    item.highlight
+                  className={`group bg-card border rounded-lg p-5 transition-all duration-300 hover:shadow-terminal ${item.highlight
                       ? 'border-primary/50 bg-primary/5 hover:border-primary'
                       : 'border-terminal-border hover:border-primary/30'
-                  }`}
+                    }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex gap-4">
-                    <div className={`w-12 h-12 rounded flex items-center justify-center flex-shrink-0 ${
-                      item.highlight ? 'bg-primary/20' : 'bg-primary/10'
-                    } group-hover:bg-primary/20 transition-colors`}>
+                    <div className={`w-12 h-12 rounded flex items-center justify-center flex-shrink-0 ${item.highlight ? 'bg-primary/20' : 'bg-primary/10'
+                      } group-hover:bg-primary/20 transition-colors`}>
                       <item.icon className={`w-6 h-6 ${item.highlight ? 'text-primary' : 'text-primary'}`} />
                     </div>
                     <div className="flex-1">
                       <div className="flex items-start justify-between gap-2 mb-2">
-                        <p className={`text-sm font-mono ${
-                          item.highlight ? 'text-primary font-bold' : 'text-muted-foreground'
-                        }`}>
+                        <p className={`text-sm font-mono ${item.highlight ? 'text-primary font-bold' : 'text-muted-foreground'
+                          }`}>
                           {item.time}
                         </p>
                       </div>
@@ -264,7 +258,7 @@ const Schedule = () => {
           {/* Note */}
           <div className="mt-12 bg-card border border-primary/30 rounded-lg p-6 text-center">
             <p className="text-sm text-muted-foreground font-mono">
-              <span className="text-primary font-bold">Nota:</span> Los horarios pueden estar sujetos a ajustes menores. 
+              <span className="text-primary font-bold">Nota:</span> Los horarios pueden estar sujetos a ajustes menores.
               Mantente atento a las comunicaciones oficiales del evento.
             </p>
           </div>
