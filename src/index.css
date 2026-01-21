@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Terminal/Hacker Theme - Dark Mode */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Matrix Green - Primary */
+    --primary: 123 100% 50%;
+    --primary-foreground: 0 0% 4%;
+
+    /* Darker green for secondary */
+    --secondary: 123 50% 20%;
+    --secondary-foreground: 123 100% 50%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+
+    /* Bright green accent */
+    --accent: 123 100% 45%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 123 30% 15%;
+    --input: 0 0% 12%;
+    --ring: 123 100% 50%;
+
+    --radius: 0.25rem;
+
+    /* Custom design tokens */
+    --terminal-green: 123 100% 50%;
+    --terminal-green-glow: 123 100% 45%;
+    --terminal-dark: 0 0% 4%;
+    --terminal-darker: 0 0% 2%;
+    --terminal-border: 123 30% 15%;
+    
+    /* Gradients */
+    --gradient-terminal: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(123 30% 8%) 100%);
+    --gradient-glow: linear-gradient(90deg, transparent 0%, hsl(123 100% 50% / 0.1) 50%, transparent 100%);
+    
+    /* Shadows */
+    --shadow-terminal: 0 0 20px hsl(123 100% 50% / 0.2);
+    --shadow-glow: 0 0 40px hsl(123 100% 50% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
