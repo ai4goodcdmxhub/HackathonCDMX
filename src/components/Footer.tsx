@@ -1,4 +1,4 @@
-import { Code2, LinkedinIcon, Mail, MapPin, PhoneCall } from "lucide-react";
+import { Code2, LinkedinIcon, Mail, MapPin, PhoneCall, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -33,7 +33,7 @@ const Footer = () => {
                   <span>Ciudad de México, México</span>
                 </div>
                 <div className="text-muted-foreground">
-                  Marzo 2026
+                  Marzo 21 y 22, 2026
                 </div>
                 <div className="text-muted-foreground">
                   24 horas presenciales
@@ -48,10 +48,7 @@ const Footer = () => {
                 <p className="text-muted-foreground mt-4">
                   ¿Preguntas? Escríbenos
                 </p>
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <PhoneCall className="w-4 h-4 text-primary" />
-                  <span>+52 55 1231-5690</span>
-                </div>
+
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary" />
                   <a href="mailto:mexicocityhub@youngaileaders.info" className="hover:text-primary transition-colors">
@@ -61,7 +58,13 @@ const Footer = () => {
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <a href="https://www.linkedin.com/company/young-ai-leaders-mexico-city-hub/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                     <LinkedinIcon className="w-4 h-4 text-primary" />
-                    <span>Síguenos en LinkedIn</span>
+                    <span>Nuestro LinkedIn</span>
+                  </a>
+                </div>
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <a href="https://chat.whatsapp.com/Kh3ULtM548I44eOkrA6sWe?mode=gi_t" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                    <MessageSquare className="w-4 h-4 text-primary" />
+                    <span>Grupo de WhatsApp</span>
                   </a>
                 </div>
               </div>

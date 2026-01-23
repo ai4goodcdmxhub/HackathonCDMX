@@ -11,74 +11,29 @@ interface TeamMember {
 const Equipo = () => {
   const team: TeamMember[] = [
     {
-      name: "Alejandra Rojas",
-      linkedin: "https://www.linkedin.com/in/alejandra-rojas-garzon/",
-      image: "/team/alejandra.png",
+      name: "Sissi de la Peña",
+      linkedin: "https://www.linkedin.com/in/sissidelapena/",
+      image: "/team/sisi.png",
     },
     {
-      name: "Valeria Soler",
-      linkedin: "https://www.linkedin.com/in/valeriasoler/",
-      image: "/team/valeria.png",
+      name: "Eugenio Salas Iturriaga",
+      linkedin: "https://www.linkedin.com/in/eugeniosalasi/",
+      image: "/team/Eugenio.png",
     },
     {
-      name: "Laura Zuluaga",
-      linkedin: "https://www.linkedin.com/in/laura-zuluaga-pineda/",
-      image: "/team/laura.png",
-    },
-    {
-      name: "Yuliet Montaña",
-      linkedin: "https://www.linkedin.com/in/yulietmontana/",
-      image: "/team/yuliet.png",
-    },
-    {
-      name: "Esteban Castañeda",
-      linkedin: "https://www.linkedin.com/in/jorge-esteban-castaneda-lopez/",
-      image: "/team/esteban.png",
-    },
-    {
-      name: "Daniel Gordillo",
-      linkedin: "https://www.linkedin.com/in/daniel-gordillo-cristancho-59097315b/",
-      image: "/team/daniel.png",
-    },
-    {
-      name: "Cristina Chacón",
-      linkedin: "https://www.linkedin.com/in/cristina-chac%C3%B3n-santa/",
-      image: "/team/cris.png",
-    },
-    {
-      name: "Natalia García",
-      linkedin: "https://www.linkedin.com/in/nataliagarciaai/",
-      image: "/team/nata.png",
-    },
-    {
-      name: "María José Murillo",
-      linkedin: "https://www.linkedin.com/in/maria-jose-m-/",
-      image: "/team/mariajose.png",
-    },
-    {
-      name: "Joan Escobar",
-      linkedin: "https://www.linkedin.com/in/joan-s-escobar-r/",
-      image: "/team/joan.png",
-    },
-    {
-      name: "Sebastián Melo",
-      linkedin: "https://www.linkedin.com/in/sebastianmelo03/",
-      image: "/team/sebastian.png",
-    },
-    {
-      name: "David Cuevas",
-      linkedin: "https://www.linkedin.com/in/cuevasadavid/",
-      image: "/team/david.png",
+      name: "Daniel Bakas",
+      linkedin: "https://www.linkedin.com/in/danielbakas/",
+      image: "/team/bakas.png",
     },
   ];
 
   return (
     <div className="min-h-screen bg-background font-mono">
       <Header />
-      
+
       <section className="py-24 bg-background relative pt-32">
         <div className="absolute inset-0 bg-gradient-glow opacity-20" />
-        
+
         <div className="container relative z-10 px-4">
           <div className="max-w-7xl mx-auto">
             {/* Section header */}
@@ -134,7 +89,7 @@ const Equipo = () => {
                     </h3>
                     <p className="text-xs text-primary font-mono flex items-center justify-center gap-1">
                       <LinkedinIcon className="w-3 h-3" />
-                      Ver LinkedIn
+                      Perfil LinkedIn
                     </p>
                   </div>
                 </a>

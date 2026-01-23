@@ -27,7 +27,7 @@ const Hero = () => {
 
     // Countdown logic
     const calculateTimeLeft = () => {
-      const eventDate = new Date('2026-03-07T10:00:00-06:00'); // Mexico City time (UTC-6)
+      const eventDate = new Date('2026-03-21T10:00:00-06:00'); // Mexico City time (UTC-6)
       const now = new Date();
       const difference = eventDate.getTime() - now.getTime();
 
@@ -53,6 +53,14 @@ const Hero = () => {
 
     return () => clearInterval(timer);
   }, []);
+
+  const scrollToRegistration = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const element = document.getElementById("registro");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-terminal">
@@ -108,7 +116,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>Marzo 2026</span>
+              <span>Marzo 21 y 22</span>
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Clock className="w-5 h-5 text-primary" />
@@ -121,13 +129,19 @@ const Hero = () => {
           </div>
           {/* CTA Button */}
           <div className="pt-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            <p className="text-muted-foreground font-mono text-sm mt-2">
-              Ya cerramos inscripciones. ¡Nos vemos en el evento!
-            </p>
+            <Button
+              asChild
+              size="lg"
+              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(123_100%_50%/0.4)] transition-all duration-300"
+            >
+              <a href="#registro" onClick={scrollToRegistration}>
+                Inscríbete Ahora
+              </a>
+            </Button>
           </div>
 
           {/* WhatsApp Button */}
-          <div className="text-center mt-8">
+          <div className="text-center mt-8 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <h3 className="text-lg font-mono text-primary mb-4">
               ¿Quieres saber más?
             </h3>
@@ -136,7 +150,7 @@ const Hero = () => {
               size="lg"
               className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(123_100%_50%/0.4)] transition-all duration-300"
             >
-              <a href="https://chat.whatsapp.com/GpafVgwzOlVHzIImtt38qw?mode=wwc" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/Kh3ULtM548I44eOkrA6sWe?mode=gi_t" target="_blank" rel="noopener noreferrer">
                 <MessageSquare className="w-5 h-5 mr-2" />
                 Únete al grupo en WhatsApp
               </a>

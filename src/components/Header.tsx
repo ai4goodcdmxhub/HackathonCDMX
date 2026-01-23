@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-primary">
-            <img src="/logo.png" alt="Hackathon México Logo" className="w-16 h-16" />
+            <img src="/sponsors/hubcdmx.png" alt="Hub CDMX Logo" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

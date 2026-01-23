@@ -21,48 +21,15 @@ interface Judge {
 const Jurados = () => {
   const [selectedJudge, setSelectedJudge] = useState<Judge | null>(null);
 
-  const judges: Judge[] = [
-    {
-      name: "Ronald Escalona",
-      title: "SVP of Engineering",
-      company: "Saptiva AI",
-      description: "Computer Engineer con más de 20 años construyendo plataformas y equipos de alto rendimiento. Lidera Saptiva AI, FrIdA y despliegues de infraestructura de IA soberana para acelerar la adopción segura y accesible en LatAm. Ex VP de Ingeniería en Platzi.",
-      linkedin: "https://www.linkedin.com/in/ronaldescalona/",
-      image: "/judges/ronald.png",
-    },
-    {
-      name: "Jorge Correa",
-      title: "Founder & CEO",
-      company: "EatCloud",
-      description: "Emprendedor de triple impacto con 23 años de experiencia en IT. Especialista en transformación digital e innovación. Lidera EatCloud, startup destacada por Google, Microsoft y SAP como una de las iniciativas más innovadoras en sostenibilidad alimentaria, ganadora del Dubai International Award.",
-      linkedin: "https://www.linkedin.com/in/jorgecorreat/",
-      image: "/judges/jorge.png",
-    },
-    {
-      name: "Laura Curtidor",
-      title: "Software QA Engineer",
-      company: "Experta en Accesibilidad Digital & AI",
-      description: "Ingeniera de Pruebas de Software con más de 10 años en IT. Ha contribuido en proyectos de alto impacto en finanzas, seguros, viajes y entretenimiento. Experta en accesibilidad digital, AI e ingeniería de prompts, con sólido liderazgo y optimización de procesos.",
-      linkedin: "https://www.linkedin.com/in/laura-curtidor/",
-      image: "/judges/laura.png",
-    },
-    {
-      name: "Julio Murcia",
-      title: "Julio TIC",
-      company: "Transformación Digital & AI",
-      description: "Promueve adopción ética y sostenible de tecnologías emergentes. Más de 20 años liderando proyectos de Transformación Digital en Cloud, IA, IoT, RPA y Ciberseguridad. Director Comercial con éxito en ventas B2B y coordinador de proyectos educativos STEM en LatAm.",
-      linkedin: "https://www.linkedin.com/in/juliocesarmurcia/",
-      image: "/judges/julio.png",
-    },
-  ];
+  const judges: Judge[] = [];
 
   return (
     <div className="min-h-screen bg-background font-mono">
       <Header />
-      
+
       <section className="py-24 bg-gradient-terminal relative pt-32">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-        
+
         <div className="container relative z-10 px-4">
           <div className="max-w-7xl mx-auto">
             {/* Section header */}
@@ -131,7 +98,7 @@ const Jurados = () => {
                 {selectedJudge?.name}
               </DialogTitle>
             </DialogHeader>
-            
+
             <div className="space-y-4">
               {/* Title and Company */}
               <div className="text-center pb-4 border-b border-terminal-border">

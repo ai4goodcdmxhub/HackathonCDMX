@@ -7,6 +7,7 @@ import Prizes from "@/components/Prizes";
 import SponsorsCarousel from "@/components/SponsorsCarousel";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
+import RegistrationForm from "@/components/RegistrationForm";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <Criteria />
       <Prizes />
       <Sponsors />
+      <RegistrationForm />
       <Footer />
     </div>
   );

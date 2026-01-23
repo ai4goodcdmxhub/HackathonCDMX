@@ -7,7 +7,8 @@ const sponsorsByTier = {
     { name: "TDN", logo: "/sponsors/tdn.png" },
     { name: "Semantyk", logo: "/sponsors/smtk.png" },
     { name: "ODI", logo: "/sponsors/ODI.png" },
-    { name: "ADIP", logo: "/sponsors/ADIP.png" }
+    { name: "ADIP", logo: "/sponsors/ADIP.png" },
+    { name: "Ingeniería UNAM", logo: "/sponsors/Ing.png" }
   ],
   tier2: [],
   tier3: [],
@@ -42,7 +43,7 @@ const SponsorsCarousel = () => {
                   <img
                     src={sponsor.logo}
                     alt={sponsor.name}
-                    className="max-h-32 w-auto object-contain"
+                    className={`${sponsor.logo.includes('Ing.png') ? 'max-h-64' : 'max-h-32'} w-auto object-contain`}
                   />
                 </div>
               ))}

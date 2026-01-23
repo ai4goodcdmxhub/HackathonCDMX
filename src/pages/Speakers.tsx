@@ -21,56 +21,15 @@ interface Speaker {
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
-  const speakers: Speaker[] = [
-    {
-      name: "Alexander Torrenegra",
-      title: "Founder & CEO",
-      company: "Torre",
-      description: "Emprendedor serial y líder visionario en tecnología. Fundador de Torre, plataforma que revoluciona el reclutamiento con inteligencia artificial. Ha construido múltiples empresas exitosas y es reconocido como uno de los emprendedores más influyentes de América Latina en el sector tech.",
-      linkedin: "https://www.linkedin.com/in/alextorrenegra/",
-      image: "/speakers/alexander.png",
-    },
-    {
-      name: "Gonzalo Aizpún",
-      title: "CTO",
-      company: "Laika",
-      description: "Chief Technology Officer en Laika, liderando la transformación tecnológica de una de las plataformas de comercio electrónico de mascotas más importantes de América Latina. Experto en arquitectura de sistemas escalables y desarrollo de productos digitales de alto impacto.",
-      linkedin: "https://www.linkedin.com/in/gonzaloaizpun/",
-      image: "/speakers/gonzalo.png",
-    },
-    {
-      name: "Camila Hernández",
-      title: "Senior Systems Engineer",
-      company: "EPAM Systems",
-      description: "Ingeniera de Sistemas e Industrial de la Universidad de Los Andes. Senior Systems Engineer en EPAM Systems. Actualmente cursando maestría en Ingeniería Industrial con énfasis en Inteligencia Artificial. Especialista en implementación de sistemas de IA a nivel empresarial.",
-      linkedin: "https://www.linkedin.com/in/maria-camila-hernandez-moya-4b6947180/",
-      image: "/speakers/camila.png",
-    },
-    {
-      name: "Julian Pira",
-      title: "Growth & Product",
-      company: "Nodi",
-      description: "Software developer apasionado con experiencia en Golang, Python, Git y GitHub. Experto en bases de datos SQL y diseño de interfaces con Tailwind CSS. Líder colaborativo enfocado en aprendizaje continuo y crecimiento profesional en desarrollo de software.",
-      linkedin: "https://www.linkedin.com/in/josejulianpiranaranjo/",
-      image: "/speakers/julian.png",
-    },
-    {
-      name: "Yindra Carolina Torres",
-      title: "Especialista Cloud & AWS Educator",
-      company: "User Group AWS Tolima y Cundinamarca",
-      description: "Especialista Cloud en TIVIT LATAM con certificaciones AWS x2, OCI x2, Huawei, ITIL, SCRUM y CCNA. AWS Educator y FinOps Engineer. Lidera User Group AWS Tolima y Cundinamarca, promoviendo eventos y networking en FinOps, Machine Learning y Cloud.",
-      linkedin: "https://www.linkedin.com/in/yindra-carolina-torres-guzman-4a8249134/",
-      image: "/speakers/yindra.png",
-    },
-  ];
+  const speakers: Speaker[] = [];
 
   return (
     <div className="min-h-screen bg-background font-mono">
       <Header />
-      
+
       <section className="py-24 bg-background relative pt-32">
         <div className="absolute inset-0 bg-gradient-glow opacity-20" />
-        
+
         <div className="container relative z-10 px-4">
           <div className="max-w-7xl mx-auto">
             {/* Section header */}
@@ -139,7 +98,7 @@ const Speakers = () => {
                 {selectedSpeaker?.name}
               </DialogTitle>
             </DialogHeader>
-            
+
             <div className="space-y-4">
               {/* Title and Company */}
               <div className="text-center pb-4 border-b border-terminal-border">

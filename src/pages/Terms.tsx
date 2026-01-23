@@ -43,7 +43,7 @@ const Terms = () => {
                 El evento se desarrollará de manera presencial en Ciudad de México, y la ubicación exacta será compartida únicamente con los participantes seleccionados.
               </p>
               <p className="mb-4">
-                Será una jornada continua de 24 horas, desde las 10:00 a.m. del sábado hasta la 1:00 p.m. del domingo (fechas exactas de Marzo 2026 por confirmar). Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
+                Será una jornada continua de 24 horas, desde las 10:00 a.m. del sábado 21 de Marzo hasta la 1:00 p.m. del domingo 22 de Marzo de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
               </p>
               <ul className="list-disc list-inside space-y-2 mb-4 pl-4">
                 <li>Su computador portátil (de uso obligatorio).</li>
