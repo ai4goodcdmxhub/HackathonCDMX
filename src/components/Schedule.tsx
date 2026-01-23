@@ -154,7 +154,7 @@ const Schedule = () => {
               <span className="text-primary">/&gt;</span>
             </h2>
             <p className="text-lg text-muted-foreground font-mono max-w-2xl mx-auto">
-              24 horas intensas de innovación, código y construcción
+              Jornada intensiva de innovación, código y construcción
             </p>
           </div>
 

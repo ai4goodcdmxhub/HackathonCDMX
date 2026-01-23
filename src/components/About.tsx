@@ -15,7 +15,7 @@ const About = () => {
     {
       icon: Rocket,
       title: "Mentores Expertos",
-      description: "Tendrás acceso a mentores experimentados durante las 24 horas del evento.",
+      description: "Tendrás acceso a mentores experimentados durante todo el evento.",
     },
   ];
 

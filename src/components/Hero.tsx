@@ -78,9 +78,9 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold font-mono tracking-tight animate-fade-in-up">
-            <span className="text-foreground">24 <span className="text-primary">h</span>oras de</span>
+            <span className="text-foreground">Concienc.<span className="text-primary">ia</span></span>
             <br />
-            <span className="text-primary drop-shadow-glow">&lt;CÓDIGO/&gt;</span>
+            <span className="text-primary drop-shadow-glow">Hackathon</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground font-mono max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>

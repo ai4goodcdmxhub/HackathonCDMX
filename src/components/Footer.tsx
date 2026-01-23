@@ -12,11 +12,11 @@ const Footer = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Code2 className="w-6 h-6 text-primary" />
                 <span className="text-xl font-bold font-mono text-foreground">
-                  24h - Hackathon México
+                  Concienc.ia Hackathon
                 </span>
               </div>
               <p className="text-muted-foreground font-mono text-sm mb-3">
-                24 horas construyendo el futuro
+                Construyendo el futuro
               </p>
               <div className="bg-card border border-primary/30 rounded px-3 py-2 inline-block">
                 <p className="text-xs font-mono text-muted-foreground">Organizado por</p>
@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="pt-8 border-t border-terminal-border">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-muted-foreground font-mono text-sm">
-                <span className="text-primary">&copy;</span> 24h - Hackathon México. Construyendo el futuro.
+                <span className="text-primary">&copy;</span> Concienc.ia Hackathon. Construyendo el futuro.
               </p>
               <div className="flex gap-6 text-sm font-mono">
                 <Link to="/terms" className="text-muted-foreground hover:text-primary transition-colors">

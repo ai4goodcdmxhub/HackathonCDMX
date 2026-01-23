@@ -51,7 +51,7 @@ const Terms = () => {
                 4. Desarrollo del evento y reglas técnicas
               </h2>
               <p className="mb-4">
-                El evento se realizará de manera presencial en Ciudad de México. Tendrá una duración total de 24 horas continuas, iniciando a las 10:00 a.m. del sábado 21 de Marzo de 2026 y finalizando a la 1:00 p.m. del domingo 22 de Marzo de 2026. Se proporcionará alimentación básica y zonas de descanso. Cada participante será responsable de llevar su computador portátil, cargadores, adaptadores y elementos personales necesarios.
+                El evento se realizará de manera presencial en Ciudad de México. Tendrá una duración continua, iniciando a las 10:00 a.m. del sábado 21 de Marzo de 2026 y finalizando a la 1:00 p.m. del domingo 22 de Marzo de 2026. Se proporcionará alimentación básica y zonas de descanso. Cada participante será responsable de llevar su computador portátil, cargadores, adaptadores y elementos personales necesarios.
               </p>
               <p>
                 Todos los proyectos deberán desarrollarse íntegramente durante la hackathon. No se permitirá el uso de código o proyectos previos. El uso de herramientas de IA generativa será permitido siempre que el resultado final sea de autoría del equipo.
