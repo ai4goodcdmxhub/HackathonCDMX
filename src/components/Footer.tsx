@@ -36,7 +36,7 @@ const Footer = () => {
                   21-22 de Marzo, 2026
                 </div>
                 <div className="text-muted-foreground">
-                  24 horas presenciales
+                  Presencial
                 </div>
               </div>
             </div>
