@@ -33,7 +33,7 @@ const Footer = () => {
                   <span>Ciudad de México, México</span>
                 </div>
                 <div className="text-muted-foreground">
-                  Marzo 21 y 22, 2026
+                  21-22 de Marzo, 2026
                 </div>
                 <div className="text-muted-foreground">
                   24 horas presenciales
