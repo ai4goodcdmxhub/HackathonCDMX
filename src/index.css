@@ -9,25 +9,29 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* High Tech Black Theme */
-    --background: 0 100% 3%; /* #0D0000 */
+    --background: 0 100% 3%;
+    /* #0D0000 */
     --foreground: 0 0% 98%;
 
-    --card: 0 100% 5%;
+    --card: 0 100% 3%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 0 100% 5%;
+    --popover: 0 100% 3%;
     --popover-foreground: 0 0% 98%;
 
     /* Cyan Tecnológico - Primary */
-    --primary: 190 100% 42%; /* #00B4D8 */
+    --primary: 190 100% 42%;
+    /* #00B4D8 */
     --primary-foreground: 0 0% 0%;
 
     /* Deep Purple - Secondary */
-    --secondary: 271 76% 53%; /* #8A2BE2 */
+    --secondary: 271 76% 53%;
+    /* #8A2BE2 */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 271 30% 10%;
-    --muted-foreground: 0 0% 66%; /* #A9A9A9 */
+    --muted: 0 100% 3%;
+    --muted-foreground: 0 0% 66%;
+    /* #A9A9A9 */
 
     /* Accent */
     --accent: 271 76% 53%;
@@ -44,16 +48,17 @@ All colors MUST be HSL.
 
     /* Custom tokens - mapped to new palette */
     /* Preserving variable names to maintain compatibility */
-    --terminal-green: 190 100% 42%; /* Now Cyan */
+    --terminal-green: 190 100% 42%;
+    /* Now Cyan */
     --terminal-green-glow: 190 100% 50%;
     --terminal-dark: 0 100% 3%;
     --terminal-darker: 0 100% 2%;
     --terminal-border: 190 30% 20%;
-    
+
     /* Gradients */
     --gradient-terminal: linear-gradient(135deg, hsl(0 100% 3%) 0%, hsl(271 76% 10%) 100%);
     --gradient-glow: linear-gradient(90deg, transparent 0%, hsl(190 100% 42% / 0.1) 50%, transparent 100%);
-    
+
     /* Shadows */
     --shadow-terminal: 0 0 20px hsl(190 100% 42% / 0.2);
     --shadow-glow: 0 0 40px hsl(190 100% 42% / 0.3);
