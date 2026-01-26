@@ -19,15 +19,8 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-4 py-2.5 no-underline group">
-            <img
-              src="/assets/Jaguar.png"
-              alt="Soberan.IA Jaguar Logo"
-              className="h-[35px] md:h-[45px] w-auto object-contain transition-transform duration-300 drop-shadow-[0_0_8px_rgba(138,43,226,0.4)] group-hover:scale-105"
-            />
-            <span className="font-mono font-bold text-base md:text-xl text-white tracking-wider leading-none">
-              HACKATHON <span className="block text-xs md:text-[0.8em] font-normal text-[#00E5FF]">YOUNG AI LEADERS</span>
-            </span>
+          <Link to="/" className="flex items-center gap-2 text-primary">
+            <img src="/sponsors/hubcdmx.png" alt="Hub CDMX Logo" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

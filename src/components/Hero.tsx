@@ -73,8 +73,15 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-5xl mx-auto text-center space-y-8">
           {/* Terminal-style header */}
-          <div className="inline-block font-mono text-primary text-sm mb-4 animate-fade-in-up">
-            <span className="animate-blink">▶</span> ./hackathon_mexico.sh
+          <div className="flex flex-col items-center justify-center gap-4 mb-4 animate-fade-in-up">
+            <img
+              src="/assets/Jaguar.png"
+              alt="Soberan.IA Jaguar Logo"
+              className="h-24 md:h-32 w-auto object-contain drop-shadow-[0_0_15px_rgba(138,43,226,0.5)]"
+            />
+            <div className="inline-block font-mono text-primary text-sm">
+              <span className="animate-blink">▶</span> ./hackathon_mexico.sh
+            </div>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold font-mono tracking-tight animate-fade-in-up">
