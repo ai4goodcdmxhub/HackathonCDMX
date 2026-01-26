@@ -45,7 +45,7 @@ const Sponsors = () => {
                   <Button
                     asChild
                     size="lg"
-                    className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(123_100%_50%/0.4)] transition-all duration-300"
+                    className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
                   >
                     <Link to="/aliados">
                       ¡Quieres sumarte?

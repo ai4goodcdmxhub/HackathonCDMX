@@ -132,7 +132,7 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(123_100%_50%/0.4)] transition-all duration-300"
+              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
             >
               <a href="#registro" onClick={scrollToRegistration}>
                 Inscríbete Ahora
@@ -148,7 +148,7 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(123_100%_50%/0.4)] transition-all duration-300"
+              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
             >
               <a href="https://chat.whatsapp.com/Kh3ULtM548I44eOkrA6sWe?mode=gi_t" target="_blank" rel="noopener noreferrer">
                 <MessageSquare className="w-5 h-5 mr-2" />
