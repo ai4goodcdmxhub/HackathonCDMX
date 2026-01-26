@@ -81,21 +81,21 @@ export default {
           to: { height: "0" },
         },
         "glow-pulse": {
-          "0%, 100%": { 
-            boxShadow: "0 0 20px hsl(123 100% 50% / 0.2)",
-            borderColor: "hsl(123 100% 50% / 0.3)"
+          "0%, 100%": {
+            boxShadow: "0 0 20px hsl(var(--primary) / 0.2)",
+            borderColor: "hsl(var(--primary) / 0.3)"
           },
-          "50%": { 
-            boxShadow: "0 0 40px hsl(123 100% 50% / 0.4)",
-            borderColor: "hsl(123 100% 50% / 0.6)"
+          "50%": {
+            boxShadow: "0 0 40px hsl(var(--primary) / 0.4)",
+            borderColor: "hsl(var(--primary) / 0.6)"
           },
         },
         "fade-in-up": {
-          "0%": { 
+          "0%": {
             opacity: "0",
             transform: "translateY(20px)"
           },
-          "100%": { 
+          "100%": {
             opacity: "1",
             transform: "translateY(0)"
           },
