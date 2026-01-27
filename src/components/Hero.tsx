@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-center gap-4 mb-4 animate-fade-in-up">
             <img
               src="/assets/Jaguar.png"
-              alt="Soberan.IA Jaguar Logo"
+              alt="Concienc.ia Jaguar Logo"
               className="h-24 md:h-32 w-auto object-contain drop-shadow-[0_0_15px_rgba(138,43,226,0.5)]"
             />
             <div className="inline-block font-mono text-primary text-sm">
@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold font-mono tracking-tight animate-fade-in-up">
-            <span className="text-foreground">Soberan.<span className="text-primary">ia</span></span>
+            <span className="text-foreground">Concienc.<span className="text-primary">ia</span></span>
             <br />
             <span className="text-primary drop-shadow-glow">Hackathon</span>
           </h1>
