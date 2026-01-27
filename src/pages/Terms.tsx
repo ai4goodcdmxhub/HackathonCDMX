@@ -13,7 +13,7 @@ const Terms = () => {
               Términos y Condiciones
               <span className="text-primary">/&gt;</span>
             </h1>
-            <p className="text-muted-foreground mt-4">Concienc.ia Hackathon México 2025</p>
+            <p className="text-muted-foreground mt-4">Soberan.ia Hackathon México 2025</p>
           </div>
 
           <div className="space-y-8 text-muted-foreground">

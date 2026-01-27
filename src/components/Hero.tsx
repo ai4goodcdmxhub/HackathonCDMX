@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold font-mono tracking-tight animate-fade-in-up">
-            <span className="text-foreground">Concienc.<span className="text-primary">ia</span></span>
+            <span className="text-foreground">Soberan.<span className="text-primary">ia</span></span>
             <br />
             <span className="text-primary drop-shadow-glow">Hackathon</span>
           </h1>
