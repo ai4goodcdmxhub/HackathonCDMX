@@ -25,6 +25,16 @@ const Equipo = () => {
       linkedin: "https://www.linkedin.com/in/danielbakas/",
       image: "/team/bakas.png",
     },
+    {
+      name: "Sandro Reyna Schwartau",
+      linkedin: "https://www.linkedin.com/in/sandro-reyna-schwartau",
+      image: "/team/sandro.jpg",
+    },
+    {
+      name: "Claudia Daniela Rosas Buitrón",
+      linkedin: "https://www.linkedin.com/in/claudia-daniela-rosas-buitron",
+      image: "/team/claudia.jpg",
+    },
   ];
 
   return (
