@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 interface TeamMember {
   name: string;
-  linkedin: string;
+  linkedin?: string;
   image?: string;
 }
 
@@ -27,12 +27,10 @@ const Equipo = () => {
     },
     {
       name: "Sandro Reyna Schwartau",
-      linkedin: "https://www.linkedin.com/in/sandro-reyna-schwartau",
       image: "/team/sandro.jpg",
     },
     {
       name: "Claudia Daniela Rosas Buitrón",
-      linkedin: "https://www.linkedin.com/in/claudia-daniela-rosas-buitron",
       image: "/team/claudia.jpg",
     },
   ];
@@ -88,7 +86,7 @@ const Equipo = () => {
                       </div>
                     )}
                     <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                      <LinkedinIcon className="w-12 h-12 text-primary" />
+                      {member.linkedin && <LinkedinIcon className="w-12 h-12 text-primary" />}
                     </div>
                   </div>
 
@@ -97,10 +95,12 @@ const Equipo = () => {
                     <h3 className="font-bold font-mono text-foreground text-lg mb-1">
                       {member.name}
                     </h3>
-                    <p className="text-xs text-primary font-mono flex items-center justify-center gap-1">
-                      <LinkedinIcon className="w-3 h-3" />
-                      Perfil LinkedIn
-                    </p>
+                    {member.linkedin && (
+                      <p className="text-xs text-primary font-mono flex items-center justify-center gap-1">
+                        <LinkedinIcon className="w-3 h-3" />
+                        Perfil LinkedIn
+                      </p>
+                    )}
                   </div>
                 </a>
               ))}
