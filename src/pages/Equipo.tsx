@@ -37,6 +37,14 @@ const Equipo = () => {
       name: "Ander Peralta Durón",
       image: "/team/ander.jpg",
     },
+    {
+      name: "Mariana Ramos García",
+      image: "/team/mariana.jpg",
+    },
+    {
+      name: "Karen Camila Zárate Bolaños",
+      image: "/team/karen.jpg",
+    },
   ];
 
   return (
