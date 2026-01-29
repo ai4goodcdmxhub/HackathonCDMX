@@ -33,6 +33,10 @@ const Equipo = () => {
       name: "Claudia Daniela Rosas Buitrón",
       image: "/team/claudia.jpg",
     },
+    {
+      name: "Ander Peralta Durón",
+      image: "/team/ander.jpg",
+    },
   ];
 
   return (
