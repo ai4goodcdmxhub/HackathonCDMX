@@ -131,7 +131,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Users className="w-5 h-5 text-primary" />
-              <span>Ciudad de México, México</span>
+              <span>Tec de Monterrey Campus Ciudad de México</span>
             </div>
           </div>
           {/* CTA Button */}

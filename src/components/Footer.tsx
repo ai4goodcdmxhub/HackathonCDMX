@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="space-y-2 text-sm font-mono">
                 <div className="flex items-start gap-2 text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                  <span>Ciudad de México, México</span>
+                  <span>Tec de Monterrey Campus Ciudad de México</span>
                 </div>
                 <div className="text-muted-foreground">
                   21-22 de Marzo, 2026
