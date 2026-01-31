@@ -9,8 +9,8 @@ const About = () => {
     },
     {
       icon: Lightbulb,
-      title: "Cambia el Mundo",
-      description: "Buscamos productos con el potencial de cambiar las reglas del juego y crear impacto real.",
+      title: "Impacto Real en la CDMX",
+      description: "No buscamos solo apps, buscamos soluciones de IA con Concienc.ia que resuelvan retos urbanos reales de la Ciudad de México bajo un marco de justicia social y respeto a la privacidad.",
     },
     {
       icon: Rocket,
