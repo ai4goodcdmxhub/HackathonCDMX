@@ -15,7 +15,7 @@ const About = () => {
     {
       icon: Rocket,
       title: "Mentoring con Propósito",
-      description: "Conéctate con una red global de aliados y expertos que te guiarán para que tu innovación tecnológica y la defensa de la privacidad coexistan con éxito.",
+      description: "Conéctate con una red de aliados y expertos que te guiarán para que tu innovación tecnológica y la defensa de la privacidad coexistan con éxito.",
     },
   ];
 
