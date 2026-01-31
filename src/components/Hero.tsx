@@ -91,9 +91,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground font-mono max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Construye productos que cambien las reglas del juego.
-            <br />
-            <span className="text-primary">Conéctate con visionarios que liderarán el futuro</span>
+            Formando líderes en la Ciudad de México para desarrollar soluciones de IA con conciencia social, donde la ética y la privacidad de datos son el motor de la innovación.
           </p>
 
           {/* Countdown */}
