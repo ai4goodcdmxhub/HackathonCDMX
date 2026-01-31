@@ -14,8 +14,8 @@ const About = () => {
     },
     {
       icon: Rocket,
-      title: "Mentores Expertos",
-      description: "Tendrás acceso a mentores experimentados durante todo el evento.",
+      title: "Mentoring con Propósito",
+      description: "Conéctate con una red global de aliados y expertos que te guiarán para que tu innovación tecnológica y la defensa de la privacidad coexistan con éxito.",
     },
   ];
 
