@@ -62,7 +62,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
-                  <a href="https://chat.whatsapp.com/Kh3ULtM548I44eOkrA6sWe?mode=gi_t" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://chat.whatsapp.com/ByoCKnOIfTVEEfk9WaguH4?mode=gi_t" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                     <MessageSquare className="w-4 h-4 text-primary" />
                     <span>Grupo de WhatsApp</span>
                   </a>
