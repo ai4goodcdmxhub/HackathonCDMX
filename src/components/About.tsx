@@ -5,7 +5,7 @@ const About = () => {
     {
       icon: Code2,
       title: "Para Visionarios y Creadores",
-      description: "Buscamos programadores, diseñadores, abogados y expertos en ética que no solo sepan construir, sino que entiendan la responsabilidad detrás de cada línea de código. Si crees que la tecnología debe servir al humano, este es tu lugar.",
+      description: "Buscamos participantes de carreras técnicas, humanidades o negocios, no solo sepan construir, sino que entiendan la responsabilidad detrás de cada línea de código. Si crees que la tecnología debe servir al humano, este es tu lugar.",
     },
     {
       icon: Lightbulb,
