@@ -90,6 +90,10 @@ const Hero = () => {
             <span className="text-primary drop-shadow-glow">Hackathon</span>
           </h1>
 
+          <p className="text-lg md:text-xl font-mono font-bold mt-6 mb-2 animate-fade-in-up uppercase tracking-wide" style={{ animationDelay: '0.15s' }}>
+            Innovando para la <span className="text-primary">CDMX</span>: Soluciones de <span className="text-primary">IA</span> centradas en la <span className="text-primary">ética</span> y la <span className="text-primary">protección de datos</span>
+          </p>
+
           <p className="text-xl md:text-2xl text-muted-foreground font-mono max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Formando líderes en la Ciudad de México para desarrollar soluciones de IA con conciencia social, donde la ética y la privacidad de datos son el motor de la innovación.
           </p>
