@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 const sponsorsByTier = {
   tier1: [
     { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" },
-    { name: "TDN", logo: "/sponsors/tdn.png" },
-    { name: "Semantyk", logo: "/sponsors/smtk.png" },
+    { name: "Ingeniería UNAM", logo: "/sponsors/Ing.png" },
     { name: "ODI", logo: "/sponsors/ODI.png" },
+    { name: "TDN", logo: "/sponsors/tdn.png" },
     { name: "ADIP", logo: "/sponsors/ADIP.png" },
-    { name: "Ingeniería UNAM", logo: "/sponsors/Ing.png" }
+    { name: "Semantyk", logo: "/sponsors/smtk.png" },
   ],
   tier2: [],
   tier3: [],
