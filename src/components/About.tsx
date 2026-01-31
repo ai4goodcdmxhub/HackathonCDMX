@@ -45,11 +45,8 @@ const About = () => {
               <span className="text-foreground">El Evento</span>
               <span className="text-primary">/&gt;</span>
             </h2>
-            <p className="text-lg text-muted-foreground font-mono max-w-2xl mx-auto mb-4">
-              Un hackathon intenso donde la innovación, ejecución técnica e impacto se encuentran.
-            </p>
-            <p className="text-xl text-primary font-mono font-bold max-w-2xl mx-auto">
-              Haciendo de Ciudad de México el centro de la innovación con IA
+            <p className="text-lg text-muted-foreground font-mono max-w-3xl mx-auto mb-4">
+              Formando líderes en la Ciudad de México para desarrollar soluciones de IA con conciencia social, <span className="text-primary font-bold">donde la ética y la privacidad de datos son el motor de la innovación.</span>
             </p>
           </div>
 
