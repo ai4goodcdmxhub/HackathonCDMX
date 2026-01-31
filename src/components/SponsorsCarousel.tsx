@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 // Definir los sponsors por niveles
 const sponsorsByTier = {
   tier1: [
-    { name: "Hub CDMX", logo: "/sponsors/hubcdmx.png" },
-    { name: "Ingeniería UNAM", logo: "/sponsors/Ing.png" },
-    { name: "ODI", logo: "/sponsors/ODI.png" },
-    { name: "TDN", logo: "/sponsors/tdn.png" },
-    { name: "ADIP", logo: "/sponsors/ADIP.png" },
+    { name: "Young AI Leaders Mexico City Hub", logo: "/sponsors/hubcdmx.png" },
+    { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png" },
+    { name: "Open Data Institute", logo: "/sponsors/ODI.png" },
+    { name: "The DoT Network", logo: "/sponsors/tdn.png" },
+    { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png" },
     { name: "Semantyk", logo: "/sponsors/smtk.png" },
   ],
   tier2: [],
@@ -37,14 +37,19 @@ const SponsorsCarousel = () => {
               {sponsorsByTier.tier1.map((sponsor, index) => (
                 <div
                   key={index}
-                  className="bg-card rounded-lg p-8 flex items-center justify-center border border-terminal-border hover:border-primary/50 transition-all duration-300"
-                  style={{ width: '400px', height: '200px' }}
+                  className="bg-card rounded-lg p-6 flex flex-col items-center justify-between border border-terminal-border hover:border-primary/50 transition-all duration-300 gap-4"
+                  style={{ width: '400px', minHeight: '300px' }}
                 >
-                  <img
-                    src={sponsor.logo}
-                    alt={sponsor.name}
-                    className={`${sponsor.logo.includes('Ing.png') ? 'max-h-64' : 'max-h-32'} w-auto object-contain`}
-                  />
+                  <div className="flex-1 flex items-center justify-center w-full">
+                    <img
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      className={`${sponsor.logo.includes('Ing.png') ? 'max-h-64' : 'max-h-32'} w-auto object-contain`}
+                    />
+                  </div>
+                  <p className="font-mono font-bold text-sm text-foreground text-center">
+                    {sponsor.name}
+                  </p>
                 </div>
               ))}
             </div>
