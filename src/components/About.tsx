@@ -4,8 +4,8 @@ const About = () => {
   const features = [
     {
       icon: Code2,
-      title: "Para Builders",
-      description: "Programadores y cracks de producto que también ejecutan. Si construyes, este es tu lugar.",
+      title: "Para Visionarios y Creadores",
+      description: "Buscamos programadores, diseñadores, abogados y expertos en ética que no solo sepan construir, sino que entiendan la responsabilidad detrás de cada línea de código. Si crees que la tecnología debe servir al humano, este es tu lugar.",
     },
     {
       icon: Lightbulb,
