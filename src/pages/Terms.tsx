@@ -40,10 +40,10 @@ const Terms = () => {
                 3. Desarrollo del Evento
               </h2>
               <p className="mb-4">
-                El evento se desarrollará de manera presencial en Ciudad de México, y la ubicación exacta será compartida únicamente con los participantes seleccionados.
+                El evento se desarrollará de manera presencial en el Tecnológico de Monterrey Campus Ciudad de México.
               </p>
               <p className="mb-4">
-                Será una jornada continua presencial, desde las 10:00 a.m. del viernes 13 de Marzo hasta la 1:00 p.m. del sábado 14 de Marzo de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
+                Será una jornada continua presencial, desde las 9:00 a.m. del viernes 13 de Marzo hasta las 8:30 p.m. del sábado 14 de Marzo de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
               </p>
               <ul className="list-disc list-inside space-y-2 mb-4 pl-4">
                 <li>Su computador portátil (de uso obligatorio).</li>
@@ -105,11 +105,11 @@ const Terms = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-bold text-foreground font-mono mb-2">¿Qué cosas necesito llevar?</h3>
-                  <p>Recuerda que esto es un evento de 24 horas. Vamos a tener comida, agua, café y todo lo que puedas necesitar, pero igual recuerda llevar ropa cómoda, tu computador y el cargador. Si quieres llevar snacks extra, dale sin problema.</p>
+                  <p>Vamos a tener comida, agua, café y todo lo que puedas necesitar, pero igual recuerda llevar ropa cómoda, tu computador y el cargador. Si quieres llevar snacks extra, dale sin problema.</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground font-mono mb-2">¿Puedo traer código ya desarrollado?</h3>
-                  <p>No, solo puedes traer la idea. Los jueces evaluarán únicamente el trabajo realizado durante las 24 horas del evento.</p>
+                  <p>No, solo puedes traer la idea. Los jueces evaluarán únicamente el trabajo realizado durante el evento.</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground font-mono mb-2">¿De quién son los derechos de propiedad intelectual?</h3>
