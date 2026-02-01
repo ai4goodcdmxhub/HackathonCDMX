@@ -1,138 +1,126 @@
-import { Calendar, Clock, Coffee, Lightbulb, Trophy, Users } from "lucide-react";
+import { Calendar, Clock, Coffee, Lightbulb, Trophy, Users, Code2 } from "lucide-react";
+
+interface ScheduleItem {
+  time: string;
+  title: string;
+  icon: any;
+  description: string;
+  highlight?: boolean;
+}
 
 const Schedule = () => {
-  const scheduleDay1 = [
+  const scheduleDay1: ScheduleItem[] = [
     {
-      time: "9:00 a.m.",
-      title: "Apertura de puertas y registro de participantes",
+      time: "09:00 a.m. – 11:00 a.m.",
+      title: "Registro de participantes y networking de bienvenida",
       icon: Users,
       description: "",
     },
     {
-      time: "9:20 a.m.",
-      title: "Bienvenida general",
+      time: "11:00 a.m. – 12:00 p.m.",
+      title: "Masterclass de Apertura",
       icon: Lightbulb,
-      description: 'Mensaje de apertura, propósito del evento ("Why now?"), agradecimiento a los sponsors principales y presentación del jurado',
+      description: "(Pendiente por definir)",
     },
     {
-      time: "9:25 a.m.",
-      title: "Pendiente por definir charla",
+      time: "12:00 p.m. – 01:30 p.m.",
+      title: "Workshop 1",
       icon: Lightbulb,
-      description: "",
+      description: "(Pendiente por definir)",
     },
     {
-      time: "9:40 a.m.",
-      title: "Pendiente por definir charla",
-      icon: Lightbulb,
-      description: "",
-    },
-    {
-      time: "10:10 a.m.",
-      title: "Pendiente por definir charla",
-      icon: Lightbulb,
-      description: "",
-    },
-    {
-      time: "10:40 a.m.",
-      title: "Pendiente por definir charla",
-      icon: Lightbulb,
-      description: "",
-    },
-    {
-      time: "11:10 a.m.",
-      title: "Pendiente por definir charla",
-      icon: Lightbulb,
-      description: "",
-    },
-    {
-      time: "11:30 a.m.",
-      title: "Inicio oficial de la hackathon",
-      icon: Clock,
-      description: "",
-      highlight: true,
-    },
-    {
-      time: "11:50 a.m.",
-      title: "Primera ronda de mentorías",
-      icon: Users,
-      description: "",
-    },
-    {
-      time: "1:00 p.m.",
+      time: "01:30 p.m. – 02:30 p.m.",
       title: "Almuerzo",
       icon: Coffee,
       description: "",
     },
     {
-      time: "8:00 p.m.",
-      title: "Cena",
-      icon: Coffee,
+      time: "02:30 p.m. – 04:00 p.m.",
+      title: "Workshop 2",
+      icon: Lightbulb,
+      description: "(Pendiente por definir)",
+    },
+    {
+      time: "04:00 p.m. – 05:30 p.m.",
+      title: "Workshop 3",
+      icon: Lightbulb,
+      description: "(Pendiente por definir)",
+    },
+    {
+      time: "05:30 p.m. – 06:00 p.m.",
+      title: "Charla",
+      icon: Lightbulb,
+      description: "(Pendiente por definir)",
+    },
+    {
+      time: "06:00 p.m. – 07:00 p.m.",
+      title: "Dinámica de Formación de Equipos",
+      icon: Users,
+      description: "Colaboración entre participantes",
+    },
+    {
+      time: "07:00 p.m. – 08:00 p.m.",
+      title: "Sesión de ideación y cierre del primer día",
+      icon: Lightbulb,
       description: "",
+    },
+    {
+      time: "08:00 p.m.",
+      title: "Cena de comunidad",
+      icon: Coffee,
+      description: "Espacio de intercambio estratégico entre participantes y mentores.",
     },
   ];
 
-  const scheduleDay2 = [
+  const scheduleDay2: ScheduleItem[] = [
     {
-      time: "3:00 a.m.",
-      title: "Snacks",
+      time: "08:00 a.m. – 09:00 a.m.",
+      title: "Desayuno y Kick-off de Construcción",
       icon: Coffee,
-      description: "",
+      description: "Energía para el equipo y repaso de los objetivos técnicos del día.",
     },
     {
-      time: "7:00 a.m.",
-      title: "Desayuno",
+      time: "09:00 a.m. – 01:00 p.m.",
+      title: "Sprint de Desarrollo Intensivo",
+      icon: Code2, // Importing Code2 as it fits "Building/Coding"
+      description: 'Fase de "manos a la obra". Los equipos trabajan en el código, el diseño de interfaz y el marco legal de su solución.',
+    },
+    {
+      time: "01:00 p.m. – 02:00 p.m.",
+      title: "Almuerzo de Trabajo (Catering en sitio)",
       icon: Coffee,
-      description: "",
+      description: "Los equipos suelen seguir trabajando mientras comen para no romper el flujo.",
     },
     {
-      time: "10:00 a.m.",
-      title: "Apertura de la plataforma para subir proyectos",
-      icon: Clock,
-      description: "",
-    },
-    {
-      time: "11:30 a.m.",
-      title: "Cierre del período de subida de proyectos",
-      icon: Clock,
-      description: "",
-      highlight: true,
-    },
-    {
-      time: "12:00 p.m.",
-      title: "Almuerzo",
-      icon: Coffee,
-      description: "",
-    },
-    {
-      time: "1:00 p.m.",
-      title: "Charlas de cierre y mensajes finales, Mini speak de jurados y agradecimientos a sponsors",
+      time: "02:00 p.m. – 04:30 p.m.",
+      title: 'Mentoría de "Stress Test"',
       icon: Users,
-      description: "",
+      description: 'Recomendación: No es una mentoría cualquiera. Los mentores deben "atacar" los proyectos con preguntas de ética y privacidad: ¿Cómo proteges este dato? ¿Es transparente tu algoritmo?',
     },
     {
-      time: "1:20 p.m.",
-      title: "Pendiente por definir charla",
+      time: "04:30 p.m. – 05:30 p.m.",
+      title: "Pitch Readiness & Subida de Proyectos",
       icon: Lightbulb,
-      description: "",
+      description: "Ensayo de presentaciones y cierre de la plataforma para entrega de prototipos.",
     },
     {
-      time: "1:30 p.m.",
-      title: "Presentación de finalistas",
+      time: "05:30 p.m. – 07:00 p.m.",
+      title: "Demo Day: Presentación de Soluciones",
       icon: Trophy,
-      description: "",
+      description: "Presentación ante el jurado y los aliados estratégicos. Cada equipo tiene 3-5 minutos para demostrar su impacto.",
       highlight: true,
     },
     {
-      time: "2:00 p.m.",
-      title: "Deliberación",
+      time: "07:00 p.m. – 07:45 p.m.",
+      title: "Deliberación del Jurado y Cóctel de Networking",
       icon: Users,
-      description: "",
+      description: "Mientras el jurado decide, los participantes conectan con los patrocinadores y reclutadores de talento.",
     },
     {
-      time: "2:30 p.m.",
-      title: "Premiación y cierre oficial del evento",
+      time: "07:45 p.m. – 08:30 p.m.",
+      title: "Premiación y Clausura",
       icon: Trophy,
-      description: "",
+      description: "Entrega de premios y nombramiento oficial de los Embajadores de la Ética en la IA.",
       highlight: true,
     },
   ];
