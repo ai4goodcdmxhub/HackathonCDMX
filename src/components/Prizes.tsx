@@ -40,10 +40,10 @@ const Prizes = () => {
               {/* Text */}
               <div className="space-y-4">
                 <h3 className="text-3xl md:text-4xl font-bold font-mono text-foreground">
-                  Pendiente por definir premios
+                  Estamos preparando algo muy especial para ti
                 </h3>
                 <p className="text-muted-foreground font-mono max-w-xl mx-auto mt-4">
-                  Pronto anunciaremos los premios que tenemos preparados para ti
+                  Pronto revelaremos los incentivos que impulsarán tu camino como líder en ética y privacidad.
                 </p>
               </div>
 
