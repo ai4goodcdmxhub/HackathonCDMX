@@ -113,7 +113,7 @@ const RegistrationForm = () => {
         portfolio: data.portfolio,
         linkedin: data.linkedin,
         profileType: data.profileType, // Assuming DB name matches
-        profileCluster: data.profileCluster, // Map the new cluster field
+        profile_cluster: data.profileCluster, // Map the new cluster field
         initialIdea: data.initialIdea, // Assuming DB name matches
         whyYou: data.whyYou,           // Assuming DB name matches
         referralCodeU: data.referralCode || null, // Map form's referralCode input to DB's referralCodeU
