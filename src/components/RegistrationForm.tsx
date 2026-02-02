@@ -54,8 +54,12 @@ const registrationSchema = z.object({
     .regex(/^[0-9+\s()-]+$/, { message: "Formato de número inválido" }),
   portfolio: z.string()
     .trim()
-    .url({ message: "Debe ser una URL válida (incluye https://)" })
-    .max(500, { message: "La URL es demasiado larga" }),
+    .max(500, { message: "La URL es demasiado larga" })
+    .optional()
+    .or(z.literal(""))
+    .refine((val) => !val || /^https?:\/\/.+/.test(val), {
+      message: "Debe ser una URL válida (incluye https://)",
+    }),
   linkedin: z.string()
     .trim()
     .url({ message: "Debe ser una URL válida de LinkedIn (incluye https://)" })
@@ -243,7 +247,7 @@ const RegistrationForm = () => {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="font-mono text-foreground">
-                        Portafolio o GitHub *
+                        Portafolio o GitHub (Opcional)
                       </FormLabel>
                       <FormControl>
                         <Input
@@ -354,7 +358,7 @@ const RegistrationForm = () => {
                         />
                       </FormControl>
                       <FormDescription className="font-mono text-xs text-muted-foreground">
-                         {field.value?.length || 0}/1000 caracteres
+                        {field.value?.length || 0}/1000 caracteres
                       </FormDescription>
                       <FormMessage className="font-mono text-xs" />
                     </FormItem>
@@ -385,7 +389,7 @@ const RegistrationForm = () => {
                 />
 
                 {/* Accept Job Offers Checkbox */}
-                 <FormField
+                <FormField
                   control={form.control}
                   name="acceptJobOffers" // This is the CHECKBOX field
                   render={({ field }) => (
@@ -396,7 +400,7 @@ const RegistrationForm = () => {
                           onCheckedChange={field.onChange}
                           className="border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
                           id="acceptJobOffers"
-                         />
+                        />
                       </FormControl>
                       <div className="space-y-1 leading-none">
                         <FormLabel
@@ -409,7 +413,7 @@ const RegistrationForm = () => {
                           Podríamos compartir tu perfil con empresas aliadas que buscan talento.
                         </FormDescription>
                       </div>
-                       <FormMessage className="font-mono text-xs" />
+                      <FormMessage className="font-mono text-xs" />
                     </FormItem>
                   )}
                 />
