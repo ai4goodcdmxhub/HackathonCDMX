@@ -305,10 +305,21 @@ const RegistrationForm = () => {
                           <SelectItem value="frontend">Frontend Developer</SelectItem>
                           <SelectItem value="backend">Backend Developer</SelectItem>
                           <SelectItem value="mobile">Mobile Developer</SelectItem>
-                          <SelectItem value="product">Product Manager/Designer</SelectItem>
-                          <SelectItem value="devops">DevOps/Infrastructure</SelectItem>
-                          <SelectItem value="data">Data Scientist/Engineer</SelectItem>
-                          <SelectItem value="growth">Growth</SelectItem>
+                          <SelectItem value="data_ai">Data Scientist / AI Engineer</SelectItem>
+                          <SelectItem value="devops">DevOps / Infrastructure</SelectItem>
+                          <SelectItem value="legal_tech">Derecho Tecnológico / Legal Tech</SelectItem>
+                          <SelectItem value="public_policy">Políticas Públicas y Gobierno</SelectItem>
+                          <SelectItem value="economics">Economía y Finanzas</SelectItem>
+                          <SelectItem value="bi_analytics">Business Intelligence & Data Analytics</SelectItem>
+                          <SelectItem value="marketing">Marketing y Comunicación Estratégica</SelectItem>
+                          <SelectItem value="ethics_philosophy">Ética y Filosofía</SelectItem>
+                          <SelectItem value="social_sciences">Sociología / Antropología</SelectItem>
+                          <SelectItem value="privacy">Privacidad y Protección de Datos</SelectItem>
+                          <SelectItem value="ux_ui">UX/UI Designer</SelectItem>
+                          <SelectItem value="product">Product Manager / Designer</SelectItem>
+                          <SelectItem value="social_impact">Impacto Social y Sostenibilidad</SelectItem>
+                          <SelectItem value="civic_tech">Civic Tech e Innovación Urbana</SelectItem>
+                          <SelectItem value="growth">Growth & Estrategia de Mercado</SelectItem>
                           <SelectItem value="other">Otro</SelectItem>
                         </SelectContent>
                       </Select>
