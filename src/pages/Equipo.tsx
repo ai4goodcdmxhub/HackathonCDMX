@@ -26,6 +26,16 @@ const Equipo = () => {
       image: "/team/bakas.png",
     },
     {
+      name: "Juliho Castillo Colmenares",
+      linkedin: "https://www.linkedin.com/in/julihocc/",
+      image: "/team/juliho.jpg",
+    },
+    {
+      name: "Jhonatan Sanchez",
+      linkedin: "https://www.linkedin.com/in/jhonatan-sanchez-intellexia/?locale=es_ES",
+      image: "/team/jhonatan.jpg",
+    },
+    {
       name: "Sandro Reyna Schwartau",
       image: "/team/sandro.jpg",
     },
@@ -44,11 +54,6 @@ const Equipo = () => {
     {
       name: "Karen Camila Zárate Bolaños",
       image: "/team/karen.jpg",
-    },
-    {
-      name: "Juliho Castillo Colmenares",
-      linkedin: "https://www.linkedin.com/in/julihocc/",
-      image: "/team/juliho.jpg",
     },
   ];
 
