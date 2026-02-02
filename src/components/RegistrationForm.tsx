@@ -66,6 +66,8 @@ const registrationSchema = z.object({
     .max(500, { message: "La URL es demasiado larga" }),
   profileType: z.string()
     .min(1, { message: "Selecciona tu tipo de perfil" }),
+  profileCluster: z.string()
+    .min(1, { message: "Selecciona tu cluster de perfil" }),
   initialIdea: z.string()
     .trim()
     .min(20, { message: "Describe tu idea con al menos 20 caracteres" })
@@ -90,6 +92,7 @@ const RegistrationForm = () => {
       portfolio: "",
       linkedin: "",
       profileType: "",
+      profileCluster: "",
       initialIdea: "",
       whyYou: "",
       referralCode: "", // Initialize frontend field
@@ -110,6 +113,7 @@ const RegistrationForm = () => {
         portfolio: data.portfolio,
         linkedin: data.linkedin,
         profileType: data.profileType, // Assuming DB name matches
+        profileCluster: data.profileCluster, // Map the new cluster field
         initialIdea: data.initialIdea, // Assuming DB name matches
         whyYou: data.whyYou,           // Assuming DB name matches
         referralCodeU: data.referralCode || null, // Map form's referralCode input to DB's referralCodeU
@@ -321,6 +325,41 @@ const RegistrationForm = () => {
                           <SelectItem value="civic_tech">Civic Tech e Innovación Urbana</SelectItem>
                           <SelectItem value="growth">Growth & Estrategia de Mercado</SelectItem>
                           <SelectItem value="other">Otro</SelectItem>
+                        </SelectContent>
+                      </Select>
+                      <FormMessage className="font-mono text-xs" />
+                    </FormItem>
+                  )}
+                />
+
+                {/* Profile Cluster */}
+                <FormField
+                  control={form.control}
+                  name="profileCluster"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel className="font-mono text-foreground">
+                        Cluster de Perfil *
+                      </FormLabel>
+                      <FormDescription className="font-mono text-xs text-muted-foreground mb-2">
+                        Selecciona la categoría que mejor describa tu área de especialidad para facilitar la formación de equipos multidisciplinarios:
+                      </FormDescription>
+                      <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <FormControl>
+                          <SelectTrigger className="font-mono bg-muted border-terminal-border focus:border-primary">
+                            <SelectValue placeholder="Selecciona tu cluster" />
+                          </SelectTrigger>
+                        </FormControl>
+                        <SelectContent className="font-mono bg-card border-terminal-border">
+                          <SelectItem value="builders">
+                            <span className="font-bold">Técnicos (Builders):</span> Desarrollo de software, ingeniería de datos, IA e infraestructura.
+                          </SelectItem>
+                          <SelectItem value="protectors">
+                            <span className="font-bold">Humanidades y Legal (Protectors):</span> Ética, derecho tecnológico, privacidad de datos y políticas públicas.
+                          </SelectItem>
+                          <SelectItem value="strategists">
+                            <span className="font-bold">Estrategas (Strategists):</span> Economía, finanzas, marketing, sostenibilidad y BI.
+                          </SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage className="font-mono text-xs" />
