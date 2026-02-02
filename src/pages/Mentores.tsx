@@ -43,7 +43,7 @@ const Mentores = () => {
                 <span className="text-primary">/&gt;</span>
               </h2>
               <p className="text-lg text-muted-foreground font-mono max-w-2xl mx-auto">
-                Techies con experiencia construyendo productos desde cero
+                Expertos con visión humanista para potenciar soluciones de IA responsable.
               </p>
             </div>
 
