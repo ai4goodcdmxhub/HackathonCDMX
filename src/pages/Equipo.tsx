@@ -45,6 +45,11 @@ const Equipo = () => {
       name: "Karen Camila Zárate Bolaños",
       image: "/team/karen.jpg",
     },
+    {
+      name: "Juliho Castillo Colmenares",
+      linkedin: "https://www.linkedin.com/in/julihocc/",
+      image: "/team/juliho.jpg",
+    },
   ];
 
   return (
