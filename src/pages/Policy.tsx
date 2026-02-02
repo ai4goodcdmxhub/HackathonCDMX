@@ -13,7 +13,7 @@ const Terms = () => {
               Términos y Condiciones
               <span className="text-primary">/&gt;</span>
             </h1>
-            <p className="text-muted-foreground mt-4">Hackathon AI for Good Ciudad de México 2025</p>
+            <p className="text-muted-foreground mt-4">Concienc.ia Hackathon</p>
             <p className="text-sm text-muted-foreground mt-2">Organiza: Fundación Young AI Leaders México</p>
             <p className="text-sm text-muted-foreground">Marzo 13 y 14, 2026 | Ciudad de México, México</p>
           </div>
@@ -24,7 +24,7 @@ const Terms = () => {
                 1. Objeto y propósito del evento
               </h2>
               <p>
-                La Hackathon AI for Good Ciudad de México 2025, organizada por la Fundación Young AI Leaders México, es un evento de innovación tecnológica, colaborativa y educativa enfocado en el desarrollo de soluciones basadas en Inteligencia Artificial (IA) con propósito social. El objetivo principal es fomentar el aprendizaje, la creatividad y la aplicación ética de la IA para resolver desafíos relacionados con los Objetivos de Desarrollo Sostenible (ODS) en México.
+                La Concienc.ia Hackathon, organizada por la Fundación Young AI Leaders México, es un evento de innovación tecnológica, colaborativa y educativa enfocado en el desarrollo de soluciones basadas en Inteligencia Artificial (IA) con propósito social. El objetivo principal es fomentar el aprendizaje, la creatividad y la aplicación ética de la IA para resolver desafíos relacionados con los Objetivos de Desarrollo Sostenible (ODS) en México.
               </p>
             </section>
 
@@ -144,7 +144,7 @@ const Terms = () => {
                 14. Disposiciones finales
               </h2>
               <p className="mb-4">
-                La participación en la Hackathon AI for Good Ciudad de México 2025 implica la aceptación íntegra de estos Términos y Condiciones. Cualquier situación no prevista será resuelta por el comité organizador conforme a los principios de transparencia y equidad.
+                La participación en la Concienc.ia Hackathon implica la aceptación íntegra de estos Términos y Condiciones. Cualquier situación no prevista será resuelta por el comité organizador conforme a los principios de transparencia y equidad.
               </p>
               <p className="text-sm">
                 Contacto oficial: <a href="mailto:mexicocityhub@youngaileaders.info" className="text-primary hover:underline">mexicocityhub@youngaileaders.info</a>
