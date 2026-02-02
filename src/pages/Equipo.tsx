@@ -67,7 +67,7 @@ const Equipo = () => {
                 <span className="text-primary">/&gt;</span>
               </h2>
               <p className="text-lg text-muted-foreground font-mono max-w-2xl mx-auto">
-                El equipo detrás de las 24 horas más intensas de código
+                Las mentes detrás de la nueva generación de líderes en IA ética y privacidad de datos en la Ciudad de México.
               </p>
             </div>
 
