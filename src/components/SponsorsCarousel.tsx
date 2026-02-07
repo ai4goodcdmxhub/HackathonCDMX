@@ -61,14 +61,19 @@ const SponsorsCarousel = () => {
               {sponsorsByTier.tier2.map((sponsor, index) => (
                 <div
                   key={index}
-                  className="bg-card rounded-lg p-6 flex items-center justify-center border border-terminal-border hover:border-primary/50 transition-all duration-300"
-                  style={{ width: '300px', height: '160px' }}
+                  className="bg-card rounded-lg p-6 flex flex-col items-center justify-between border border-terminal-border hover:border-primary/50 transition-all duration-300 gap-4"
+                  style={{ width: '350px', minHeight: '260px' }}
                 >
-                  <img
-                    src={sponsor.logo}
-                    alt={sponsor.name}
-                    className="max-h-20 w-auto object-contain"
-                  />
+                  <div className="flex-1 flex items-center justify-center w-full">
+                    <img
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      className="max-h-24 w-auto object-contain"
+                    />
+                  </div>
+                  <p className="font-mono font-bold text-sm text-foreground text-center">
+                    {sponsor.name}
+                  </p>
                 </div>
               ))}
             </div>
