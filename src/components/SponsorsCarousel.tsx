@@ -45,7 +45,9 @@ const SponsorsCarousel = () => {
                     <img
                       src={sponsor.logo}
                       alt={sponsor.name}
-                      className={`${sponsor.logo.includes('Ing.png') ? 'w-full max-h-80 scale-110' : 'max-h-32 w-auto'} object-contain`}
+                      className={`${sponsor.logo.includes('Ing.png') ? 'w-full max-h-80 scale-110' :
+                        sponsor.logo.includes('Cletec.png') ? 'max-h-48 scale-110' :
+                          'max-h-32 w-auto'} object-contain`}
                     />
                   </div>
                   <p className="font-mono font-bold text-sm text-foreground text-center">
