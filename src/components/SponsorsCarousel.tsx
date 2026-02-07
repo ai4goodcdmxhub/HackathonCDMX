@@ -9,10 +9,9 @@ const sponsorsByTier = {
     { name: "The DoT Network", logo: "/sponsors/tdn.png" },
     { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png" },
     { name: "Semantyk", logo: "/sponsors/smtk.png" },
-  ],
-  tier2: [
     { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png" },
   ],
+  tier2: [],
   tier3: [],
   tier4: []
 };
