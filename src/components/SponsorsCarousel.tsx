@@ -9,7 +9,7 @@ const sponsorsByTier = {
     { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
     { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
     { name: "Semantyk", logo: "/sponsors/smtk.png", url: "https://www.semantyk.com/" },
-    { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png" },
+    { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
   ],
   tier2: [],
   tier3: [],
