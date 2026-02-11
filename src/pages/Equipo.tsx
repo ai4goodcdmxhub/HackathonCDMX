@@ -31,11 +31,6 @@ const Equipo = () => {
       image: "/team/juliho.jpg",
     },
     {
-      name: "Jhonatan Sanchez",
-      linkedin: "https://www.linkedin.com/in/jhonatan-sanchez-intellexia/?locale=es_ES",
-      image: "/team/jhonatan.jpg",
-    },
-    {
       name: "Sandro Reyna Schwartau",
       image: "/team/sandro.jpg",
     },
@@ -54,6 +49,11 @@ const Equipo = () => {
     {
       name: "Karen Camila Zárate Bolaños",
       image: "/team/karen.jpg",
+    },
+    {
+      name: "Jhonatan Sanchez",
+      linkedin: "https://www.linkedin.com/in/jhonatan-sanchez-intellexia/?locale=es_ES",
+      image: "/team/jhonatan.jpg",
     },
   ];
 
