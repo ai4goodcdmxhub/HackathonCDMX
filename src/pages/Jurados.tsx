@@ -21,7 +21,16 @@ interface Judge {
 const Jurados = () => {
   const [selectedJudge, setSelectedJudge] = useState<Judge | null>(null);
 
-  const judges: Judge[] = [];
+  const judges: Judge[] = [
+    {
+      name: "David Tarrant",
+      title: "Dr Dave Tarrant",
+      company: "Principal Technical Consultant <br /> <strong>Open Data Institute</strong>",
+      description: "David Tarrant es un destacado experto en datos abiertos y tecnología, reconocido por su liderazgo en el Open Data Institute. Con una sólida base técnica y estratégica, ha impulsado la innovación y el uso responsable de los datos a nivel global.",
+      linkedin: "https://www.linkedin.com/in/davetarrant/",
+      image: "/judges/david_tarrant.png"
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-background font-mono">
@@ -80,9 +89,10 @@ const Jurados = () => {
                     <p className="text-sm text-primary font-mono mb-1 font-bold">
                       {judge.title}
                     </p>
-                    <p className="text-sm text-muted-foreground font-mono">
-                      {judge.company}
-                    </p>
+                    <p
+                      className="text-sm text-muted-foreground font-mono"
+                      dangerouslySetInnerHTML={{ __html: judge.company }}
+                    />
                   </div>
                 </div>
               ))}
@@ -105,9 +115,10 @@ const Jurados = () => {
                 <p className="text-lg text-primary font-mono font-bold">
                   {selectedJudge?.title}
                 </p>
-                <p className="text-muted-foreground font-mono">
-                  {selectedJudge?.company}
-                </p>
+                <div
+                  className="text-muted-foreground font-mono"
+                  dangerouslySetInnerHTML={{ __html: selectedJudge?.company || "" }}
+                />
               </div>
 
               {/* Description */}
