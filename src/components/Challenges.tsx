@@ -1,26 +1,30 @@
-import { Shield, Users, TrafficCone, HelpCircle } from "lucide-react";
+import { Shield, Droplets, Bike, Leaf } from "lucide-react";
 
 const Challenges = () => {
     const challenges = [
         {
             icon: Shield,
-            title: "Protección de Datos y Privacidad",
-            description: "Desarrollar soluciones de IA que utilicen datos públicos o privados de manera ética, garantizando el anonimato y la seguridad de la información de los ciudadanos de la CDMX.",
+            title: "Seguridad",
+            problem: "La vulnerabilidad ciudadana ante riesgos físicos en el espacio público y amenazas digitales que comprometen la identidad, la economía y la tranquilidad de las familias.",
+            opportunity: "Utilizar la IA para crear entornos más seguros, detectando riesgos preventivamente y blindando la confianza del ciudadano tanto en las calles como en sus interacciones digitales.",
         },
         {
-            icon: Users,
-            title: "Servicios Ciudadanos y Gobierno Digital",
-            description: "Mejorar la eficiencia y accesibilidad de los trámites y servicios gubernamentales mediante IA, reduciendo la brecha digital y fomentando la inclusión social.",
+            icon: Droplets,
+            title: "Gestión del Agua",
+            problem: "Una crisis hídrica agravada por fugas invisibles, una distribución desigual del recurso y falta de transparencia en su gestión.",
+            opportunity: "Aplicar IA para predecir pérdidas en la red, optimizar el reparto equitativo y asegurar que cada gota sea contabilizada con justicia.",
         },
         {
-            icon: TrafficCone,
-            title: "Movilidad y Desarrollo Urbano Sostenible",
-            description: "Optimizar el transporte público, la gestión de tráfico o el desarrollo de infraestructura urbana utilizando modelos predictivos que respeten los derechos de los habitantes.",
+            icon: Bike,
+            title: "Movilidad",
+            problem: "Trayectos ineficientes y desconectados que roban tiempo de vida, sumados a una falta de datos precisos para integrar ciclovías y transporte público.",
+            opportunity: "Analizar flujos urbanos con IA para sincronizar la ciudad, creando una movilidad multimodal que se adapte al ritmo real de las personas.",
         },
         {
-            icon: HelpCircle,
-            title: "Ética y Transparencia en Algoritmos",
-            description: "Crear herramientas que permitan auditar o explicar las decisiones tomadas por sistemas de IA aplicados en contextos públicos para evitar sesgos y discriminación.",
+            icon: Leaf,
+            title: "Medio Ambiente",
+            problem: "Infracciones ambientales que quedan impunes debido a errores técnicos en el reporte o falta de evidencia con validez legal.",
+            opportunity: "Implementar sistemas inteligentes de monitoreo y trazabilidad que documenten daños ambientales de forma irrefutable y técnica.",
         },
     ];
 
@@ -50,18 +54,36 @@ const Challenges = () => {
                         {challenges.map((challenge, index) => (
                             <div
                                 key={index}
-                                className="group bg-card border border-terminal-border rounded-lg p-8 hover:border-primary/50 transition-all duration-300 hover:shadow-terminal flex flex-col gap-4"
+                                className="group bg-card border border-terminal-border rounded-lg p-8 hover:border-primary/50 transition-all duration-300 hover:shadow-terminal flex flex-col gap-6"
                                 style={{ animationDelay: `${index * 0.1}s` }}
                             >
-                                <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                                    <challenge.icon className="w-8 h-8 text-primary" />
+                                <div className="flex items-center gap-4">
+                                    <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                                        <challenge.icon className="w-8 h-8 text-primary" />
+                                    </div>
+                                    <h3 className="text-2xl font-bold font-mono text-foreground group-hover:text-primary transition-colors">
+                                        {challenge.title}
+                                    </h3>
                                 </div>
-                                <h3 className="text-2xl font-bold font-mono text-foreground group-hover:text-primary transition-colors">
-                                    {challenge.title}
-                                </h3>
-                                <p className="text-muted-foreground font-mono leading-relaxed">
-                                    {challenge.description}
-                                </p>
+
+                                <div className="space-y-4">
+                                    <div>
+                                        <p className="text-primary font-mono text-xs font-bold uppercase tracking-wider mb-2">
+                                            [!] El Problema
+                                        </p>
+                                        <p className="text-muted-foreground font-mono text-sm leading-relaxed">
+                                            {challenge.problem}
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p className="text-accent font-mono text-xs font-bold uppercase tracking-wider mb-2 text-primary">
+                                            [*] La Oportunidad
+                                        </p>
+                                        <p className="text-foreground font-mono text-sm leading-relaxed">
+                                            {challenge.opportunity}
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         ))}
                     </div>
