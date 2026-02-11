@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const sponsorsByTier = {
   tier1: [
     { name: "Young AI Leaders Mexico City Hub", logo: "/sponsors/hubcdmx.png" },
-    { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png" },
+    { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
     { name: "Open Data Institute", logo: "/sponsors/ODI.png" },
     { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
     { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png" },
