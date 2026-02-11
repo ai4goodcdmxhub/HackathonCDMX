@@ -5,7 +5,7 @@ const sponsorsByTier = {
   tier1: [
     { name: "Young AI Leaders Mexico City Hub", logo: "/sponsors/hubcdmx.png", url: "https://aiforgood.itu.int/young-ai-leaders-community/" },
     { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
-    { name: "Open Data Institute", logo: "/sponsors/ODI.png" },
+    { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
     { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
     { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png" },
     { name: "Semantyk", logo: "/sponsors/smtk.png", url: "https://www.semantyk.com/" },
