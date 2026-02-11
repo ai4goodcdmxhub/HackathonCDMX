@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Challenges from "@/components/Challenges";
 import Criteria from "@/components/Criteria";
 import Schedule from "@/components/Schedule";
 import Prizes from "@/components/Prizes";
@@ -16,6 +17,7 @@ const Index = () => {
       <Hero />
       <SponsorsCarousel />
       <About />
+      <Challenges />
       <Schedule />
       <Criteria />
       <Prizes />
