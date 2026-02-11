@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const Terms = () => {
+const Policy = () => {
   return (
     <div className="min-h-screen bg-background font-mono text-foreground">
       <Header />
@@ -10,147 +10,111 @@ const Terms = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold font-mono">
               <span className="text-primary">&lt;</span>
-              Términos y Condiciones
+              Aviso de Privacidad
               <span className="text-primary">/&gt;</span>
             </h1>
             <p className="text-muted-foreground mt-4">Concienc.ia Hackathon</p>
-            <p className="text-sm text-muted-foreground mt-2">Organiza: Fundación Young AI Leaders México</p>
-            <p className="text-sm text-muted-foreground">Marzo 13 y 14, 2026 | Ciudad de México, México</p>
+            <p className="text-sm text-muted-foreground mt-2">Organiza: Young AI Leaders México</p>
+            <p className="text-sm text-muted-foreground">Última actualización: Febrero 2026</p>
           </div>
 
           <div className="space-y-8 text-muted-foreground">
             <section>
               <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                1. Objeto y propósito del evento
+                1. Responsable del Tratamiento
               </h2>
               <p>
-                La Concienc.ia Hackathon, organizada por la Fundación Young AI Leaders México, es un evento de innovación tecnológica, colaborativa y educativa enfocado en el desarrollo de soluciones basadas en Inteligencia Artificial (IA) con propósito social. El objetivo principal es fomentar el aprendizaje, la creatividad y la aplicación ética de la IA para resolver desafíos relacionados con los Objetivos de Desarrollo Sostenible (ODS) en México.
+                Young AI Leaders (YAIL) Mexico City Hub, con domicilio para oír y recibir notificaciones el correo oficial mexicocityhub@youngaileaders.info, es el responsable del tratamiento de sus datos personales, en cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (México).
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                2. Proceso de inscripción y participación
-              </h2>
-              <p>
-                Los interesados deberán diligenciar el formulario de preinscripción disponible en los canales oficiales de la Fundación. La selección de los participantes se realizará según criterios de diversidad, motivación, habilidades y pertinencia de las ideas propuestas. La Fundación se reserva el derecho de aceptar o rechazar postulaciones según el cumplimiento de los requisitos.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                3. Formación de equipos y roles
-              </h2>
-              <p>
-                Los equipos estarán conformados por un mínimo de tres (3) y un máximo de cinco (5) personas. Durante la etapa inicial se fomentará la integración interdisciplinaria. Cada equipo elegirá un líder responsable de la comunicación con la organización.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                4. Desarrollo del evento y reglas técnicas
+                2. Datos Personales Recabados
               </h2>
               <p className="mb-4">
-                El evento se realizará de manera presencial en Ciudad de México. Tendrá una duración continua, iniciando a las 10:00 a.m. del viernes 13 de Marzo de 2026 y finalizando a la 1:00 p.m. del sábado 14 de Marzo de 2026. Se proporcionará alimentación básica y zonas de descanso. Cada participante será responsable de llevar su computador portátil, cargadores, adaptadores y elementos personales necesarios.
+                Para los fines del evento Concienc.ia Hackathon, recabamos los siguientes datos personales:
               </p>
-              <p>
-                Todos los proyectos deberán desarrollarse íntegramente durante la hackathon. No se permitirá el uso de código o proyectos previos. El uso de herramientas de IA generativa será permitido siempre que el resultado final sea de autoría del equipo.
-              </p>
+              <ul className="list-disc list-inside space-y-2 pl-4">
+                <li>Nombre completo</li>
+                <li>Correo electrónico</li>
+                <li>Número de teléfono celular</li>
+                <li>Perfiles profesionales (LinkedIn, GitHub, Portafolio)</li>
+                <li>Información académica y profesional (Tipo de perfil, especialidad)</li>
+                <li>Ideas y propuestas de proyecto desarrolladas para el evento</li>
+                <li>Imagen y voz (mediante grabaciones o fotografías durante el evento)</li>
+              </ul>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                5. Código de conducta y principios de ética en IA
-              </h2>
-              <p>
-                La Fundación promueve un ambiente inclusivo, respetuoso y colaborativo. Se prohíbe toda forma de acoso, discriminación o comportamiento inapropiado. Los participantes deben actuar conforme a los valores de integridad, transparencia y respeto por la diversidad. El uso de la IA deberá alinearse con los principios de ética, equidad y no discriminación.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                6. Propiedad intelectual y derechos de uso
-              </h2>
-              <p>
-                Los derechos de propiedad intelectual sobre los proyectos desarrollados durante la hackathon pertenecen íntegramente a sus autores. La Fundación Young AI Leaders México no reclama la titularidad de los productos o prototipos creados. No obstante, los equipos autorizan a la Fundación a difundir públicamente los proyectos, imágenes, nombres y resultados con fines educativos, comunicativos y de promoción del evento.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                7. Tratamiento y protección de datos personales
-              </h2>
-              <p>
-                La Fundación Young AI Leaders México actuará como responsable del tratamiento de los datos personales recolectados durante el proceso de inscripción, participación y evaluación del evento. La información será tratada conforme a normativas aplicables sobre protección de datos personales en México. Los datos se utilizarán exclusivamente para fines de gestión del evento, comunicación institucional, estadísticas y seguimiento de impacto. Los participantes podrán ejercer sus derechos de acceso, rectificación, actualización y supresión mediante solicitud al correo: mexicocityhub@youngaileaders.info.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                8. Uso de imagen, grabaciones y difusión
-              </h2>
-              <p>
-                Durante el evento se podrán tomar fotografías, grabaciones de video y entrevistas. Al inscribirse, los participantes autorizan el uso gratuito y sin límite temporal de su imagen, voz y nombre en materiales de comunicación y divulgación de la Fundación Young AI Leaders México y sus aliados.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                9. Inclusión, diversidad y equidad
-              </h2>
-              <p>
-                La Fundación garantiza un entorno libre de discriminación por género, orientación sexual, etnia, discapacidad, religión o condición social. Se promoverá la participación equitativa de mujeres, jóvenes y grupos minoritarios en todas las fases del evento.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                10. Seguridad, salud y responsabilidad personal
-              </h2>
-              <p>
-                Cada participante es responsable de su bienestar físico y mental durante la jornada. La Fundación dispondrá de medidas básicas de seguridad y acompañamiento, pero no asume responsabilidad por accidentes, pérdidas de pertenencias o incidentes fuera de su control.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                11. Premios, reconocimientos y compromisos posteriores
-              </h2>
-              <p>
-                Los equipos ganadores recibirán reconocimientos, acompañamiento técnico y oportunidades de incubación. Los premios no son transferibles ni canjeables por dinero en efectivo. Los participantes se comprometen a mantener informada a la Fundación sobre el progreso de sus proyectos después del evento.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                12. Cláusula de confidencialidad
-              </h2>
-              <p>
-                Los participantes se comprometen a no divulgar información confidencial compartida por los organizadores o patrocinadores. Cualquier material o dato sensible obtenido durante la hackathon deberá usarse exclusivamente para el desarrollo del proyecto.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                13. Fuerza mayor y exoneración de responsabilidad
-              </h2>
-              <p>
-                La Fundación no será responsable por la cancelación o modificación del evento debido a causas de fuerza mayor, incluyendo desastres naturales, problemas técnicos, situaciones de orden público o restricciones gubernamentales. En tales casos, la organización podrá reprogramar el evento o adoptar modalidades alternativas.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
-                14. Disposiciones finales
+                3. Finalidades del Tratamiento
               </h2>
               <p className="mb-4">
-                La participación en la Concienc.ia Hackathon implica la aceptación íntegra de estos Términos y Condiciones. Cualquier situación no prevista será resuelta por el comité organizador conforme a los principios de transparencia y equidad.
+                Sus datos serán utilizados para las siguientes finalidades primarias:
               </p>
+              <ul className="list-disc list-inside space-y-2 pl-4">
+                <li>Gestionar su proceso de inscripción y selección para el hackathon.</li>
+                <li>Facilitar la formación de equipos y la comunicación entre participantes.</li>
+                <li>Coordinar la logística del evento presencial los días 13 y 14 de marzo de 2026.</li>
+                <li>Evaluar los proyectos presentados por parte del jurado.</li>
+                <li>Registro de asistencia y medidas de seguridad en las instalaciones del Tec de Monterrey.</li>
+              </ul>
+              <p className="mt-4 mb-4">
+                Finalidades secundarias:
+              </p>
+              <ul className="list-disc list-inside space-y-2 pl-4">
+                <li>Difusión de resultados y promoción de futuras ediciones del evento.</li>
+                <li>Uso de imagen y voz en materiales de comunicación y redes sociales del Hub.</li>
+                <li>Envío de ofertas laborales o información de patrocinadores (solo si usted marcó la casilla de consentimiento en el formulario).</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
+                4. Transferencia de Datos
+              </h2>
+              <p>
+                Le informamos que sus datos personales podrán ser compartidos con nuestros patrocinadores y aliados estratégicos únicamente con fines de reclutamiento y vinculación profesional, siempre y cuando usted haya otorgado su consentimiento explícito en el formulario de registro. Fuera de estos casos, no realizaremos transferencias de sus datos a terceros sin su permiso, salvo las excepciones previstas en ley.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
+                5. Derechos ARCO
+              </h2>
+              <p>
+                Usted tiene derecho a conocer qué datos tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos se conocen como derechos ARCO.
+              </p>
+              <p className="mt-4">
+                Para el ejercicio de cualquiera de los derechos ARCO, usted deberá enviar una solicitud al correo electrónico: <a href="mailto:mexicocityhub@youngaileaders.info" className="text-primary hover:underline">mexicocityhub@youngaileaders.info</a>.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
+                6. Uso de Cookies
+              </h2>
+              <p>
+                Este sitio web puede utilizar cookies para mejorar la experiencia del usuario y analizar el tráfico de forma anónima. Usted puede desactivar las cookies desde la configuración de su navegador.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-primary font-mono mb-4">
+                7. Cambios al Aviso de Privacidad
+              </h2>
+              <p>
+                El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales o de nuestras propias necesidades por los servicios que ofrecemos. Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de nuestra página web oficial.
+              </p>
+            </section>
+
+            <section className="pt-8 border-t border-terminal-border">
               <p className="text-sm">
-                Contacto oficial: <a href="mailto:mexicocityhub@youngaileaders.info" className="text-primary hover:underline">mexicocityhub@youngaileaders.info</a>
+                Si tiene alguna duda sobre el tratamiento de sus datos, por favor contáctenos en: <a href="mailto:mexicocityhub@youngaileaders.info" className="text-primary hover:underline">mexicocityhub@youngaileaders.info</a>
               </p>
-              <p className="text-sm mt-2">
-                © Fundación Young AI Leaders México - Todos los derechos reservados.
+              <p className="text-sm mt-4">
+                © Young AI Leaders Mexico City Hub - Concienc.ia Hackathon 2026.
               </p>
             </section>
           </div>
@@ -161,4 +125,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default Policy;
