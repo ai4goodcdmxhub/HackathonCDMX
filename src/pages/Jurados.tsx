@@ -31,11 +31,11 @@ const Jurados = () => {
       image: "/judges/david_tarrant.png"
     },
     {
-      name: "Héctor",
-      title: "Representante",
-      company: "<strong>ADIP</strong>",
-      description: "Héctor forma parte del equipo de la Agencia Digital de Innovación Pública (ADIP), aportando su experiencia en innovación y transformación digital para la Ciudad de México.",
-      linkedin: "https://www.linkedin.com/",
+      name: "Héctor Arturo Gutiérrez Calderón",
+      title: "Titular",
+      company: "<strong>Agencia Digital de Innovación Pública</strong>",
+      description: "Su labor principal consiste en brindar soporte técnico y administrativo para asegurar la estabilidad de la infraestructura digital que sostiene los servicios del Gobierno de la CDMX. Es una pieza clave en la continuidad operativa de plataformas ciudadanas esenciales, garantizando que los sistemas permanezcan funcionales para los usuarios.",
+      linkedin: "https://www.linkedin.com/in/hector-gutierrez-48152917/",
       image: "/judges/hector_adip.png"
     }
   ];
