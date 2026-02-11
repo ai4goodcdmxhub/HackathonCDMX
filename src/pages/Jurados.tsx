@@ -23,9 +23,9 @@ const Jurados = () => {
 
   const judges: Judge[] = [
     {
-      name: "David Tarrant",
-      title: "Dr Dave Tarrant",
-      company: "Principal Technical Consultant <br /> <strong>Open Data Institute</strong>",
+      name: "Dr. Dave Tarrant",
+      title: "Principal Technical Consultant",
+      company: "<strong>Open Data Institute</strong>",
       description: "David Tarrant es un destacado experto en datos abiertos y tecnología, reconocido por su liderazgo en el Open Data Institute. Con una sólida base técnica y estratégica, ha impulsado la innovación y el uso responsable de los datos a nivel global.",
       linkedin: "https://www.linkedin.com/in/davetarrant/",
       image: "/judges/david_tarrant.png"
