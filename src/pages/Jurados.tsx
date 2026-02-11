@@ -29,6 +29,14 @@ const Jurados = () => {
       description: "David Tarrant es un destacado experto en datos abiertos y tecnología, reconocido por su liderazgo en el Open Data Institute. Con una sólida base técnica y estratégica, ha impulsado la innovación y el uso responsable de los datos a nivel global.",
       linkedin: "https://www.linkedin.com/in/dr-david-tarrant-49b4981a/",
       image: "/judges/david_tarrant.png"
+    },
+    {
+      name: "Héctor",
+      title: "Representante",
+      company: "<strong>ADIP</strong>",
+      description: "Héctor forma parte del equipo de la Agencia Digital de Innovación Pública (ADIP), aportando su experiencia en innovación y transformación digital para la Ciudad de México.",
+      linkedin: "https://www.linkedin.com/",
+      image: "/judges/hector_adip.png"
     }
   ];
 
