@@ -8,7 +8,7 @@ const sponsorsByTier = {
     { name: "Open Data Institute", logo: "/sponsors/ODI.png" },
     { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
     { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png" },
-    { name: "Semantyk", logo: "/sponsors/smtk.png" },
+    { name: "Semantyk", logo: "/sponsors/smtk.png", url: "https://www.semantyk.com/" },
     { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png" },
   ],
   tier2: [],
