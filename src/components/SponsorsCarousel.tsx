@@ -8,13 +8,14 @@ const organizers = [
 ];
 
 const strategicAllies = [
-  { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
 ];
 
-const sponsors: any[] = [];
+const sponsors = [
+  { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
+];
 
 const SponsorsCarousel = () => {
   const [isPaused, setIsPaused] = useState(false);
