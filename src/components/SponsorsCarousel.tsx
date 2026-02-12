@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 // Definir los aliados y sponsors
 const organizers = [
   { name: "Young AI Leaders Mexico City Hub", logo: "/sponsors/hubcdmx.png", url: "https://aiforgood.itu.int/young-ai-leaders-community/" },
+  { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
+  { name: "Semantyk", logo: "/sponsors/smtk.png", url: "https://www.semantyk.com/" },
 ];
 
 const strategicAllies = [
@@ -12,10 +14,7 @@ const strategicAllies = [
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
 ];
 
-const sponsors = [
-  { name: "The DoT Network", logo: "/sponsors/tdn.png", url: "https://thedotnet.digital/" },
-  { name: "Semantyk", logo: "/sponsors/smtk.png", url: "https://www.semantyk.com/" },
-];
+const sponsors: any[] = [];
 
 const SponsorsCarousel = () => {
   const [isPaused, setIsPaused] = useState(false);
