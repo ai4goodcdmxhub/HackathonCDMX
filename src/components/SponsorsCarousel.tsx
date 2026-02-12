@@ -10,12 +10,12 @@ const organizers = [
 const strategicAllies = [
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
-  { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
+  { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
 ];
 
 const sponsors = [
-  { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
   { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
+  { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
 ];
 
 const SponsorsCarousel = () => {
