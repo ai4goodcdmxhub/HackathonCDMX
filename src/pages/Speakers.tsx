@@ -57,39 +57,39 @@ const Speakers = () => {
             </div>
 
             {/* Speakers Grid */}
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-6">
               {speakers.map((speaker, index) => (
                 <div
                   key={index}
                   onClick={() => setSelectedSpeaker(speaker)}
-                  className="group cursor-pointer bg-card border border-terminal-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-terminal w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]"
+                  className="group cursor-pointer bg-card border border-terminal-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-terminal w-full sm:w-[calc(50%-12px)] md:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)]"
                   style={{ animationDelay: `${index * 0.05}s` }}
                 >
                   {/* Photo area */}
-                  <div className="aspect-[4/5] bg-muted flex items-center justify-center relative overflow-hidden">
+                  <div className="aspect-square bg-muted flex items-center justify-center relative overflow-hidden">
                     {speaker.image ? (
                       <img
                         src={speaker.image}
                         alt={speaker.name}
-                        className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-muted to-muted-foreground/20 flex items-center justify-center">
                         <Mic className="w-16 h-16 text-primary/30" />
                       </div>
                     )}
-                    <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-all duration-300" />
+                    <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-all duration-300" />
                   </div>
 
                   {/* Info */}
-                  <div className="p-6 text-center border-t border-terminal-border">
-                    <h3 className="font-bold font-mono text-foreground text-xl mb-2">
+                  <div className="p-4 text-center">
+                    <h3 className="font-bold font-mono text-foreground text-lg mb-1 line-clamp-1">
                       {speaker.name}
                     </h3>
-                    <p className="text-sm text-primary font-mono mb-2 uppercase tracking-wider">
+                    <p className="text-sm text-primary font-mono mb-1 line-clamp-1">
                       {speaker.title}
                     </p>
-                    <p className="text-xs text-muted-foreground font-mono">
+                    <p className="text-xs text-muted-foreground font-mono line-clamp-1">
                       {speaker.company}
                     </p>
                   </div>
