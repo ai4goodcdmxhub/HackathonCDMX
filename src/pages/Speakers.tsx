@@ -28,7 +28,7 @@ const Speakers = () => {
       company: "GMC360",
       description: "Bernice es Directora de Marketing en GMC360 y una destacada conferencista TEDx. Como embajadora de la Global Peace Chain y consejera en Girl Up, lidera iniciativas de impacto social y sostenibilidad. Su trayectoria destaca por impulsar la Agenda 2030 y el uso de la tecnología y el deporte como motores de cambio y disciplina.",
       linkedin: "https://www.linkedin.com/in/berfuentes/",
-      image: "/speakers/bernice.jpeg"
+      image: "/speakers/Bernice.png"
     }
   ];
 
