@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 
 // Definir los aliados y sponsors
-const strategicAllies = [
+const organizers = [
   { name: "Young AI Leaders Mexico City Hub", logo: "/sponsors/hubcdmx.png", url: "https://aiforgood.itu.int/young-ai-leaders-community/" },
+];
+
+const strategicAllies = [
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
@@ -72,6 +75,22 @@ const SponsorsCarousel = () => {
     <section className="py-24 bg-background relative overflow-hidden">
       <div className="container px-4 relative z-10">
         <div className="max-w-7xl mx-auto space-y-24">
+
+          {/* Organizadores */}
+          <div>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold font-mono text-foreground mb-4">
+                <span className="text-primary">&lt;</span>
+                Organizadores
+                <span className="text-primary">/&gt;</span>
+              </h2>
+            </div>
+            <div className="flex justify-center items-center gap-8 flex-wrap">
+              {organizers.map((organizer, index) =>
+                renderSponsorCard(organizer, index, "organizer")
+              )}
+            </div>
+          </div>
 
           {/* Aliados Estratégicos */}
           <div>
