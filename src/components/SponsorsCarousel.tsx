@@ -29,6 +29,8 @@ const SponsorsCarousel = () => {
       imgClasses += "w-full max-h-80 scale-110";
     } else if (item.logo.includes('Cletec.png')) {
       imgClasses += "max-h-48 scale-110";
+    } else if (item.logo.includes('whitebox.png')) {
+      imgClasses += "max-h-52 w-auto scale-125 transition-all";
     } else {
       imgClasses += "max-h-32 w-auto";
     }
