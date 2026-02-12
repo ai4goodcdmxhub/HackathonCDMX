@@ -21,7 +21,16 @@ interface Speaker {
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
-  const speakers: Speaker[] = [];
+  const speakers: Speaker[] = [
+    {
+      name: "Bernice Gaytan",
+      title: "Directora de Marketing y Conferencista TEDx",
+      company: "GMC360",
+      description: "Bernice es Directora de Marketing en GMC360 y una destacada conferencista TEDx. Como embajadora de la Global Peace Chain y consejera en Girl Up, lidera iniciativas de impacto social y sostenibilidad. Su trayectoria destaca por impulsar la Agenda 2030 y el uso de la tecnología y el deporte como motores de cambio y disciplina.",
+      linkedin: "https://www.linkedin.com/in/berfuentes/",
+      image: "/speakers/bernice.jpeg"
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-background font-mono">
