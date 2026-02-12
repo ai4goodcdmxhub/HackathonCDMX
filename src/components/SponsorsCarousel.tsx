@@ -15,6 +15,7 @@ const strategicAllies = [
 
 const sponsors = [
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
+  { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
 ];
 
 const SponsorsCarousel = () => {
