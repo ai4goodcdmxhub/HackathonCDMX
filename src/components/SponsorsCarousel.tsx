@@ -16,7 +16,7 @@ const strategicAllies = [
 const sponsors = [
   { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
-  { name: "The White Box Project Institute", logo: "/sponsors/wpi.png", url: "https://whitebxproject.com.mx/" },
+  { name: "The Whitebox Project", logo: "/sponsors/wpi.png", url: "https://whitebxproject.com.mx/" },
 ];
 
 const SponsorsCarousel = () => {
@@ -30,7 +30,7 @@ const SponsorsCarousel = () => {
     } else if (item.logo.includes('Cletec.png')) {
       imgClasses += "max-h-48 scale-110";
     } else if (item.logo.includes('wpi.png')) {
-      imgClasses += "max-h-64 w-auto scale-110 transition-all";
+      imgClasses += "max-h-48 w-auto scale-110 transition-all";
     } else {
       imgClasses += "max-h-32 w-auto";
     }
