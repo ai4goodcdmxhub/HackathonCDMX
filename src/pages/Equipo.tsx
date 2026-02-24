@@ -11,6 +11,11 @@ interface TeamMember {
 const Equipo = () => {
   const team: TeamMember[] = [
     {
+      name: "Isabella Palafox Limón",
+      linkedin: "https://www.linkedin.com/in/isabella-sophia-palafox-lim%C3%B3n-781a44349/",
+      image: "/team/Isa.jpeg",
+    },
+    {
       name: "Sissi de la Peña",
       linkedin: "https://www.linkedin.com/in/sissidelapena/",
       image: "/team/sisi.png",
