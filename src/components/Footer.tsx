@@ -33,7 +33,7 @@ const Footer = () => {
                   <span>Tec de Monterrey Campus Ciudad de México</span>
                 </div>
                 <div className="text-muted-foreground">
-                  13 y 14 de Marzo, 2026
+                  Fecha por confirmar
                 </div>
                 <div className="text-muted-foreground">
                   Presencial

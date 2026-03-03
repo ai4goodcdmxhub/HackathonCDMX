@@ -58,7 +58,7 @@ const Policy = () => {
               <ul className="list-disc list-inside space-y-2 pl-4 mb-6">
                 <li>Gestionar su proceso de inscripción y selección para el hackathon.</li>
                 <li>Facilitar la formación de equipos y la comunicación entre participantes.</li>
-                <li>Coordinar la logística del evento presencial los días 13 y 14 de marzo de 2026.</li>
+                <li>Coordinar la logística del evento presencial en una Fecha por confirmar de 2026.</li>
                 <li>Evaluar los proyectos presentados por parte del jurado.</li>
                 <li>Registro de asistencia y medidas de seguridad en las instalaciones del Tec de Monterrey.</li>
               </ul>

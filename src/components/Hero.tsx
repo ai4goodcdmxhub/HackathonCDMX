@@ -123,7 +123,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>13 y 14 de Marzo</span>
+              <span>Fecha por confirmar</span>
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Clock className="w-5 h-5 text-primary" />
@@ -141,8 +141,8 @@ const Hero = () => {
               size="lg"
               className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
             >
-              <a href="#registro" onClick={scrollToRegistration}>
-                Inscríbete Ahora
+              <a href="#registro" onClick={scrollToRegistration} className="pointer-events-none opacity-50">
+                Registros Cerrados
               </a>
             </Button>
           </div>

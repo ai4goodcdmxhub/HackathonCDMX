@@ -154,7 +154,7 @@ const Schedule = () => {
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <Calendar className="w-6 h-6 text-primary" />
                   <h3 className="text-2xl font-bold font-mono text-foreground">
-                    Viernes 13 de Marzo
+                    Fecha por confirmar
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 1 - ¡Comienza la aventura!</p>
@@ -201,7 +201,7 @@ const Schedule = () => {
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <Calendar className="w-6 h-6 text-primary" />
                   <h3 className="text-2xl font-bold font-mono text-foreground">
-                    Sábado 14 de Marzo
+                    Fecha por confirmar
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 2 - ¡El gran final!</p>

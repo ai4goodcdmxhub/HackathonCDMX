@@ -175,10 +175,24 @@ const RegistrationForm = () => {
             </p>
           </div>
 
-          {/* Form */}
+          {/* Form / Closed Message */}
           <div className="bg-card border border-terminal-border rounded-lg p-8 shadow-terminal">
+            <div className="text-center py-8">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <UserPlus className="w-8 h-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold font-mono text-foreground mb-4">
+                Pre-inscripciones Cerradas
+              </h3>
+              <p className="text-muted-foreground font-mono mb-8">
+                El periodo de registro para este evento ha finalizado. ¡Gracias por tu interés!
+              </p>
+              <div className="p-4 bg-muted/50 border border-terminal-border rounded font-mono text-sm text-primary">
+                Si ya te registraste, mantente atento a tu correo electrónico para las próximas actualizaciones.
+              </div>
+            </div>
             <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 hidden">
                 {/* --- Existing Fields --- */}
                 {/* Name */}
                 <FormField

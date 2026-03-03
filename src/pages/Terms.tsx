@@ -43,7 +43,7 @@ const Terms = () => {
                 El evento se desarrollará de manera presencial en el Tecnológico de Monterrey Campus Ciudad de México.
               </p>
               <p className="mb-4">
-                Será una jornada continua presencial, desde las 9:00 a.m. del viernes 13 de Marzo hasta las 8:30 p.m. del sábado 14 de Marzo de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
+                Será una jornada continua presencial, en una Fecha por confirmar de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
               </p>
               <ul className="list-disc list-inside space-y-2 mb-4 pl-4">
                 <li>Su computador portátil (de uso obligatorio).</li>
