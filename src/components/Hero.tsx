@@ -6,12 +6,6 @@ import { supabase } from "@/lib/supabaseClient";
 
 const Hero = () => {
   const [registeredCount, setRegisteredCount] = useState<number | null>(null);
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
 
   useEffect(() => {
     // Fetch registered count
@@ -24,34 +18,6 @@ const Hero = () => {
     };
 
     fetchCount();
-
-    // Countdown logic
-    const calculateTimeLeft = () => {
-      const eventDate = new Date('2026-03-13T10:00:00-06:00'); // Mexico City time (UTC-6)
-      const now = new Date();
-      const difference = eventDate.getTime() - now.getTime();
-
-      let newTimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
-
-      if (difference > 0) {
-        newTimeLeft = {
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-          minutes: Math.floor((difference / 1000 / 60) % 60),
-          seconds: Math.floor((difference / 1000) % 60),
-        };
-      }
-
-      return newTimeLeft;
-    };
-
-    setTimeLeft(calculateTimeLeft());
-
-    const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-
-    return () => clearInterval(timer);
   }, []);
 
   const scrollToRegistration = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -96,34 +62,13 @@ const Hero = () => {
 
 
 
-          {/* Countdown */}
-          <div className="flex flex-wrap justify-center gap-4 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary">{String(timeLeft.days).padStart(2, '0')}</p>
-              <p className="text-xs text-muted-foreground">DÍAS</p>
-            </div>
-            <div className="text-4xl font-bold text-primary">:</div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary">{String(timeLeft.hours).padStart(2, '0')}</p>
-              <p className="text-xs text-muted-foreground">HORAS</p>
-            </div>
-            <div className="text-4xl font-bold text-primary">:</div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary">{String(timeLeft.minutes).padStart(2, '0')}</p>
-              <p className="text-xs text-muted-foreground">MIN</p>
-            </div>
-            <div className="text-4xl font-bold text-primary">:</div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-primary">{String(timeLeft.seconds).padStart(2, '0')}</p>
-              <p className="text-xs text-muted-foreground">SEG</p>
-            </div>
-          </div>
+
 
           {/* Event details */}
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>Fecha por confirmar</span>
+              <span>Abril</span>
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Clock className="w-5 h-5 text-primary" />
@@ -141,8 +86,8 @@ const Hero = () => {
               size="lg"
               className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
             >
-              <a href="#registro" onClick={scrollToRegistration} className="pointer-events-none opacity-50">
-                Registros Cerrados
+              <a href="#registro" onClick={scrollToRegistration}>
+                Inscríbete Ahora
               </a>
             </Button>
           </div>
