@@ -14,9 +14,7 @@ const strategicAllies = [
 ];
 
 const sponsors = [
-  { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
-  { name: "The Whitebox Project", logo: "/sponsors/wpi.png", url: "https://whitebxproject.com.mx/" },
 ];
 
 const SponsorsCarousel = () => {
