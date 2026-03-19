@@ -13,7 +13,7 @@ const Terms = () => {
               Términos y Condiciones
               <span className="text-primary">/&gt;</span>
             </h1>
-            <p className="text-muted-foreground mt-4">Concienc.ia Hackathon México 2025</p>
+            <p className="text-muted-foreground mt-4">Concienc.ia Hackathon México 2026</p>
           </div>
 
           <div className="space-y-8 text-muted-foreground">
@@ -43,7 +43,7 @@ const Terms = () => {
                 El evento se desarrollará de manera presencial en el Tecnológico de Monterrey Campus Ciudad de México.
               </p>
               <p className="mb-4">
-                Será una jornada continua presencial en Abril de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
+                Será una jornada continua presencial los días 5 y 6 de Junio de 2026. Se brindará alimentación básica durante todo el evento, pero cada participante deberá llevar los elementos personales y técnicos que considere necesarios para trabajar cómodamente, incluyendo:
               </p>
               <ul className="list-disc list-inside space-y-2 mb-4 pl-4">
                 <li>Su computador portátil (de uso obligatorio).</li>

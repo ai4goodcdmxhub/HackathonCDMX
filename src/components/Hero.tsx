@@ -68,7 +68,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>Abril</span>
+              <span>5 y 6 de Junio</span>
             </div>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
               <Clock className="w-5 h-5 text-primary" />
