@@ -29,6 +29,14 @@ const Speakers = () => {
       description: "Bernice es Directora de Marketing en GMC360 y una destacada conferencista TEDx. Como embajadora de la Global Peace Chain y consejera en Girl Up, lidera iniciativas de impacto social y sostenibilidad. Su trayectoria destaca por impulsar la Agenda 2030 y el uso de la tecnología y el deporte como motores de cambio y disciplina.",
       linkedin: "https://www.linkedin.com/in/berfuentes/",
       image: "/speakers/Bernice.png"
+    },
+    {
+      name: "Jónas Vázquez Betancourt",
+      title: "Fundador",
+      company: "Comunica la Ciudad",
+      description: "Especialista con 16 años de experiencia en estrategia de comunicación urbana, políticas públicas y movilidad. Ha colaborado con los tres niveles de gobierno en México y con organismos internacionales como el Banco Mundial y el BID, liderando proyectos de impacto nacional como la Estrategia Nacional de Movilidad.",
+      linkedin: "https://www.linkedin.com/in/jon%C3%A1s-v%C3%A1zquez-betancourt-a0728862/?originalSubdomain=mx",
+      image: "/speakers/jonas.jpeg"
     }
   ];
 
