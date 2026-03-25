@@ -31,6 +31,11 @@ const Equipo = () => {
       image: "/team/bakas.png",
     },
     {
+      name: "Daniel Mancilla",
+      linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
+      image: "/team/danim.jpeg",
+    },
+    {
       name: "Juliho Castillo Colmenares",
       linkedin: "https://www.linkedin.com/in/julihocc/",
       image: "/team/juliho.jpg",
@@ -51,11 +56,6 @@ const Equipo = () => {
     {
       name: "Karen Camila Zárate Bolaños",
       image: "/team/karen.jpg",
-    },
-    {
-      name: "Daniel Mancilla",
-      linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
-      image: "/team/danim.jpeg",
     },
   ];
 
