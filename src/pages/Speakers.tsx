@@ -74,7 +74,7 @@ const Speakers = () => {
                   style={{ animationDelay: `${index * 0.05}s` }}
                 >
                   {/* Photo area */}
-                  <div className="aspect-square bg-muted flex items-center justify-center relative overflow-hidden">
+                  <div className="aspect-square bg-muted relative overflow-hidden">
                     {speaker.image ? (
                       <img
                         src={speaker.image}
@@ -91,7 +91,7 @@ const Speakers = () => {
 
                   {/* Info */}
                   <div className="p-4 text-center">
-                    <h3 className="font-bold font-mono text-foreground text-lg mb-1 line-clamp-1">
+                    <h3 className="font-bold font-mono text-foreground text-lg mb-1 line-clamp-2 min-h-[3.5rem] flex items-center justify-center">
                       {speaker.name}
                     </h3>
                     <p className="text-sm text-primary font-mono mb-1 line-clamp-1">
