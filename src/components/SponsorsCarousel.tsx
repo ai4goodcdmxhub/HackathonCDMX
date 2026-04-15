@@ -11,7 +11,7 @@ const strategicAllies = [
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
-  { name: "Escuela de Ciencias Sociales y Gobierno", logo: "/sponsors/gobierno1.jpg" },
+  { name: "Escuela de Ciencias Sociales y Gobierno", logo: "/sponsors/gob1.png" },
 ];
 
 const sponsors = [
@@ -24,7 +24,7 @@ const SponsorsCarousel = () => {
   const renderSponsorCard = (item, index, type) => {
     let imgClasses = "object-contain transition-transform duration-300 group-hover:scale-110 ";
 
-    if (item.logo.includes('Ing.png') || item.logo.includes('gobierno1.jpg')) {
+    if (item.logo.includes('Ing.png') || item.logo.includes('gob1.png')) {
       imgClasses += "w-full max-h-80 scale-110 rounded-lg shadow-sm";
     } else if (item.logo.includes('Cletec.png')) {
       imgClasses += "max-h-48 scale-110";
