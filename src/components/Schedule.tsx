@@ -1,4 +1,4 @@
-import { Calendar, Clock, Coffee, Lightbulb, Trophy, Users, Code2 } from "lucide-react";
+import { Calendar, Clock, Coffee, Lightbulb, Trophy, Users, Code2, MapPin } from "lucide-react";
 
 interface ScheduleItem {
   time: string;
@@ -158,6 +158,10 @@ const Schedule = () => {
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 1 - ¡Comienza la aventura!</p>
+                <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
+                  <MapPin className="w-4 h-4 text-primary" />
+                  <span>Salón de Usos Múltiples en Aulas II</span>
+                </div>
               </div>
 
               {scheduleDay1.map((item, index) => (
@@ -205,6 +209,10 @@ const Schedule = () => {
                   </h3>
                 </div>
                 <p className="text-sm text-primary font-mono">Día 2 - ¡El gran final!</p>
+                <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
+                  <MapPin className="w-4 h-4 text-primary" />
+                  <span>CEDETEC</span>
+                </div>
               </div>
 
               {scheduleDay2.map((item, index) => (
