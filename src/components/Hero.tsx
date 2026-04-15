@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, Users } from "lucide-react";
+import { Calendar, Clock, Users, MapPin } from "lucide-react";
 import { MessageSquare } from "lucide-react";
 import { supabase } from "@/lib/supabaseClient";
 
@@ -122,9 +122,15 @@ const Hero = () => {
               <Clock className="w-5 h-5 text-primary" />
               <span>Presencial</span>
             </div>
-            <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
-              <Users className="w-5 h-5 text-primary" />
-              <span>Tec de Monterrey Campus Ciudad de México</span>
+            <div className="flex flex-col items-center justify-center gap-1 bg-card/50 backdrop-blur-sm px-6 py-3 rounded border border-terminal-border">
+              <div className="flex items-center gap-2 mb-1">
+                <MapPin className="w-5 h-5 text-primary" />
+                <span className="font-bold">Tec de Monterrey Campus Ciudad de México</span>
+              </div>
+              <div className="flex flex-col items-center text-sm text-muted-foreground mt-1">
+                <span>5 de Junio: Salón de Usos Múltiples en Aulas II</span>
+                <span>6 de Junio: CEDETEC</span>
+              </div>
             </div>
           </div>
           {/* CTA Button */}
