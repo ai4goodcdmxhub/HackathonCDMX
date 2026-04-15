@@ -6,6 +6,7 @@ import { supabase } from "@/lib/supabaseClient";
 
 const Hero = () => {
   const [registeredCount, setRegisteredCount] = useState<number | null>(null);
+  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
     // Fetch registered count
@@ -18,6 +19,35 @@ const Hero = () => {
     };
 
     fetchCount();
+  }, []);
+
+  useEffect(() => {
+    const calculateTimeLeft = () => {
+      const eventDate = new Date('2026-06-05T09:00:00-06:00'); // Mexico City time (UTC-6)
+      const now = new Date();
+      const difference = eventDate.getTime() - now.getTime();
+
+      let newTimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
+
+      if (difference > 0) {
+        newTimeLeft = {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        };
+      }
+      
+      return newTimeLeft;
+    };
+    
+    setTimeLeft(calculateTimeLeft());
+
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
   }, []);
 
   const scrollToRegistration = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -60,10 +90,28 @@ const Hero = () => {
             Innovando para la <span className="text-primary">CDMX</span>: Soluciones de <span className="text-primary">IA</span> centradas en la <span className="text-primary">ética</span> y la <span className="text-primary">protección de datos</span>
           </p>
 
-
-
-
-
+          {/* Countdown */}
+          <div className="flex flex-wrap justify-center gap-4 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-primary">{String(timeLeft.days).padStart(2, '0')}</p>
+              <p className="text-xs text-muted-foreground">DÍAS</p>
+            </div>
+            <div className="text-4xl font-bold text-primary">:</div>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-primary">{String(timeLeft.hours).padStart(2, '0')}</p>
+              <p className="text-xs text-muted-foreground">HORAS</p>
+            </div>
+            <div className="text-4xl font-bold text-primary">:</div>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-primary">{String(timeLeft.minutes).padStart(2, '0')}</p>
+              <p className="text-xs text-muted-foreground">MIN</p>
+            </div>
+            <div className="text-4xl font-bold text-primary">:</div>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-primary">{String(timeLeft.seconds).padStart(2, '0')}</p>
+              <p className="text-xs text-muted-foreground">SEG</p>
+            </div>
+          </div>
           {/* Event details */}
           <div className="flex flex-wrap justify-center gap-6 text-foreground font-mono animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded border border-terminal-border">
