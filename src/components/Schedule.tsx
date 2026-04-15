@@ -54,9 +54,9 @@ const Schedule = () => {
     },
     {
       time: "05:30 p.m. – 06:00 p.m.",
-      title: "Charla",
+      title: "Comunica la Ciudad: Agenda Pública Urbana en tiempos de IA",
       icon: Lightbulb,
-      description: "(Pendiente por definir)",
+      description: "Jónas Vázquez Betancourt",
     },
     {
       time: "06:00 p.m. – 07:00 p.m.",
