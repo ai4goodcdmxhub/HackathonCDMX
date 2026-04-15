@@ -11,7 +11,7 @@ const strategicAllies = [
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
-  { name: "Escuela de Ciencias Sociales y Gobierno", logo: "/sponsors/gob1.png" },
+  { name: "Escuela de Ciencias Sociales y Gobierno", logo: "/sponsors/gob1.png", url: "https://egobiernoytp.tec.mx/es/escuela-de-ciencias-sociales-y-gobierno" },
 ];
 
 const sponsors = [
