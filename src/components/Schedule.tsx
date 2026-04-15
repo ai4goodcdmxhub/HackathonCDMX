@@ -30,7 +30,7 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "Workshop 1",
+      title: "Workshop - Protectores",
       icon: Lightbulb,
       description: "(Pendiente por definir)",
     },
@@ -42,13 +42,13 @@ const Schedule = () => {
     },
     {
       time: "02:30 p.m. – 04:00 p.m.",
-      title: "Workshop 2",
+      title: "Workshop - Builders",
       icon: Lightbulb,
       description: "(Pendiente por definir)",
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
-      title: "Workshop 3",
+      title: "Workshop - Estrategas",
       icon: Lightbulb,
       description: "(Pendiente por definir)",
     },
@@ -60,9 +60,9 @@ const Schedule = () => {
     },
     {
       time: "06:00 p.m. – 07:00 p.m.",
-      title: "Dinámica de Formación de Equipos",
-      icon: Users,
-      description: "Colaboración entre participantes",
+      title: "Taller Creación de Pitch Deck",
+      icon: Lightbulb,
+      description: "",
     },
     {
       time: "07:00 p.m. – 08:00 p.m.",
