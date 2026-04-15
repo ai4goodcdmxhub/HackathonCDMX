@@ -22,21 +22,22 @@ const SponsorsCarousel = () => {
   const [isPaused, setIsPaused] = useState(false);
 
   const renderSponsorCard = (item, index, type) => {
-    let imgClasses = "object-contain transition-transform duration-300 group-hover:scale-110 ";
+    let imgClasses = "object-contain transition-all duration-500 group-hover:scale-105 ";
 
-    if (item.logo.includes('Ing.png') || item.logo.includes('gob1.png')) {
-      imgClasses += "w-full max-h-80 scale-110 rounded-lg shadow-sm";
-    } else if (item.logo.includes('Cletec.png')) {
-      imgClasses += "max-h-48 scale-110";
-    } else if (item.logo.includes('wpi.png')) {
-      imgClasses += "max-h-48 w-auto scale-110 transition-all";
+    // Tamaños estandarizados pero dando prioridad a gob1.png
+    if (item.logo.includes('gob1.png')) {
+      imgClasses += "w-full h-full max-h-64 scale-[1.35]"; // gob1.png mucho más grande (por si tiene márgenes internos)
+    } else if (item.logo.includes('Ing.png')) {
+      imgClasses += "w-full max-h-56 scale-110";
+    } else if (item.logo.includes('Cletec.png') || item.logo.includes('wpi.png')) {
+      imgClasses += "w-4/5 max-h-40";
     } else {
-      imgClasses += "max-h-32 w-auto";
+      imgClasses += "w-3/4 max-h-32";
     }
 
     const cardContent = (
       <>
-        <div className="flex-1 flex items-center justify-center w-full">
+        <div className="flex-1 flex items-center justify-center w-full min-h-[200px] p-2 overflow-visible relative">
           <img
             src={item.logo}
             alt={item.name}
@@ -44,14 +45,17 @@ const SponsorsCarousel = () => {
           />
         </div>
         {item.name && (
-          <p className="font-mono font-bold text-sm text-foreground text-center">
-            {item.name}
-          </p>
+          <div className="h-14 flex items-end justify-center w-full mt-4">
+            <p className="font-mono text-sm text-foreground/80 text-center line-clamp-2 group-hover:text-primary transition-colors duration-300">
+              {item.name}
+            </p>
+          </div>
         )}
       </>
     );
 
-    const containerClasses = `bg-card rounded-lg p-6 flex flex-col items-center justify-between border border-terminal-border hover:border-primary/50 transition-all duration-300 gap-4 group w-[400px] min-h-[300px]`;
+    // Contenedor estandarizado y más estético
+    const containerClasses = `bg-card/40 backdrop-blur-md rounded-2xl p-6 flex flex-col items-center justify-between border border-white/5 hover:border-primary/50 hover:bg-card/60 shadow-lg hover:shadow-[0_0_40px_hsl(var(--primary)/0.15)] transition-all duration-500 group w-full max-w-[340px] min-h-[340px]`;
 
     if (item.url) {
       return (
