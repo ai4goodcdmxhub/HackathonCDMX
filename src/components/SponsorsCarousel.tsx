@@ -24,8 +24,8 @@ const SponsorsCarousel = () => {
   const renderSponsorCard = (item, index, type) => {
     let imgClasses = "object-contain transition-transform duration-300 group-hover:scale-110 ";
 
-    if (item.logo.includes('Ing.png')) {
-      imgClasses += "w-full max-h-80 scale-110";
+    if (item.logo.includes('Ing.png') || item.logo.includes('gobierno1.jpg')) {
+      imgClasses += "w-full max-h-80 scale-110 rounded-lg shadow-sm";
     } else if (item.logo.includes('Cletec.png')) {
       imgClasses += "max-h-48 scale-110";
     } else if (item.logo.includes('wpi.png')) {
