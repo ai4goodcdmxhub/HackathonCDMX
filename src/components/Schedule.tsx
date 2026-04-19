@@ -98,16 +98,16 @@ const Schedule = () => {
       description: "",
     },
     {
-      time: "02:00 p.m. – 04:30 p.m.",
-      title: 'Mentoría de "Stress Test"',
-      icon: Users,
-      description: '',
-    },
-    {
-      time: "04:30 p.m. – 05:30 p.m.",
+      time: "02:00 p.m. – 04:00 p.m.",
       title: "Pitch Readiness & Subida de Proyectos",
       icon: Lightbulb,
       description: "",
+    },
+    {
+      time: "04:00 p.m. – 05:30 p.m.",
+      title: 'Mentoría de "Stress Test"',
+      icon: Users,
+      description: '',
     },
     {
       time: "05:30 p.m. – 07:00 p.m.",
