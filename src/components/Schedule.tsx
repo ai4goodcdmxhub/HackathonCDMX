@@ -118,7 +118,7 @@ const Schedule = () => {
     },
     {
       time: "07:00 p.m. – 07:45 p.m.",
-      title: "Deliberación del Jurado y Cóctel de Networking",
+      title: "Deliberación del Jurado",
       icon: Users,
       description: "",
     },
