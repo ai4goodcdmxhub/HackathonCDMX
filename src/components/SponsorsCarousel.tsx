@@ -17,6 +17,7 @@ const strategicAllies = [
 const sponsors = [
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
   { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
+  { name: "Instituto de Emprendimiento Eugenio Garza Lagüera", logo: "/sponsors/emprendimiento.png", url: "https://tec.mx/es/emprendimiento/instituto-de-emprendimiento-eugenio-garza-laguera" },
 ];
 
 const SponsorsCarousel = () => {
