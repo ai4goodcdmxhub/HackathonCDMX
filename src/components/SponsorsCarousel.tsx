@@ -17,7 +17,7 @@ const strategicAllies = [
 const sponsors = [
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
   { name: "Lovable", logo: "/sponsors/lovable.png", url: "https://lovable.dev/" },
-  { name: "Instituto de Emprendimiento Eugenio Garza Lagüera", logo: "/sponsors/emprendimiento.png", url: "https://tec.mx/es/emprendimiento/instituto-de-emprendimiento-eugenio-garza-laguera" },
+  { name: "Instituto de Emprendimiento Eugenio Garza Lagüera", logo: "/sponsors/emprendimiento.png", url: "https://emprendimiento.tec.mx/es" },
 ];
 
 const SponsorsCarousel = () => {
@@ -29,6 +29,8 @@ const SponsorsCarousel = () => {
     // Tamaños estandarizados pero dando prioridad a gob1.png
     if (item.logo.includes('gob1.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.35]"; // gob1.png mucho más grande (por si tiene márgenes internos)
+    } else if (item.logo.includes('emprendimiento.png')) {
+      imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
     } else if (item.logo.includes('Ing.png')) {
       imgClasses += "w-full max-h-56 scale-110";
     } else if (item.logo.includes('Cletec.png') || item.logo.includes('wpi.png') || item.logo.includes('lovable.png')) {
