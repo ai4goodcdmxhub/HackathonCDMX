@@ -11,8 +11,14 @@ interface ScheduleItem {
 const Schedule = () => {
   const scheduleDay1: ScheduleItem[] = [
     {
-      time: "08:00 a.m. – 10:00 a.m.",
+      time: "08:00 a.m. – 09:30 a.m.",
       title: "Registro de participantes y networking de bienvenida",
+      icon: Users,
+      description: "",
+    },
+    {
+      time: "09:30 a.m. – 10:00 a.m.",
+      title: "Ceremonia de Apertura",
       icon: Users,
       description: "",
     },
