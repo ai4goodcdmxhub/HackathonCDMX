@@ -78,6 +78,10 @@ const registrationSchema = z.object({
     .max(1000, { message: "La respuesta debe tener máximo 1000 caracteres" }),
   referralCode: z.string().trim().max(50, { message: "Código demasiado largo" }).optional(), // Frontend name for the *input* field
   acceptJobOffers: z.boolean().default(false).optional(), // Frontend name for the checkbox
+  institution: z.string()
+    .trim()
+    .min(2, { message: "Ingresa el nombre de tu institución" })
+    .max(200, { message: "El nombre es demasiado largo" }),
 });
 
 type RegistrationFormData = z.infer<typeof registrationSchema>;
@@ -97,6 +101,7 @@ const RegistrationForm = () => {
       whyYou: "",
       referralCode: "", // Initialize frontend field
       acceptJobOffers: false, // Initialize frontend field
+      institution: "",
     },
   });
 
@@ -119,6 +124,7 @@ const RegistrationForm = () => {
         referralCodeU: data.referralCode || null, // Map form's referralCode input to DB's referralCodeU
         acceptJobOff: data.acceptJobOffers,       // Map form's acceptJobOffers to DB's acceptJobOff
         referralCode: generatedReferralCode,     // Map the generated code to DB's referralCode
+        institution: data.institution,           // Added institution field
       };
 
 
@@ -280,6 +286,27 @@ const RegistrationForm = () => {
                       <FormControl>
                         <Input
                           placeholder="https://linkedin.com/in/usuario"
+                          className="font-mono bg-muted border-terminal-border focus:border-primary"
+                          {...field}
+                        />
+                      </FormControl>
+                      <FormMessage className="font-mono text-xs" />
+                    </FormItem>
+                  )}
+                />
+
+                {/* Institution */}
+                <FormField
+                  control={form.control}
+                  name="institution"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel className="font-mono text-foreground">
+                        ¿A qué institución perteneces? *
+                      </FormLabel>
+                      <FormControl>
+                        <Input
+                          placeholder="Universidad, Empresa o Institución"
                           className="font-mono bg-muted border-terminal-border focus:border-primary"
                           {...field}
                         />
