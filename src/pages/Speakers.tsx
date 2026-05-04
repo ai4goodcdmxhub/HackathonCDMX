@@ -29,6 +29,13 @@ const Speakers = () => {
       description: "Especialista con 16 años de experiencia en estrategia de comunicación urbana, políticas públicas y movilidad. Ha colaborado con los tres niveles de gobierno en México y con organismos internacionales como el Banco Mundial y el BID, liderando proyectos de impacto nacional como la Estrategia Nacional de Movilidad.",
       linkedin: "https://www.linkedin.com/in/jon%C3%A1s-v%C3%A1zquez-betancourt-a0728862/?originalSubdomain=mx",
       image: "/speakers/jonas.jpeg"
+    },
+    {
+      name: "Paola Cicero Arenas",
+      title: "Oficial Nacional de Ciencias Sociales y Humanas",
+      company: "UNESCO México",
+      description: "Abogada por el ITAM con maestría en Estudios Jurídicos Internacionales por la Universidad de Nueva York (NYU). Cuenta con más de 16 años de experiencia en el sector público, especializándose en el impacto ético y social de la inteligencia artificial, tecnologías emergentes y derechos digitales. Previamente se desempeñó como Directora General en el Instituto Federal de Telecomunicaciones (IFT).",
+      linkedin: "https://www.linkedin.com/in/paola-cicero-arenas/",
     }
   ];
 
