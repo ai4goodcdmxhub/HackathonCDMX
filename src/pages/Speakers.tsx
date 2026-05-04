@@ -36,6 +36,7 @@ const Speakers = () => {
       company: "UNESCO México",
       description: "Abogada por el ITAM con maestría en Estudios Jurídicos Internacionales por la Universidad de Nueva York (NYU). Cuenta con más de 16 años de experiencia en el sector público, especializándose en el impacto ético y social de la inteligencia artificial, tecnologías emergentes y derechos digitales. Previamente se desempeñó como Directora General en el Instituto Federal de Telecomunicaciones (IFT).",
       linkedin: "https://www.linkedin.com/in/paola-cicero-arenas/",
+      image: "/speakers/cicero.jpeg",
     }
   ];
 
