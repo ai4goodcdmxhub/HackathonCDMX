@@ -36,9 +36,9 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "Workshop - Protectores",
+      title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
       icon: Lightbulb,
-      description: "Paola Cicero - \"Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética\"",
+      description: "Paola Cicero",
     },
     {
       time: "01:30 p.m. – 02:30 p.m.",
