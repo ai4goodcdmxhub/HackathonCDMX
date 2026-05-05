@@ -33,7 +33,7 @@ const SponsorsCarousel = () => {
     } else if (item.logo.includes('emprendimiento.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
     } else if (item.logo.includes('key1.png')) {
-      imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // key1.png más grande
+      imgClasses += "w-full h-full max-h-64 scale-[1.0]"; // key1.png a tamaño original
     } else if (item.logo.includes('Ing.png')) {
       imgClasses += "w-full max-h-56 scale-110";
     } else if (item.logo.includes('Cletec.png') || item.logo.includes('wpi.png') || item.logo.includes('lovable.png')) {
