@@ -34,7 +34,7 @@ const Speakers = () => {
       name: "Paola Cicero Arenas",
       title: "Oficial Nacional de Ciencias Sociales y Humanas",
       company: "UNESCO México",
-      description: "Abogada por el ITAM con maestría en Estudios Jurídicos Internacionales por la Universidad de Nueva York (NYU). Cuenta con más de 16 años de experiencia en el sector público, especializándose en el impacto ético y social de la inteligencia artificial, tecnologías emergentes y derechos digitales. Previamente se desempeñó como Directora General en el Instituto Federal de Telecomunicaciones (IFT).",
+      description: "Abogada por el ITAM y Maestra en Estudios Legales Internacionales por la Universidad de Nueva York (NYU). Cuenta con estudios de especialización en Inteligencia Artificial y transformación digital por el MIT, de regulación de telecomunicaciones por la Universidad Carnegie Mellon y de Inteligencia Artificial y ciudadanía digital.\n\nExperta en políticas públicas, derecho y tecnología, con más de 17 años en el ámbito público. Durante casi una década se desempeñó como Directora General en el Instituto Federal de Telecomunicaciones y desde abril 2025 se incorporó a UNESCO México como Oficial Nacional del Sector de Ciencias Sociales y Humanas, donde es responsable de temas como ética de la inteligencia artificial, tecnologías emergentes, inclusión, deporte y juventudes.\n\nInteresada en temas y problemas de impacto general que requieren visión estratégica, multidisciplinaria y de género para su estudio, como la inteligencia artificial y la transformación digital.",
       linkedin: "https://www.linkedin.com/in/paola-cicero-arenas/",
       image: "/speakers/PaolaCi.jpeg",
     }
