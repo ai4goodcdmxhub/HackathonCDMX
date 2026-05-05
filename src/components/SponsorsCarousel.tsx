@@ -33,7 +33,7 @@ const SponsorsCarousel = () => {
     } else if (item.logo.includes('emprendimiento.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
     } else if (item.logo.includes('keywords.png')) {
-      imgClasses += "w-auto max-w-[90%] max-h-64 scale-[0.5]"; // Keywords Studios más pequeño
+      imgClasses += "w-full h-auto max-h-80"; // Keywords Studios sin escala para evitar recortes por desbordamiento
     } else if (item.logo.includes('Ing.png')) {
       imgClasses += "w-full max-h-56 scale-110";
     } else if (item.logo.includes('Cletec.png') || item.logo.includes('wpi.png') || item.logo.includes('lovable.png')) {
@@ -62,7 +62,7 @@ const SponsorsCarousel = () => {
     );
 
     // Contenedor estandarizado y más estético
-    const containerClasses = `bg-card/40 backdrop-blur-md rounded-2xl p-6 flex flex-col items-center justify-between border border-white/5 hover:border-primary/50 hover:bg-card/60 shadow-lg hover:shadow-[0_0_40px_hsl(var(--primary)/0.15)] transition-all duration-500 group w-full max-w-[340px] min-h-[340px]`;
+    const containerClasses = `bg-card/40 backdrop-blur-md rounded-2xl p-6 flex flex-col items-center justify-between border border-white/5 hover:border-primary/50 hover:bg-card/60 shadow-lg hover:shadow-[0_0_40px_hsl(var(--primary)/0.15)] transition-all duration-500 group w-full max-w-[340px] min-h-[340px] overflow-visible`;
 
     if (item.url) {
       return (
