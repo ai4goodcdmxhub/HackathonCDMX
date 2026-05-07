@@ -21,7 +21,16 @@ interface Mentor {
 const Mentores = () => {
   const [selectedMentor, setSelectedMentor] = useState<Mentor | null>(null);
 
-  const mentors: Mentor[] = [];
+  const mentors: Mentor[] = [
+    {
+      name: "Jesús Gutiérrez Franco",
+      title: "Mentor",
+      company: "",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/jesusgtzfranco/?locale=es",
+      image: "/mentors/jesus.jpeg",
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-background font-mono">
