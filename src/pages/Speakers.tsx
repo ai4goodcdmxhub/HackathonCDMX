@@ -51,7 +51,7 @@ const Speakers = () => {
     {
       name: "Leonardo Zubieta Angulo",
       title: "",
-      company: "De Prompts a Agentes: Construyendo IA que Actúa",
+      company: "IBM",
       description: "",
       linkedin: "",
     },
