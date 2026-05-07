@@ -40,7 +40,7 @@ const Speakers = () => {
       image: "/speakers/PaolaCi.jpeg",
     },
     {
-      name: "Priscila Vázquez",
+      name: "Priscilla Vázquez",
       title: "Speaker & Conferencista",
       company: "Tecnológico de Monterrey",
       description: "Creadora de experiencias, facilitadora y conferencista en temas de comunicación, negocios y emprendimiento con propósito, desarrollo de talento creativo, diseñado con energía, pasión y enfoque práctico.\n\nLicenciada en Estrategia y Transformación de Negocios con enfoque al desarrollo de talento, Profesora en el Tecnológico de Monterrey y mentora en el Instituto de Emprendimiento del Tecnológico de Monterrey.",

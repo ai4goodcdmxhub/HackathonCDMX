@@ -68,7 +68,7 @@ const Schedule = () => {
       time: "06:00 p.m. – 07:00 p.m.",
       title: "Taller Creación de Pitch Deck",
       icon: Lightbulb,
-      description: "Priscila Vázquez",
+      description: "Priscilla Vázquez",
     },
     {
       time: "07:00 p.m. – 08:00 p.m.",
