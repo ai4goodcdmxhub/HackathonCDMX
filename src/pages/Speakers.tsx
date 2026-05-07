@@ -16,6 +16,7 @@ interface Speaker {
   description: string;
   linkedin: string;
   image?: string;
+  objectPosition?: string;
 }
 
 const Speakers = () => {
@@ -45,6 +46,7 @@ const Speakers = () => {
       description: "Creadora de experiencias, facilitadora y conferencista en temas de comunicación, negocios y emprendimiento con propósito, desarrollo de talento creativo, diseñado con energía, pasión y enfoque práctico.\n\nLicenciada en Estrategia y Transformación de Negocios con enfoque al desarrollo de talento, Profesora en el Tecnológico de Monterrey y mentora en el Instituto de Emprendimiento del Tecnológico de Monterrey.",
       linkedin: "https://www.linkedin.com/in/priscilla-vazquez-4587981a6/",
       image: "/speakers/pris.jpeg",
+      objectPosition: "center 20%",
     },
     {
       name: "Leonardo Zubieta Angulo",
@@ -95,6 +97,7 @@ const Speakers = () => {
                         src={speaker.image}
                         alt={speaker.name}
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
+                        style={{ objectPosition: speaker.objectPosition || "center" }}
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-muted to-muted-foreground/20 flex items-center justify-center">
