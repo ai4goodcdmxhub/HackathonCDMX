@@ -50,7 +50,7 @@ const Schedule = () => {
       time: "02:30 p.m. – 04:00 p.m.",
       title: "De Prompts a Agentes: Construyendo IA que Actúa",
       icon: Lightbulb,
-      description: "Workshop Builders · Leonardo Zubieta Angulo",
+      description: "Leonardo Zubieta Angulo",
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
