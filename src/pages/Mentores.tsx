@@ -24,7 +24,7 @@ const Mentores = () => {
   const mentors: Mentor[] = [
     {
       name: "Jesús Gutiérrez Franco",
-      title: "Mentor",
+      title: "Fundador Paradiqma",
       company: "",
       description: "",
       linkedin: "https://www.linkedin.com/in/jesusgtzfranco/?locale=es",
@@ -71,7 +71,7 @@ const Mentores = () => {
                       <img
                         src={mentor.image}
                         alt={mentor.name}
-                        className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
+                        className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-300"
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-muted to-muted-foreground/20 flex items-center justify-center">
