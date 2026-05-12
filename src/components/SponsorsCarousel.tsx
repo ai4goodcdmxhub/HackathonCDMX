@@ -8,6 +8,7 @@ const organizers = [
 ];
 
 const strategicAllies = [
+  { name: "IBM", logo: "/sponsors/IBM1.png", url: "https://www.ibm.com/mx-es/about" },
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
@@ -32,7 +33,7 @@ const SponsorsCarousel = () => {
       imgClasses += "w-full h-full max-h-64 scale-[1.35]"; // gob1.png mucho más grande (por si tiene márgenes internos)
     } else if (item.logo.includes('emprendimiento.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
-    } else if (item.logo.includes('Key3.png') || item.logo.includes('Centro1.png')) {
+    } else if (item.logo.includes('Key3.png') || item.logo.includes('Centro1.png') || item.logo.includes('IBM1.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // Logos grandes y destacados
     } else if (item.logo.includes('Ing.png')) {
       imgClasses += "w-full max-h-56 scale-110";
