@@ -53,7 +53,8 @@ const Speakers = () => {
       title: "",
       company: "IBM",
       description: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/leonardo-zubieta-angulo-11818168/",
+      image: "/speakers/leo.jpeg",
     },
   ];
 
