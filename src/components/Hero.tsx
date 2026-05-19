@@ -50,13 +50,7 @@ const Hero = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const scrollToRegistration = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const element = document.getElementById("registro");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-terminal">
@@ -133,17 +127,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/* CTA Button */}
+          {/* Registration Closed */}
           <div className="pt-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            <Button
-              asChild
-              size="lg"
-              className="font-mono text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow border-2 border-primary hover:shadow-[0_0_60px_hsl(190_100%_42%/0.4)] transition-all duration-300"
-            >
-              <a href="#registro" onClick={scrollToRegistration}>
-                Inscríbete Ahora
-              </a>
-            </Button>
+            <div className="inline-block font-mono text-lg px-8 py-4 bg-muted text-muted-foreground border-2 border-terminal-border rounded-md">
+              Inscripciones Cerradas
+            </div>
           </div>
 
           {/* WhatsApp Button */}
