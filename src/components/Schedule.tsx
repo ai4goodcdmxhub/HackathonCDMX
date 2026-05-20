@@ -42,7 +42,7 @@ const Schedule = () => {
     },
     {
       time: "01:30 p.m. – 02:30 p.m.",
-      title: "Almuerzo",
+      title: "Comida",
       icon: Coffee,
       description: "",
     },
@@ -93,7 +93,7 @@ const Schedule = () => {
     },
     {
       time: "01:00 p.m. – 02:00 p.m.",
-      title: "Almuerzo de Trabajo (Catering en sitio)",
+      title: "Comida de Trabajo (Catering en sitio)",
       icon: Coffee,
       description: "",
     },
