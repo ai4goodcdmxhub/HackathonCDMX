@@ -76,12 +76,6 @@ const Schedule = () => {
       icon: Lightbulb,
       description: "",
     },
-    {
-      time: "08:00 p.m.",
-      title: "Cena de comunidad",
-      icon: Coffee,
-      description: "Espacio de intercambio estratégico entre participantes y mentores.",
-    },
   ];
 
   const scheduleDay2: ScheduleItem[] = [
