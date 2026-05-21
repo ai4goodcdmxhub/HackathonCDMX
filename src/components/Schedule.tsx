@@ -86,13 +86,7 @@ const Schedule = () => {
       description: '',
     },
     {
-      time: "12:00 p.m. – 01:00 p.m.",
-      title: "Comida de Trabajo (Catering en sitio)",
-      icon: Coffee,
-      description: "",
-    },
-    {
-      time: "01:00 p.m. – 04:00 p.m.",
+      time: "12:00 p.m. – 04:00 p.m.",
       title: "Pitch Readiness & Subida de Proyectos",
       icon: Lightbulb,
       description: "",
