@@ -26,7 +26,7 @@ const Schedule = () => {
       time: "10:00 a.m. – 11:00 a.m.",
       title: "MasterClass de Apertura",
       icon: Lightbulb,
-      description: "(Pendiente por definir)",
+      description: "Leonardo Zubieta Angulo (IBM)",
     },
     {
       time: "11:00 a.m. – 12:00 p.m.",
@@ -36,9 +36,9 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
+      title: "De Prompts a Agentes: Construyendo IA que Actúa",
       icon: Lightbulb,
-      description: "Paola Cicero",
+      description: "Leonardo Zubieta Angulo (IBM)",
     },
     {
       time: "01:30 p.m. – 02:30 p.m.",
@@ -48,9 +48,9 @@ const Schedule = () => {
     },
     {
       time: "02:30 p.m. – 04:00 p.m.",
-      title: "De Prompts a Agentes: Construyendo IA que Actúa",
+      title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
       icon: Lightbulb,
-      description: "Leonardo Zubieta Angulo",
+      description: "Paola Cicero (UNESCO)",
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
@@ -79,12 +79,6 @@ const Schedule = () => {
   ];
 
   const scheduleDay2: ScheduleItem[] = [
-    {
-      time: "08:00 a.m. – 09:00 a.m.",
-      title: "Desayuno y Kick-off de Construcción",
-      icon: Coffee,
-      description: "",
-    },
     {
       time: "09:00 a.m. – 01:00 p.m.",
       title: "Sprint de Desarrollo Intensivo",
