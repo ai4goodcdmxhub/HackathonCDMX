@@ -80,19 +80,19 @@ const Schedule = () => {
 
   const scheduleDay2: ScheduleItem[] = [
     {
-      time: "09:00 a.m. – 01:00 p.m.",
+      time: "08:00 a.m. – 12:00 p.m.",
       title: "Sprint de Desarrollo Intensivo",
       icon: Code2, // Importing Code2 as it fits "Building/Coding"
       description: '',
     },
     {
-      time: "01:00 p.m. – 02:00 p.m.",
+      time: "12:00 p.m. – 01:00 p.m.",
       title: "Comida de Trabajo (Catering en sitio)",
       icon: Coffee,
       description: "",
     },
     {
-      time: "02:00 p.m. – 04:00 p.m.",
+      time: "01:00 p.m. – 04:00 p.m.",
       title: "Pitch Readiness & Subida de Proyectos",
       icon: Lightbulb,
       description: "",
