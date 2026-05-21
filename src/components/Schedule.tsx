@@ -72,7 +72,7 @@ const Schedule = () => {
     },
     {
       time: "07:00 p.m. – 08:00 p.m.",
-      title: "Sesión de ideación y cierre del primer día",
+      title: "Cierre del primer día y team back equipos",
       icon: Lightbulb,
       description: "",
     },
