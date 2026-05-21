@@ -185,7 +185,7 @@ const Schedule = () => {
                 <p className="text-sm text-primary font-mono">Día 1 - ¡Comienza la aventura!</p>
                 <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>Salón de Usos Múltiples en Aulas II</span>
+                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>Pabellón Biblioteca</span>
                 </div>
               </div>
 
@@ -236,7 +236,7 @@ const Schedule = () => {
                 <p className="text-sm text-primary font-mono">Día 2 - ¡El gran final!</p>
                 <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span>CEDETEC</span>
+                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>Pabellón Biblioteca</span>
                 </div>
               </div>
 

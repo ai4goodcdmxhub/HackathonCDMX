@@ -119,11 +119,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justify-center gap-1 bg-card/50 backdrop-blur-sm px-6 py-3 rounded border border-terminal-border">
               <div className="flex items-center gap-2 mb-1">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="font-bold">Tec de Monterrey Campus Ciudad de México</span>
-              </div>
-              <div className="flex flex-col items-center text-sm text-muted-foreground mt-1">
-                <span>5 de Junio: Salón de Usos Múltiples en Aulas II</span>
-                <span>6 de Junio: CEDETEC</span>
+                <span className="font-bold text-center">Tec de Monterrey Campus Ciudad de México<br/>Pabellón Biblioteca</span>
               </div>
             </div>
           </div>
