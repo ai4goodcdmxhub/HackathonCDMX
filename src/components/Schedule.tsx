@@ -36,9 +36,9 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "De Prompts a Agentes: Construyendo IA que Actúa",
+      title: "Workshop - Estrategas",
       icon: Lightbulb,
-      description: "Leonardo Zubieta Angulo (IBM)",
+      description: "(Pendiente por definir)",
     },
     {
       time: "01:30 p.m. – 02:30 p.m.",
@@ -54,9 +54,9 @@ const Schedule = () => {
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
-      title: "Workshop - Estrategas",
+      title: "De Prompts a Agentes: Construyendo IA que Actúa",
       icon: Lightbulb,
-      description: "(Pendiente por definir)",
+      description: "Leonardo Zubieta Angulo (IBM)",
     },
     {
       time: "05:30 p.m. – 06:00 p.m.",
