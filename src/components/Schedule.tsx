@@ -87,13 +87,13 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "Pitch Readiness",
+      title: "Pitch Readiness & Subida de Proyectos",
       icon: Lightbulb,
       description: "",
     },
     {
       time: "01:30 p.m. – 04:00 p.m.",
-      title: "Subida de Proyectos",
+      title: "Evaluación Técnica de Proyectos",
       icon: Code2,
       description: "",
     },
