@@ -9,14 +9,12 @@ const organizers = [
 
 const strategicAllies = [
   { name: "IBM", logo: "/sponsors/IBM1.png", url: "https://www.ibm.com/mx-es/about" },
+  { name: "TD SYNNEX", logo: "/sponsors/SYN.png", url: "https://www.tdsynnex.com/" },
   { name: "Solid", logo: "/sponsors/Solid.png", url: "https://solidproject.org/" },
   { name: "Open Data Institute", logo: "/sponsors/ODI.png", url: "https://theodi.org/" },
   { name: "Agencia Digital de Innovación Pública", logo: "/sponsors/ADIP.png", url: "https://adip.cdmx.gob.mx/" },
   { name: "Tecnológico de Monterrey Escuela de Ingeniería y Ciencias", logo: "/sponsors/Ing.png", url: "https://eic.tec.mx/es" },
   { name: "Escuela de Ciencias Sociales y Gobierno", logo: "/sponsors/gob1.png", url: "https://egobiernoytp.tec.mx/es/escuela-de-ciencias-sociales-y-gobierno" },
-];
-
-const sponsors = [
   { name: "Consejo Latinoamericano de ética en tecnología", logo: "/sponsors/Cletec.png", url: "https://cletec.org/" },
   { name: "Instituto de Emprendimiento Eugenio Garza Lagüera", logo: "/sponsors/emprendimiento.png", url: "https://emprendimiento.tec.mx/es" },
   { name: "Keywords Studios", logo: "/sponsors/Key3.png", url: "https://www.keywordsstudios.com/" },
@@ -34,7 +32,7 @@ const SponsorsCarousel = () => {
       imgClasses += "w-full h-full max-h-64 scale-[1.35]"; // gob1.png mucho más grande (por si tiene márgenes internos)
     } else if (item.logo.includes('emprendimiento.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
-    } else if (item.logo.includes('Key3.png') || item.logo.includes('Centro1.png') || item.logo.includes('IBM1.png') || item.logo.includes('Solid.png')) {
+    } else if (item.logo.includes('Key3.png') || item.logo.includes('Centro1.png') || item.logo.includes('IBM1.png') || item.logo.includes('Solid.png') || item.logo.includes('SYN.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // Logos grandes y destacados
     } else if (item.logo.includes('Ing.png')) {
       imgClasses += "w-full max-h-56 scale-110";
@@ -120,22 +118,6 @@ const SponsorsCarousel = () => {
             <div className="flex justify-center items-center gap-8 flex-wrap">
               {strategicAllies.map((ally, index) =>
                 renderSponsorCard(ally, index, "ally")
-              )}
-            </div>
-          </div>
-
-          {/* Patrocinadores */}
-          <div>
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold font-mono text-foreground mb-4">
-                <span className="text-primary">&lt;</span>
-                Nuestros Patrocinadores
-                <span className="text-primary">/&gt;</span>
-              </h2>
-            </div>
-            <div className="flex justify-center items-center gap-8 flex-wrap">
-              {sponsors.map((sponsor, index) =>
-                renderSponsorCard(sponsor, index, "sponsor")
               )}
             </div>
           </div>
