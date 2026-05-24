@@ -35,13 +35,13 @@ const Schedule = () => {
       description: "",
     },
     {
-      time: "12:00 p.m. – 01:30 p.m.",
+      time: "12:00 p.m. – 01:00 p.m.",
       title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
       icon: Lightbulb,
       description: "Jesse Wright (Solid)",
     },
     {
-      time: "01:30 p.m. – 02:30 p.m.",
+      time: "01:00 p.m. – 02:30 p.m.",
       title: "Comida",
       icon: Coffee,
       description: "",
