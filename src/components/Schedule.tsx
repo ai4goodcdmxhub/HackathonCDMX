@@ -20,7 +20,7 @@ const Schedule = () => {
       time: "09:30 a.m. – 10:00 a.m.",
       title: "Ceremonia de Apertura",
       icon: Users,
-      description: "",
+      description: "(Representante de YAIL CDMX, Tec de Monterrey y ADIP)",
     },
     {
       time: "10:00 a.m. – 11:00 a.m.",
