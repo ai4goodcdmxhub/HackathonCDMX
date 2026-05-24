@@ -56,6 +56,14 @@ const Speakers = () => {
       linkedin: "https://www.linkedin.com/in/leonardo-zubieta-angulo-11818168/",
       image: "/speakers/leo.jpeg",
     },
+    {
+      name: "Jesse Wright",
+      title: "Project Lead, Solid Project",
+      company: "Open Data Institute (ODI)",
+      description: "Jesse Wright is the Project Lead for the Solid Project at the Open Data Institute (ODI), where he is responsible for the coordination and advancement of the project’s technical architecture, specification development, and open-source ecosystem. Solid is a suite of web standards initiated by Sir Tim Berners-Lee to enable decentralized data storage, verifiable identity, and interoperable data sharing on the Web.\n\nIn addition to his role at the ODI, Jesse is pursuing a Doctor of Philosophy (DPhil) at the University of Oxford in the Department of Computer Science - with the topic of developing trusted neuro-symbolic AI systems for the Web. Presently, he is developing query engines which support Zero Knowledge Proof that data was derived from given sources.\n\nPreviously, Jesse has worked on the development of software and standards for Solid and the Semantic Web through industry roles at Inrupt and the Software Innovation Institute; academic projects at the Australian National University; and as a freelance open source developer.",
+      linkedin: "https://www.linkedin.com/in/jeswr/",
+      image: "/speakers/jes.jpeg"
+    },
   ];
 
   return (
