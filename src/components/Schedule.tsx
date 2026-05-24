@@ -111,7 +111,7 @@ const Schedule = () => {
     },
     {
       time: "02:50 p.m. – 03:50 p.m.",
-      title: "Presentación de Pitches de los semifinalistas",
+      title: "Presentación de Pitches de los finalistas",
       icon: Trophy,
       description: "",
       highlight: true,
