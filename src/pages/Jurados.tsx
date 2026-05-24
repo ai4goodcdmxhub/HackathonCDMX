@@ -24,8 +24,8 @@ const Jurados = () => {
   const judges: Judge[] = [
     {
       name: "Sissi de la Peña",
-      title: "Experta en Políticas Públicas de Tecnología y Ciberseguridad",
-      company: "<strong>AMCID / ANIA</strong>",
+      title: "Fundadora",
+      company: "<strong>The DoT Network</strong>",
       description: "Destacada líder estratégica, tecnóloga y experta en políticas públicas, especializada en gobernanza de Inteligencia Artificial (IA), regulación tecnológica y ciberseguridad. Es Directora de Relaciones Internacionales y Gubernamentales de la AMCID, miembro fundador de la Alianza Nacional de Inteligencia Artificial (ANIA) y fundadora de The DoT Network.\n\nCoordinó la Agenda Internacional para la Estrategia Digital Nacional de México y formó parte del equipo negociador del capítulo de Comercio Digital en el TMEC/USMCA. También lideró las operaciones para México y Centroamérica de la Asociación Latinoamericana de Internet (ALAI) y colaboró con el Banco Interamericano de Desarrollo (BID). Actualmente es Tech Policy Fellow en la Universidad de California, Berkeley.",
       linkedin: "https://www.linkedin.com/in/sissidelapena/",
       image: "/judges/sisi.png"
