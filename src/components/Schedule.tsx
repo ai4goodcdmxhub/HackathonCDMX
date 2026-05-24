@@ -36,9 +36,9 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
-      title: "Workshop - Estrategas",
+      title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
       icon: Lightbulb,
-      description: "(Pendiente por definir)",
+      description: "Jesse Wright (Solid)",
     },
     {
       time: "01:30 p.m. – 02:30 p.m.",
