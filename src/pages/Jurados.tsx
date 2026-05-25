@@ -49,7 +49,7 @@ const Jurados = () => {
     {
       name: "Olivia Calderón",
       title: "Gerente de Emprendimiento",
-      company: "<strong>Tecnológico de Monterrey Campus Ciudad de México</strong>",
+      company: "<strong>Instituto de Emprendimiento Eugenio Garza Lagüera</strong>",
       description: "Ingeniera Industrial y de Sistemas por el Tecnológico de Monterrey y Maestra en Negocios por la Universidad de Mannheim, con experiencia académica en ESSEC (Francia) y Warwick Business School (Inglaterra).\n\nCuenta con más de 10 años de experiencia en desarrollo de nuevos negocios, innovación y tecnología, trabajando para empresas globales como IBM, Microsoft, Gartner y SAP en México y Alemania.\n\nSe desempeñó como Gerente de Innovación en Rotoplas y actualmente es Gerente de Emprendimiento en el Tecnológico de Monterrey Campus Ciudad de México.",
       linkedin: "https://www.linkedin.com/in/oliviacalderon/",
       image: "/judges/Oli.jpeg"
