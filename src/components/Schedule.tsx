@@ -111,21 +111,21 @@ const Schedule = () => {
     },
     {
       time: "02:50 p.m. – 03:50 p.m.",
-      title: "Presentación de Pitches de los finalistas",
+      title: "Presentación de Pitches de los semifinalistas",
       icon: Trophy,
       description: "",
       highlight: true,
     },
     {
-      time: "03:50 p.m. – 04:00 p.m.",
-      title: "Selección de ganadores",
-      icon: Trophy,
+      time: "03:50 p.m. – 04:20 p.m.",
+      title: "Deliberación de ganadores",
+      icon: Users,
       description: "",
     },
     {
-      time: "04:00 p.m. – 04:30 p.m.",
-      title: "Deliberación de ganadores",
-      icon: Users,
+      time: "04:20 p.m. – 04:30 p.m.",
+      title: "Selección de Ganadores",
+      icon: Trophy,
       description: "",
     },
     {
