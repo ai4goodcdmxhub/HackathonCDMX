@@ -33,7 +33,7 @@ const SponsorsCarousel = () => {
     } else if (item.logo.includes('emprendimiento.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // emprendimiento.png más grande
     } else if (item.logo.includes('SYN.png')) {
-      imgClasses += "w-3/4 max-h-24"; // TD SYNNEX logo smaller and perfectly fits the card
+      imgClasses += "w-full h-full max-h-64 scale-[1.12]"; // TD SYNNEX logo slightly smaller
     } else if (item.logo.includes('Key3.png') || item.logo.includes('Centro1.png') || item.logo.includes('IBM1.png') || item.logo.includes('Solid.png')) {
       imgClasses += "w-full h-full max-h-64 scale-[1.25]"; // Logos grandes y destacados
     } else if (item.logo.includes('Ing.png')) {

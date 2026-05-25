@@ -45,6 +45,14 @@ const Jurados = () => {
       description: "Abogado con más de 25 años de experiencia en finanzas públicas, tributarias y financieras, y experto en derecho constitucional, administrativo, fiscal e internacional. Ha liderado equipos legales a nivel federal, desempeñándose como Procurador Fiscal de la Federación, Consejero Jurídico en la Secretaría de Relaciones Exteriores y Subsecretario de Asuntos Jurídicos en la Secretaría de Gobernación.\n\nEs egresado de la UNAM, con estudios de posgrado en el ITAM y la Academia Diplomática de Viena. Además, cuenta con una destacada trayectoria académica, habiendo impartido cátedra en instituciones de prestigio como el CIDE, ITAM, COLMEX y la UNAM.",
       linkedin: "https://www.linkedin.com/in/max-alberto-diener-sala-022888180/",
       image: "/judges/Max.jpeg"
+    },
+    {
+      name: "Olivia Calderón",
+      title: "Gerente de Emprendimiento",
+      company: "<strong>Tecnológico de Monterrey Campus Ciudad de México</strong>",
+      description: "Ingeniera Industrial y de Sistemas por el Tecnológico de Monterrey y Maestra en Negocios por la Universidad de Mannheim, con experiencia académica en ESSEC (Francia) y Warwick Business School (Inglaterra).\n\nCuenta con más de 10 años de experiencia en desarrollo de nuevos negocios, innovación y tecnología, trabajando para empresas globales como IBM, Microsoft, Gartner y SAP en México y Alemania.\n\nSe desempeñó como Gerente de Innovación en Rotoplas y actualmente es Gerente de Emprendimiento en el Tecnológico de Monterrey Campus Ciudad de México.",
+      linkedin: "https://www.linkedin.com/in/oliviacalderon/",
+      image: "/judges/Oli.jpeg"
     }
   ];
 
