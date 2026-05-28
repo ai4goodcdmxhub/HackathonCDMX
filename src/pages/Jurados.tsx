@@ -53,6 +53,14 @@ const Jurados = () => {
       description: "Ingeniera Industrial y de Sistemas por el Tecnológico de Monterrey y Maestra en Negocios por la Universidad de Mannheim, con experiencia académica en ESSEC (Francia) y Warwick Business School (Inglaterra).\n\nCuenta con más de 10 años de experiencia en desarrollo de nuevos negocios, innovación y tecnología, trabajando para empresas globales como IBM, Microsoft, Gartner y SAP en México y Alemania.\n\nSe desempeñó como Gerente de Innovación en Rotoplas y actualmente es Gerente de Emprendimiento en el Tecnológico de Monterrey Campus Ciudad de México.",
       linkedin: "https://www.linkedin.com/in/oliviacalderon/",
       image: "/judges/Oli.jpeg"
+    },
+    {
+      name: "Uriel Salazar De Urquidi",
+      title: "Gerente de Desarrollo de Plataformas e Inteligencia Artificial",
+      company: "<strong>Iniciativa Ciudades</strong>",
+      description: "Gerente de Desarrollo de Plataformas e Inteligencia Artificial en el Centro para el Futuro de las Ciudades. Uriel dirige el desarrollo de plataformas como SIUM y Atlas de Ciudades enfocadas en presentar problemáticas y soluciones al desarrollo actual de ciudades como Monterrey. Tuvo la oportunidad de hacer intercambio y posteriormente vivir en San Francisco trabajando por 2 años en Twitter, donde su principal labor fue la optimización de servidores, creación de herramientas y procesos para facilitar migraciones y pruebas de VMs.\n\nUriel es Ingeniero en Tecnologías Computacionales en el Tecnológico de Monterrey, graduado en el 2020.",
+      linkedin: "https://www.linkedin.com/in/usu96/",
+      image: "/judges/Uriel.jpg"
     }
   ];
 
