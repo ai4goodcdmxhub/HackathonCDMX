@@ -30,6 +30,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/jesusgtzfranco/?locale=es",
       image: "/mentors/jesus.jpeg",
     },
+    {
+      name: "Lisnet Xatziri Molina Ruiz",
+      title: "Experta en Gobierno de Datos",
+      company: "",
+      description: "Lisnet Molina es experta en Gobierno de Datos con más de 10 años de experiencia liderando estrategias, programas y equipos de gestión de datos en organizaciones líderes. Ha implementado programas de Gobierno de Datos desde cero en empresas como ADO, Xcaret, Procesar y Vesta, impulsando capacidades organizacionales para generar valor a través de los datos de manera ética y responsable.\n\nCuenta con certificaciones internacionales en Gobierno y Gestión de Datos, como Certified Data Management Professional (CDMP Associate), así como certificaciones en calidad de datos, protección de datos, gestión del cambio, metodologías ágiles y tecnologías de datos, además de formación en alta dirección y especialización continua en Gobierno de IA. Apasionada de la mentoría y del desarrollo de talento, promueve una visión en la que las personas son el centro de las estrategias de datos e inteligencia artificial para impulsar una innovación responsable.",
+      linkedin: "",
+      image: "/mentors/lis.jpeg",
+    },
   ];
 
   return (
