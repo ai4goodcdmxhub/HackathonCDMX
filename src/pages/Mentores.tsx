@@ -134,6 +134,14 @@ const Mentores = () => {
       linkedin: "",
       image: "/mentors/Azar.jpg",
     },
+    {
+      name: "Daniela Mora",
+      title: "Jr. Technical Specialist IBM Cloud & Power",
+      company: "IBM",
+      description: "Como estudiante de Ingeniería Electrónica en la UAM, complemento mi formación académica con mi rol actual como Jr. Technical Specialist IBM Cloud & Power en IBM, donde apoyo al equipo de ventas técnicas y desarrollo en la marca IBM Power Systems. Mi compromiso con la innovación tecnológica y el diseño de hardware electrónico me permite contribuir de manera significativa a los proyectos en los que participo.",
+      linkedin: "https://www.linkedin.com/in/daniela-mora-86945221b/",
+      image: "/mentors/daniela.jpeg",
+    },
   ];
 
   return (
