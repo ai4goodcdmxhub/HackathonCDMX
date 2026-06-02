@@ -126,6 +126,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/rcortes100/",
       image: "/mentors/rica.jpeg",
     },
+    {
+      name: "Mtra. Iliana Delgado Azar",
+      title: "Maestra en Ética y Educación",
+      company: "Tecnológico de Monterrey",
+      description: "La Mtra. Iliana Delgado Azar, es Maestra en Ética para la construcción social por la Universidad de Deusto y Maestra en Educación con Especialidad en Humanidades por el Tecnológico de Monterrey, cuenta con estudios de Filosofía en la Universidad Nacional Autónoma de México y es Contadora Pública por el Tecnológico de Monterrey. A lo largo de su carrera profesional se ha enfocado en el trabajo académico y docente en el Tecnológico de Monterrey en donde imparte diversos cursos orientados al área de ética y ciudadanía. Ha participado activamente en la reforma educativa del Tecnológico de Monterrey mediante la capacitación de profesores y la creación de estrategias didácticas que favorecen la formación ética y ciudadana de los estudiantes. Destaca su trabajo con organizaciones civiles en la integración curricular del servicio social como una estrategia para favorecer la formación de ciudadanos democráticos. Asimismo es importante reconocer su compromiso con el fortalecimiento ético de las instituciones públicas, tanto en la capacitación de personal y la creación de herramientas que permiten un mejor conocimiento de la estructura moral de los individuos que en ellas trabajan, como en su labor de dictaminadora voluntaria en Indesol con el que busca velar por la justicia y la transparencia en la asignación de recursos públicos para obra social. Es además socia fundadora del Instituto para la Difusión y el Estudio de la Ética, a partir del cual realiza una importante labor en la promoción de la reflexión ética en nuestra sociedad, mediante la generación de materiales de estudio, publicaciones, capacitación y asesoría para empresas y otras instituciones.",
+      linkedin: "",
+      image: "/mentors/Azar.jpg",
+    },
   ];
 
   return (
