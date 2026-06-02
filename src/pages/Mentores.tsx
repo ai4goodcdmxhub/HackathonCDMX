@@ -102,6 +102,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/alejandro-feged-b8a7121/",
       image: "/mentors/feged.jpeg",
     },
+    {
+      name: "Ruben Ahumada-Lazo",
+      title: "Director de Programa IDS & Profesor",
+      company: "Tecnológico de Monterrey",
+      description: "Director de programa Ingeniería en Desarrollo Sustentable y Profesor de Tecnologías Sostenibles y Civil en Tecnológico de Monterrey. Sistema Nacional de Investigadores (SNI) Nivel 1. Servicios Profesionales de Consultoría en Proyectos de Investigación. Ingeniero Químico, Maestro en Ciencias con Orientación en Ingeniería Ambiental, Doctorado en Física. Investigación en ciencia de materiales semiconductores para aplicaciones en energías renovables.",
+      linkedin: "https://www.linkedin.com/in/ruben-ahumada-lazo-32373168/",
+      image: "/mentors/ruben.jpeg",
+    },
   ];
 
   return (
