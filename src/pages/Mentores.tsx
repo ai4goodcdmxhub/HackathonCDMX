@@ -92,7 +92,7 @@ const Mentores = () => {
       company: "Tecnológico de Monterrey",
       description: "",
       linkedin: "https://www.linkedin.com/in/eliseo-ocampo-jaramillo-43a00114/",
-      image: "/judges/eliseo.jpeg",
+      image: "/mentors/eliseo.jpeg",
     },
     {
       name: "Alejandro Feged",
