@@ -94,6 +94,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/eliseo-ocampo-jaramillo-43a00114/",
       image: "/judges/eliseo.jpeg",
     },
+    {
+      name: "Alejandro Feged",
+      title: "Multidisciplinary Scholar & Data Analyst",
+      company: "",
+      description: "I am a multidisciplinary scholar and data analyst. My contribution to data-driven projects is to articulate analytics with social phenomena (in formal research) or insights (in applied projects) to maximize the use of information for decision making (knowledge translation).\n\nExpertise: Data science, smart cities, big data, digital ethnography, epidemiology, bioinformatics, remote sensing, google earth engine.",
+      linkedin: "https://www.linkedin.com/in/alejandro-feged-b8a7121/",
+      image: "/mentors/feged.jpeg",
+    },
   ];
 
   return (
