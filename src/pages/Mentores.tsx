@@ -118,6 +118,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/dr-diorella-islas-3b76bb107/",
       image: "/mentors/dior.jpeg",
     },
+    {
+      name: "Ricardo Adán Cortés Martín",
+      title: "Doctor en Astrofísica",
+      company: "UNAM",
+      description: "Doctor en Astrofísica egresado de la UNAM, con intereses en Astrofísica, Ciencia de Datos, Sistemas Dinámicos, Supercómputo, Filosofía de las Ciencias. Con mucho interés en la enseñanza de la física y las matemáticas, y de participar en proyectos interdisciplinarios.",
+      linkedin: "https://www.linkedin.com/in/rcortes100/",
+      image: "/mentors/rica.jpeg",
+    },
   ];
 
   return (
