@@ -86,6 +86,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/riveralfonso/",
       image: "/mentors/Alfonso.jpeg",
     },
+    {
+      name: "Eliseo Ocampo Jaramillo",
+      title: "Director de la Carrera de Derecho en CCM",
+      company: "Tecnológico de Monterrey",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/eliseo-ocampo-jaramillo-43a00114/",
+      image: "/judges/eliseo.jpeg",
+    },
   ];
 
   return (
