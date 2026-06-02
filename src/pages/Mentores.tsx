@@ -24,8 +24,8 @@ const Mentores = () => {
   const mentors: Mentor[] = [
     {
       name: "Jesús Gutiérrez Franco",
-      title: "Fundador Paradiqma",
-      company: "",
+      title: "Fundador",
+      company: "Paradiqma",
       description: "",
       linkedin: "https://www.linkedin.com/in/jesusgtzfranco/?locale=es",
       image: "/mentors/jesus.jpeg",
@@ -40,8 +40,8 @@ const Mentores = () => {
     },
     {
       name: "Juan Díaz",
-      title: "Mentor",
-      company: "",
+      title: "Ingeniero en Ciencias Computacionales",
+      company: "Tecnológico de Monterrey",
       description: "I am a Computer Science Engineer from Tecnológico de Monterrey, with a strong focus on Geospatial Data and a broad interest in Data Science. My passion for social and political issues has driven me to collaborate in the development of analytical tools, particularly through the creation of data-driven dashboards aimed at addressing these challenges.",
       linkedin: "https://www.linkedin.com/in/jedn/",
       image: "/mentors/juan.jpeg",
@@ -53,6 +53,14 @@ const Mentores = () => {
       description: "Profesora Investigadora en la Escuela de Arquitectura, Arte y Diseño y Fellow en el Centro para el Futuro de las Ciudades. Investiga la intersección entre políticas públicas, diseño urbano y salud pública para reducir desigualdades. Forma parte del Observatorio Global de Ciudades Saludables y Sostenibles. Eugen es Doctora en Ciencias de la Salud Pública por la Universidad de Washington en St. Louis.\n\nÁreas de enfoque/interés: Salud urbana; planeación urbana; política pública.",
       linkedin: "https://www.linkedin.com/in/eugen-resendiz/",
       image: "/mentors/Eugen.jpg",
+    },
+    {
+      name: "Jésica Tapia",
+      title: "Mentora",
+      company: "",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/jesicatapiareyes/",
+      image: "/mentors/jesica.jpeg",
     },
   ];
 
