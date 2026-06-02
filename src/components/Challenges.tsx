@@ -7,24 +7,28 @@ const Challenges = () => {
             title: "Seguridad",
             problem: "La vulnerabilidad ciudadana ante riesgos físicos en el espacio público y amenazas digitales que comprometen la identidad, la economía y la tranquilidad de las familias.",
             opportunity: "Utilizar la IA para crear entornos más seguros, detectando riesgos preventivamente y blindando la confianza del ciudadano tanto en las calles como en sus interacciones digitales.",
+            pdfUrl: "/docs/reto-seguridad.pdf",
         },
         {
             icon: Droplets,
             title: "Gestión del Agua",
             problem: "Las inundaciones urbanas generan impactos severos, pero la evaluación del riesgo está limitada por la escasez y fragmentación de datos hidrometeorológicos y de vulnerabilidad.",
             opportunity: "Desarrollar soluciones con IA para inferir datos faltantes, predecir escenarios de inundación y fortalecer gemelos digitales para la toma de decisiones y resiliencia urbana.",
+            pdfUrl: "/docs/reto-agua.pdf",
         },
         {
             icon: Bike,
             title: "Movilidad",
             problem: "Las zonas universitarias enfrentan congestión severa y conflictos viales por la desconexión entre la información de movilidad, la infraestructura y las necesidades reales de los estudiantes.",
             opportunity: "Diseñar soluciones preventivas con IA y datos urbanos para garantizar una movilidad multimodal, sustentable y segura en entornos escolares.",
+            pdfUrl: "/docs/reto-movilidad.pdf",
         },
         {
             icon: Leaf,
             title: "Medio Ambiente",
             problem: "Los eventos masivos generan toneladas de residuos mal gestionados debido a la falta de sistemas estructurados para capturar, ordenar y analizar sus flujos.",
             opportunity: "Utilizar IA para estimar y estructurar el flujo de residuos, evaluando su impacto ambiental para impulsar estrategias de economía circular y políticas públicas.",
+            pdfUrl: "/docs/reto-medioambiente.pdf",
         },
     ];
 
@@ -83,6 +87,18 @@ const Challenges = () => {
                                             {challenge.opportunity}
                                         </p>
                                     </div>
+                                    {challenge.pdfUrl && (
+                                        <div className="pt-2">
+                                            <a 
+                                                href={challenge.pdfUrl} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 text-xs font-mono text-primary hover:text-primary/80 transition-colors border border-primary/20 hover:border-primary/50 rounded px-3 py-1.5"
+                                            >
+                                                📄 Ver Ficha Técnica Completa
+                                            </a>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         ))}
