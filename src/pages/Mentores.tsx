@@ -110,6 +110,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/ruben-ahumada-lazo-32373168/",
       image: "/mentors/ruben.jpeg",
     },
+    {
+      name: "Dr. Diorella Islas",
+      title: "Expert in International Security & Policy Planning",
+      company: "",
+      description: "My area of expertise focuses on international security issues and the prospective analysis of identified threats. I have professional experience in security and violence analysis, countering transnational organised crime strategies and policy planning within public administration. I am used to working in multicultural environments in different countries, including the UK, Germany and Mexico.",
+      linkedin: "https://www.linkedin.com/in/dr-diorella-islas-3b76bb107/",
+      image: "/mentors/dior.jpeg",
+    },
   ];
 
   return (
