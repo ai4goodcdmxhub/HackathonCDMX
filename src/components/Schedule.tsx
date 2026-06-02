@@ -96,7 +96,49 @@ const Schedule = () => {
       title: "Entrega de constancias",
       icon: Trophy,
       description: "",
+    },
+    {
+      time: "01:30 p.m. – 02:30 p.m.",
+      title: "Revisión de pitches (formato video) y evaluación",
+      icon: Users,
+      description: "Mentores",
+    },
+    {
+      time: "02:30 p.m. – 02:45 p.m.",
+      title: "Cálculo de resultados y selección de finalistas",
+      icon: Code2,
+      description: "",
+    },
+    {
+      time: "02:50 p.m. – 03:50 p.m.",
+      title: "Presentación de Pitches de los semifinalistas",
+      icon: Lightbulb,
+      description: "",
+    },
+    {
+      time: "03:50 p.m. – 04:20 p.m.",
+      title: "Deliberación de ganadores",
+      icon: Users,
+      description: "",
+    },
+    {
+      time: "04:20 p.m. – 04:30 p.m.",
+      title: "Selección de Ganadores",
+      icon: Trophy,
+      description: "",
+    },
+    {
+      time: "04:30 p.m. – 04:45 p.m.",
+      title: "Premiación",
+      icon: Trophy,
+      description: "",
       highlight: true,
+    },
+    {
+      time: "04:45 p.m. – 05:00 p.m.",
+      title: "Clausura del evento",
+      icon: Users,
+      description: "",
     },
   ];
 
