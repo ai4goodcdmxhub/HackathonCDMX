@@ -77,6 +77,14 @@ const Jurados = () => {
       description: "",
       linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
       image: "/team/danim.jpeg",
+    },
+    {
+      name: "Esahu Perez",
+      title: "Especialista en IA y Datos",
+      company: "<strong>IBM</strong>",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/esahu-perez-92a3293/",
+      image: "/judges/Esahu.jpeg",
     }
   ];
 
