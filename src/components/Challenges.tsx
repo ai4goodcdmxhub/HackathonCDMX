@@ -17,8 +17,8 @@ const Challenges = () => {
         {
             icon: Bike,
             title: "Movilidad",
-            problem: "Trayectos ineficientes y desconectados que roban tiempo de vida, sumados a una falta de datos precisos para integrar ciclovías y transporte público.",
-            opportunity: "Analizar flujos urbanos con IA para sincronizar la ciudad, creando una movilidad multimodal que se adapte al ritmo real de las personas.",
+            problem: "Las zonas universitarias enfrentan congestión severa y conflictos viales por la desconexión entre la información de movilidad, la infraestructura y las necesidades reales de los estudiantes.",
+            opportunity: "Diseñar soluciones preventivas con IA y datos urbanos para garantizar una movilidad multimodal, sustentable y segura en entornos escolares.",
         },
         {
             icon: Leaf,
