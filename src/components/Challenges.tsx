@@ -23,8 +23,8 @@ const Challenges = () => {
         {
             icon: Leaf,
             title: "Medio Ambiente",
-            problem: "Infracciones ambientales que quedan impunes debido a errores técnicos en el reporte o falta de evidencia con validez legal.",
-            opportunity: "Implementar sistemas inteligentes de monitoreo y trazabilidad que documenten daños ambientales de forma irrefutable y técnica.",
+            problem: "Los eventos masivos generan toneladas de residuos mal gestionados debido a la falta de sistemas estructurados para capturar, ordenar y analizar sus flujos.",
+            opportunity: "Utilizar IA para estimar y estructurar el flujo de residuos, evaluando su impacto ambiental para impulsar estrategias de economía circular y políticas públicas.",
         },
     ];
 
