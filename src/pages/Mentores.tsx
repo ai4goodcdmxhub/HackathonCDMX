@@ -46,6 +46,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/jedn/",
       image: "/mentors/juan.jpeg",
     },
+    {
+      name: "Eugen Resendiz",
+      title: "Profesora Investigadora",
+      company: "Escuela de Arquitectura, Arte y Diseño",
+      description: "Profesora Investigadora en la Escuela de Arquitectura, Arte y Diseño y Fellow en el Centro para el Futuro de las Ciudades. Investiga la intersección entre políticas públicas, diseño urbano y salud pública para reducir desigualdades. Forma parte del Observatorio Global de Ciudades Saludables y Sostenibles. Eugen es Doctora en Ciencias de la Salud Pública por la Universidad de Washington en St. Louis.\n\nÁreas de enfoque/interés: Salud urbana; planeación urbana; política pública.",
+      linkedin: "https://www.linkedin.com/in/eugen-resendiz/",
+      image: "/mentors/Eugen.jpg",
+    },
   ];
 
   return (
