@@ -38,6 +38,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/lisnet-xatziri-molina-ruiz-1105131a8/",
       image: "/mentors/lis.jpeg",
     },
+    {
+      name: "Juan Díaz",
+      title: "Mentor",
+      company: "",
+      description: "I am a Computer Science Engineer from Tecnológico de Monterrey, with a strong focus on Geospatial Data and a broad interest in Data Science. My passion for social and political issues has driven me to collaborate in the development of analytical tools, particularly through the creation of data-driven dashboards aimed at addressing these challenges.",
+      linkedin: "https://www.linkedin.com/in/jedn/",
+      image: "/mentors/juan.jpeg",
+    },
   ];
 
   return (
