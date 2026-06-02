@@ -64,22 +64,6 @@ const Speakers = () => {
       linkedin: "https://www.linkedin.com/in/paola-cicero-arenas/",
       image: "/speakers/PaolaCi.jpeg",
     },
-    {
-      name: "Eugenio Salas Iturriaga",
-      title: "YAIL CDMX Hub Leader",
-      company: "",
-      description: "",
-      linkedin: "https://www.linkedin.com/in/eugeniosalasi/",
-      image: "/team/Eugenio.png",
-    },
-    {
-      name: "Daniel Mancilla",
-      title: "YAIL CDMX Impact Leader",
-      company: "",
-      description: "",
-      linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
-      image: "/team/danim.jpeg",
-    },
   ];
 
   return (
