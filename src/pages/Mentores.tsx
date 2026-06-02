@@ -62,6 +62,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/jesicatapiareyes/",
       image: "/mentors/jesica.jpeg",
     },
+    {
+      name: "David Saavedra Ponce",
+      title: "Solo Founder",
+      company: "DS Intelligence",
+      description: "David Saavedra Ponce es el fundador de DS Intelligence y creador del INTELLI PCD-1, el primer hardware de IA portátil, offline y multimodal del mundo. Con más de una década de experiencia en desarrollo de software y una sólida formación financiera, David, a sus 22 años, se ha propuesto democratizar la Inteligencia Artificial de forma privada, soberana y rentable para las empresas en Latinoamérica. Ha sido reconocido como uno de los 100 mejores emprendedores de México y se desempeña como Mentor en el Centro de Excelencia de Base Tecnológica del Tec de Monterrey, impulsando a los jóvenes a construir alternativas tecnológicas hechas en y para LATAM.",
+      linkedin: "https://www.linkedin.com/in/saavedradavid/",
+      image: "/mentors/david.png",
+    },
   ];
 
   return (
