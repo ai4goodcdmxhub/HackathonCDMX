@@ -11,8 +11,8 @@ const Challenges = () => {
         {
             icon: Droplets,
             title: "Gestión del Agua",
-            problem: "Una crisis hídrica agravada por fugas invisibles, una distribución desigual del recurso y falta de transparencia en su gestión.",
-            opportunity: "Aplicar IA para predecir pérdidas en la red, optimizar el reparto equitativo y asegurar que cada gota sea contabilizada con justicia.",
+            problem: "Las inundaciones urbanas generan impactos severos, pero la evaluación del riesgo está limitada por la escasez y fragmentación de datos hidrometeorológicos y de vulnerabilidad.",
+            opportunity: "Desarrollar soluciones con IA para inferir datos faltantes, predecir escenarios de inundación y fortalecer gemelos digitales para la toma de decisiones y resiliencia urbana.",
         },
         {
             icon: Bike,
