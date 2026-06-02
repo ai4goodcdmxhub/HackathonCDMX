@@ -36,9 +36,9 @@ const Schedule = () => {
     },
     {
       time: "12:00 p.m. – 01:00 p.m.",
-      title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
+      title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
       icon: Lightbulb,
-      description: "Jesse Wright (Solid)",
+      description: "Paola Cicero (UNESCO)",
     },
     {
       time: "01:00 p.m. – 02:30 p.m.",
@@ -48,9 +48,9 @@ const Schedule = () => {
     },
     {
       time: "02:30 p.m. – 04:00 p.m.",
-      title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
+      title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
       icon: Lightbulb,
-      description: "Paola Cicero (UNESCO)",
+      description: "Jesse Wright (Solid)",
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
