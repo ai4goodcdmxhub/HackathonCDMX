@@ -61,6 +61,22 @@ const Jurados = () => {
       description: "Gerente de Desarrollo de Plataformas e Inteligencia Artificial en el Centro para el Futuro de las Ciudades. Uriel dirige el desarrollo de plataformas como SIUM y Atlas de Ciudades enfocadas en presentar problemáticas y soluciones al desarrollo actual de ciudades como Monterrey. Tuvo la oportunidad de hacer intercambio y posteriormente vivir en San Francisco trabajando por 2 años en Twitter, donde su principal labor fue la optimización de servidores, creación de herramientas y procesos para facilitar migraciones y pruebas de VMs.\n\nUriel es Ingeniero en Tecnologías Computacionales en el Tecnológico de Monterrey, graduado en el 2020.",
       linkedin: "https://www.linkedin.com/in/usu96/",
       image: "/judges/Uriel.jpg"
+    },
+    {
+      name: "Eugenio Salas Iturriaga",
+      title: "Jurado",
+      company: "",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/eugeniosalasi/",
+      image: "/team/Eugenio.png",
+    },
+    {
+      name: "Daniel Mancilla",
+      title: "Jurado",
+      company: "",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
+      image: "/team/danim.jpeg",
     }
   ];
 
