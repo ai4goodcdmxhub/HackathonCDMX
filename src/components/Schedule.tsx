@@ -20,59 +20,59 @@ const Schedule = () => {
       time: "09:30 a.m. – 10:00 a.m.",
       title: "Ceremonia de Apertura",
       icon: Users,
-      description: "(Representante de YAIL CDMX, Tec de Monterrey y ADIP)",
+      description: "Representante de Young AI Leaders Mexico City Hub, Tecnológico de Monterrey y Agencia de Innovación Pública",
     },
     {
       time: "10:00 a.m. – 11:00 a.m.",
       title: "MasterClass de Apertura",
       icon: Lightbulb,
-      description: "Leonardo Zubieta Angulo (IBM)",
+      description: "Leonardo Zubieta Angulo - Advisory AI & MLOps Technical Specialist y Quantum Ambassador, IBM",
     },
     {
       time: "11:00 a.m. – 12:00 p.m.",
-      title: "Instrucciones de hackathon y se comparte la formación de equipos",
+      title: "Instrucciones del hackathon y formación de equipos",
       icon: Users,
       description: "",
     },
     {
-      time: "12:00 p.m. – 01:00 p.m.",
+      time: "12:00 p.m. – 01:30 p.m.",
       title: "Protectores del Futuro: Construyendo una IA bajo el marco de la Integridad Ética",
       icon: Lightbulb,
-      description: "Paola Cicero (UNESCO)",
+      description: "Paola Cicero Arenas – Oficial Nacional de Ciencias Sociales y Humanas, UNESCO México",
     },
     {
-      time: "01:00 p.m. – 02:30 p.m.",
+      time: "01:30 p.m. – 02:30 p.m.",
+      title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
+      icon: Lightbulb,
+      description: "Jesse Wright – Solid",
+    },
+    {
+      time: "02:30 p.m. – 03:30 p.m.",
       title: "Comida",
       icon: Coffee,
       description: "",
     },
     {
-      time: "02:30 p.m. – 04:00 p.m.",
-      title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
+      time: "03:30 p.m. – 04:00 p.m.",
+      title: "Comunica la Ciudad: Agenda Pública Urbana en tiempos de IA",
       icon: Lightbulb,
-      description: "Jesse Wright (Solid)",
+      description: "Jonás Vázquez Betancourt - Fundador, Comunica la Ciudad",
     },
     {
       time: "04:00 p.m. – 05:30 p.m.",
       title: "De Prompts a Agentes: Construyendo IA que Actúa",
       icon: Lightbulb,
-      description: "Leonardo Zubieta Angulo (IBM)",
+      description: "Arnulfo Alejandro Cavazos Villarreal — Data and AI Technical Specialist, IBM",
     },
     {
-      time: "05:30 p.m. – 06:00 p.m.",
-      title: "Comunica la Ciudad: Agenda Pública Urbana en tiempos de IA",
-      icon: Lightbulb,
-      description: "Jónas Vázquez Betancourt",
-    },
-    {
-      time: "06:00 p.m. – 07:00 p.m.",
+      time: "05:30 p.m. – 06:30 p.m.",
       title: "Taller Creación de Pitch Deck",
       icon: Lightbulb,
-      description: "Priscilla Vázquez - Instituto de Emprendimiento Tec de Monterrey",
+      description: "Priscilla Vázquez, Speaker Tecnológico de Monterrey",
     },
     {
-      time: "07:00 p.m. – 08:00 p.m.",
-      title: "Cierre del primer día y team back equipos",
+      time: "06:30 p.m. – 08:00 p.m.",
+      title: "Sesión de ideación y cierre del primer día",
       icon: Lightbulb,
       description: "",
     },
@@ -82,8 +82,8 @@ const Schedule = () => {
     {
       time: "08:00 a.m. – 12:00 p.m.",
       title: "Sprint de Desarrollo Intensivo",
-      icon: Code2, // Importing Code2 as it fits "Building/Coding"
-      description: '',
+      icon: Code2,
+      description: "Estudiantes y mentores",
     },
     {
       time: "12:00 p.m. – 01:30 p.m.",
@@ -92,52 +92,8 @@ const Schedule = () => {
       description: "",
     },
     {
-      time: "01:30 p.m. – 02:00 p.m.",
-      title: "Presentación de los jueces",
-      icon: Users,
-      description: "",
-    },
-    {
       time: "01:30 p.m. – 02:30 p.m.",
-      title: "Revisión de pitches (formato video) y evaluación (Mentores)",
-      icon: Lightbulb,
-      description: "",
-    },
-    {
-      time: "02:30 p.m. – 02:45 p.m.",
-      title: "Cálculo de resultados y selección de finalistas",
-      icon: Users,
-      description: "",
-    },
-    {
-      time: "02:50 p.m. – 03:50 p.m.",
-      title: "Presentación de Pitches de los semifinalistas",
-      icon: Trophy,
-      description: "",
-      highlight: true,
-    },
-    {
-      time: "03:50 p.m. – 04:20 p.m.",
-      title: "Deliberación de ganadores",
-      icon: Users,
-      description: "",
-    },
-    {
-      time: "04:20 p.m. – 04:30 p.m.",
-      title: "Selección de Ganadores",
-      icon: Trophy,
-      description: "",
-    },
-    {
-      time: "04:30 p.m. – 04:45 p.m.",
-      title: "Premiación",
-      icon: Trophy,
-      description: "",
-      highlight: true,
-    },
-    {
-      time: "04:45 p.m. – 05:00 p.m.",
-      title: "Clausura del evento",
+      title: "Entrega de constancias",
       icon: Trophy,
       description: "",
       highlight: true,
@@ -179,7 +135,7 @@ const Schedule = () => {
                 <p className="text-sm text-primary font-mono">Día 1 - ¡Comienza la aventura!</p>
                 <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>Pabellón Biblioteca</span>
+                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>Salón de Usos Múltiples en Aulas II</span>
                 </div>
               </div>
 
@@ -230,7 +186,7 @@ const Schedule = () => {
                 <p className="text-sm text-primary font-mono">Día 2 - ¡El gran final!</p>
                 <div className="flex items-center justify-center gap-2 mt-3 text-muted-foreground font-mono text-sm">
                   <MapPin className="w-4 h-4 text-primary" />
-                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>Pabellón Biblioteca</span>
+                  <span className="text-center">Tec de Monterrey Campus Ciudad de México<br/>CEDETEC</span>
                 </div>
               </div>
 
