@@ -78,6 +78,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/manuel-compean-gonzalez-i-am-dev/",
       image: "/mentors/manuel.jpeg",
     },
+    {
+      name: "Alfonso Rivera-Illingworth",
+      title: "Senior Program Manager & ICT Policy Specialist",
+      company: "",
+      description: "Senior program manager and Information and Communication Technologies (ICT) policy specialist focusing on data-intensive projects including design, implementation, and evaluation of public policies and programs. Extensive management experience in public and the private sectors, including leadership of top-level multidisciplinary teams. Close collaboration with policy makers, government officers, and other stakeholders in almost a dozen countries. I believe in the use of data and technology for improving wellbeing.\n\nMy current research focuses on understanding the intersection between two phenomena: the digital divide and big data. In my project I am seeking to identify new data sources that could be used for measuring divides, either complementing or substituting traditional measurements. Examining social media data, crowdsourced data, and other big data sources, the research provides evidence on the opportunities and limitations of using alternative measurements.",
+      linkedin: "https://www.linkedin.com/in/riveralfonso/",
+      image: "/mentors/Alfonso.jpeg",
+    },
   ];
 
   return (
