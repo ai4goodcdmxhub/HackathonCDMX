@@ -66,7 +66,7 @@ const Speakers = () => {
     },
     {
       name: "Eugenio Salas Iturriaga",
-      title: "Organizador / Speaker",
+      title: "YAIL CDMX Hub Leader",
       company: "",
       description: "",
       linkedin: "https://www.linkedin.com/in/eugeniosalasi/",
@@ -74,7 +74,7 @@ const Speakers = () => {
     },
     {
       name: "Daniel Mancilla",
-      title: "Organizador / Speaker",
+      title: "YAIL CDMX Impact Leader",
       company: "",
       description: "",
       linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",

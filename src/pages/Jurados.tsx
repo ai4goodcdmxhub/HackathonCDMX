@@ -64,7 +64,7 @@ const Jurados = () => {
     },
     {
       name: "Eugenio Salas Iturriaga",
-      title: "Jurado",
+      title: "YAIL CDMX Hub Leader",
       company: "",
       description: "",
       linkedin: "https://www.linkedin.com/in/eugeniosalasi/",
@@ -72,7 +72,7 @@ const Jurados = () => {
     },
     {
       name: "Daniel Mancilla",
-      title: "Jurado",
+      title: "YAIL CDMX Impact Leader",
       company: "",
       description: "",
       linkedin: "https://www.linkedin.com/in/daniel-mancilla-13b347283/",
