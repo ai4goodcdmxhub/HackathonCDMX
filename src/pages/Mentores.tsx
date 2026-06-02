@@ -70,6 +70,14 @@ const Mentores = () => {
       linkedin: "https://www.linkedin.com/in/saavedradavid/",
       image: "/mentors/david.png",
     },
+    {
+      name: "José Manuel Compeán González",
+      title: "Tech Lead Engineer",
+      company: "Capgemini",
+      description: "",
+      linkedin: "https://www.linkedin.com/in/manuel-compean-gonzalez-i-am-dev/",
+      image: "/mentors/manuel.jpeg",
+    },
   ];
 
   return (
