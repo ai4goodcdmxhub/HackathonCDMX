@@ -32,12 +32,20 @@ const Speakers = () => {
       image: "/speakers/jonas.jpeg"
     },
     {
-      name: "Jesse Wright",
-      title: "Project Lead, Solid Project",
+      name: "Matthieu Bosquet",
+      title: "Head of Technology",
       company: "Open Data Institute (ODI)",
-      description: "Jesse Wright is the Project Lead for the Solid Project at the Open Data Institute (ODI), where he is responsible for the coordination and advancement of the project’s technical architecture, specification development, and open-source ecosystem. Solid is a suite of web standards initiated by Sir Tim Berners-Lee to enable decentralized data storage, verifiable identity, and interoperable data sharing on the Web.\n\nIn addition to his role at the ODI, Jesse is pursuing a Doctor of Philosophy (DPhil) at the University of Oxford in the Department of Computer Science - with the topic of developing trusted neuro-symbolic AI systems for the Web. Presently, he is developing query engines which support Zero Knowledge Proof that data was derived from given sources.\n\nPreviously, Jesse has worked on the development of software and standards for Solid and the Semantic Web through industry roles at Inrupt and the Software Innovation Institute; academic projects at the Australian National University; and as a freelance open source developer.",
-      linkedin: "https://www.linkedin.com/in/jeswr/",
-      image: "/speakers/jes.jpeg"
+      description: "Matthieu Bosquet is Head of Technology for the Open Data Institute (ODI).\n\nI started my career as a creative web developer in 2006, focusing on content creation, data modeling and accessible front end development; I then took every chance to learn and gathered experience with everything that would help me better understand and build information systems, from server administration to developer tooling, through UX/DevX design and running standardisation processes.\n\nI finally discovered and instantly fell in love with Semantic Web technologies in 2017, as part of the team that built a knowledge graph and an Open Data Platform for UK Parliament. In 2020, I joined the Solid standardisation effort and became the editor of the ACP specification. I joined the ODI in August 2025. My passion for Open Linked Data and championing collective intelligence through better distributed information systems is still growing.",
+      linkedin: "",
+      image: "/speakers/Mat.jpeg"
+    },
+    {
+      name: "Roberto S.K. Breitman",
+      title: "Community Manager for Solid",
+      company: "Open Data Institute (ODI)",
+      description: "Roberto Sequerra Koogan Breitman is the Open Data Institute’s Community Manager for Solid, an open protocol developed by Sir Tim Berners-Lee to facilitate federated data ownership on the web.\n\nHe has a background in both Computer Science and Political Science. He joined the ODI after three years as part of the Go to Market team at Inrupt, a start-up founded by Tim Berners-Lee, where his work focused on Solid’s role in public policy, and developing Solid projects in government, industry, and NGOs.\n\nHe holds a bachelor's degree in Computer Science and International Relations from Tufts University, and a Master's degree in the Transnational Governance of Technology from the European University Institute. Roberto was born and raised in Rio de Janeiro, Brazil.",
+      linkedin: "",
+      image: "/speakers/Roberto.jpeg"
     },
     {
       name: "Priscilla Vázquez",

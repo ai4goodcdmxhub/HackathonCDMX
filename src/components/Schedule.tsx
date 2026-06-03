@@ -44,7 +44,7 @@ const Schedule = () => {
       time: "01:30 p.m. – 02:30 p.m.",
       title: "Mis datos, mi propiedad: El futuro del almacenamiento digital",
       icon: Lightbulb,
-      description: "Jesse Wright – Solid",
+      description: "Matthieu Bosquet y Roberto S.K. Breitman – Solid",
     },
     {
       time: "02:30 p.m. – 03:30 p.m.",
